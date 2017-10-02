@@ -1,0 +1,37 @@
+section.section_two {
+	.inner_section_two {
+		height:1000px;
+	}
+}
+
+
+.settlements_wrapper {
+	width:45%;
+	height:100%;
+	// background:red;
+}
+
+.settlement_slideshow_wrapper {
+	border:1px solid $brown;
+	margin:72px 0 0;
+}
+
+.settlement_slideshow {
+	
+}
+
+.settlement_slides {
+	text-align: center;
+	padding:152px 20px;
+	img, svg {
+		width:125px;
+	}
+	span.sett_amount {
+		display: block;
+		font-family: $actabold;
+		font-size:85px;
+		color:$lightblue_one;
+		margin-top:38px;
+	}
+	
+}
