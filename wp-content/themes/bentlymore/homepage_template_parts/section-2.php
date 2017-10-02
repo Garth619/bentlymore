@@ -73,6 +73,16 @@
 				
 				<a class="view_more" href="">View More Results</a><!-- view_more -->
 				
+				<div class="desktop_grey_bg">
+					
+					<div class="desktop_inner_grey">
+						
+						
+						
+					</div><!-- desktop_inner_grey -->
+					
+				</div><!-- desktop_grey_bg -->
+				
 			</div><!-- settlement_slideshow_wrapper -->
 		
 		
