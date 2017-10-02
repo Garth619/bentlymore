@@ -106,17 +106,35 @@
 		"uL": 1
 		},
 	"\/css\/scss\/style.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/fonts\/acta\/acta_display_w01_xbold-demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/acta\/acta_display_w01_xbold-demo.html",
+		"oF": 0
+		},
+	"\/fonts\/acta\/acta_display_w01_xbold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/acta\/acta_display_w01_xbold-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta\/acta_display_w01_xbold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/acta\/acta_display_w01_xbold-webfont.woff2",
+		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_bold-demo.html": {
 		"ft": 8192,
@@ -926,6 +944,12 @@
 		"oAP": "\/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/style.css.map",
+		"oF": 0
 		}
 	},
 "hooks": [

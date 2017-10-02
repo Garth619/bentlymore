@@ -3,4 +3,70 @@
 	background-size:cover;
 	width:100%;
 	height:1020px;
+	text-align: center;
+	padding-top:470px;
+}
+
+.banner_content {
+	color: #fff;
+	font-size:120px;
+	font-family:$actabold;
+	letter-spacing: 2px;
+	display: block;
+}
+
+a.begin {
+	display: inline-block;
+	background: #fff;
+	margin-top:43px;
+	color:$brown;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: $actaextrabold;
+	font-size:28px;
+	letter-spacing: 0.6px;
+	padding:22px 50px;
+	box-shadow: 0px 4px 10px 0px rgba(23, 42, 54, 0.76);
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: $brown;
+		color:#fff;
+	}
+}
+
+.scroll_wrapper {
+	margin-top:90px;
+	span.scroll {
+		color:#fff;
+		margin-top:28px;
+		display: block;
+		font-family: $libreblack;
+		text-transform: uppercase;
+		font-size:10px;
+		letter-spacing: 10px;
+	}
+}
+
+.scroll_lines {
+	position: relative;
+	overflow: hidden;
+	width:1px;
+	height:50px;
+	display: block;
+	margin:0 auto;
+	span {
+		width:100%;
+		height:50px;
+		display: block;
+		position: absolute;
+		top:0;
+		left:0;
+	}
+	span.orange_line {
+		background: $brown;
+	}
+	span.white_line {
+		background:#fff;
+		top:20px;
+	}
 }

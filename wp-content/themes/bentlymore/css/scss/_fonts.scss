@@ -20,6 +20,16 @@
 }
 
 
+@font-face {
+    font-family: 'actadisplayw01-xboldregular';
+    src: url('#{$themePath}fonts/acta/acta_display_w01_xbold-webfont.woff2') format('woff2'),
+         url('#{$themePath}fonts/acta/acta_display_w01_xbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 
 @font-face {
