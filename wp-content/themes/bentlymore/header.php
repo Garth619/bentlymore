@@ -46,9 +46,9 @@
 			
 			<div class="header_right">
 				
-				<span class="free_consultation">free consultation</span><!-- free_consultation -->
+				<span class="free_consultation">free consultations</span><!-- free_consultation -->
 				
-				<a href="tel:(949) 870-3800">(949) 870-3800</a>
+				<a class="tel" href="tel:(949) 870-3800">(949) 870-3800</a>
 				
 				<div class="menu_wrapper">
 					
@@ -60,7 +60,7 @@
 						
 					</div><!--menu_bar_wrapper -->
 					
-						<span class="">Menu</span>
+						<span class="menu_verbiage">Menu</span><!-- menu_verbiage -->
 					
 					</div><!-- menu_wrapper -->
 				
