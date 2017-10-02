@@ -4,11 +4,9 @@ section.section_two {
 	}
 }
 
-
 .settlements_wrapper {
 	width:45%;
 	height:100%;
-	// background:red;
 	padding-left:45px;
 }
 
@@ -22,14 +20,43 @@ section.section_two {
 
 .settlement_slideshow {
 	border:1px solid $brown;
+	
+	
+	.slick-dots {
+		bottom: 124px;
+		li.slick-active {
+			button {
+				&:before {
+					color:$brown;
+				}
+			}
+		}
+		li:hover {
+			button {
+				&:before {
+					color:$brown;
+				}
+			}
+		}
+		li {
+			margin:0;
+			button {
+				&:before {
+					opacity: 1;
+					color: $lightblue_one;
+					font-size:9px;
+				}
+			}
+		}
+	}
 }
 
 .settlement_slides {
-	
 	padding:152px 20px 225px;
 	.slide_icon {
 		width:125px;
 		margin-right:-55px;
+		display: inline-block;
 	}
 	span.sett_amount {
 		display: block;

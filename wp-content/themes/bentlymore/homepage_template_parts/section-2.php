@@ -21,6 +21,54 @@
 						
 					</div><!-- settlement_slides -->
 					
+					
+					
+					
+					<div class="settlement_slides">
+						
+						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
+						
+						<span class="sett_amount">$31.5m</span><!-- sett_amount -->
+						
+						<span class="brown_line"></span><!-- brown_line -->
+						
+						<span class="sett_type">Dangerous Roads</span><!-- sett_type -->
+						
+					</div><!-- settlement_slides -->
+					
+					
+					
+					
+					
+					
+					<div class="settlement_slides">
+						
+						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
+						
+						<span class="sett_amount">$31.5m</span><!-- sett_amount -->
+						
+						<span class="brown_line"></span><!-- brown_line -->
+						
+						<span class="sett_type">Dangerous Roads</span><!-- sett_type -->
+						
+					</div><!-- settlement_slides -->
+					
+					
+					
+					
+					
+					<div class="settlement_slides">
+						
+						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
+						
+						<span class="sett_amount">$31.5m</span><!-- sett_amount -->
+						
+						<span class="brown_line"></span><!-- brown_line -->
+						
+						<span class="sett_type">Dangerous Roads</span><!-- sett_type -->
+						
+					</div><!-- settlement_slides -->
+					
 				</div><!-- settlement_slideshow -->
 				
 				<a class="view_more" href="">View More Results</a><!-- view_more -->
