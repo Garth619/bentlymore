@@ -1,0 +1,33 @@
+header {
+	position: absolute;
+	top:72px;
+	left:0;
+	width:100%;
+	.inner_header {
+		width:100%;
+		max-width: 1700px;
+		margin:0 auto;
+		background: #fff;
+		height:75px;
+	}
+}
+
+
+.logo {
+	width:100%;
+	max-width:397px;
+	height:auto;
+	margin-top:15px;
+	margin-left:20px;
+}
+
+
+.header_right {
+	float:right;
+	display: flex;
+}
+
+span.free_consultation {
+	color:$brown;
+	font-size:20px;
+}
