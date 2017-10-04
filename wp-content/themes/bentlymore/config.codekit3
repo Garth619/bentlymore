@@ -506,6 +506,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/award2.png": {
+		"ft": 32768,
+		"iS": 9115,
+		"oA": 0,
+		"oAP": "\/images\/award2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/dj.png": {
+		"ft": 32768,
+		"iS": 6669,
+		"oA": 0,
+		"oAP": "\/images\/dj.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/dj_logo_high_rez.png": {
 		"ft": 32768,
 		"iS": 14620,
@@ -892,6 +914,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/ssc.png": {
+		"ft": 32768,
+		"iS": 9234,
+		"oA": 0,
+		"oAP": "\/images\/ssc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.php": {
 		"ft": 8192,

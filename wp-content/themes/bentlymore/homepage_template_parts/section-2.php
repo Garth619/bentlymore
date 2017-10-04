@@ -102,7 +102,7 @@
 						
 						<div class="news_logo">
 							
-							<img src="<?php bloginfo('template_directory');?>/images/dj_logo_high_rez.png"/>
+							<img src="<?php bloginfo('template_directory');?>/images/dj.png"/>
 							
 						</div><!-- news_logo -->
 						
@@ -113,6 +113,50 @@
 								<span class="news_date">June 26, 2017</span><!-- news_date -->
 							
 								<span class="news_title">Daily Journal: Greg Bentley Named Top 30 Plaintiff Attorney</span><!-- news_title -->
+							
+							</div><!-- flex_centered_wrapper -->
+							
+						</div><!-- news_content_wrapper -->
+						
+					</a><!-- single_news_wrapper -->
+					
+					<a href="" class="single_news_wrapper">
+						
+						<div class="news_logo">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/award2.png"/>
+							
+						</div><!-- news_logo -->
+						
+						<div class="news_content_wrapper">
+							
+							<div class="centered_wrapper">
+							
+								<span class="news_date">June 10, 2017</span><!-- news_date -->
+							
+								<span class="news_title">Bentley & More LLP Files Bad Faith Lawsuit to Collect $67M Judgment</span><!-- news_title -->
+							
+							</div><!-- flex_centered_wrapper -->
+							
+						</div><!-- news_content_wrapper -->
+						
+					</a><!-- single_news_wrapper -->
+					
+					<a href="" class="single_news_wrapper">
+						
+						<div class="news_logo">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/ssc.png"/>
+							
+						</div><!-- news_logo -->
+						
+						<div class="news_content_wrapper">
+							
+							<div class="centered_wrapper">
+							
+								<span class="news_date">May 3, 2017</span><!-- news_date -->
+							
+								<span class="news_title">The Best Orange County Workers' Compensation Attorneys</span><!-- news_title -->
 							
 							</div><!-- flex_centered_wrapper -->
 							

@@ -171,25 +171,28 @@ span.firm_news_title {
 
 
 .news_feed {
-	margin-top:82px;
+	margin-top:38px;
 }
 
 .single_news_wrapper {
 	overflow: hidden;
 	display: block;
+// 	background: blue;
+	padding:56px 0 35px;
+// 	border-bottom: 1px solid #fff;
 	&:first-of-type {
 		.news_logo {
 			img {
-				max-width:195px;
+				// max-width:195px;
 			}
 		}
 	}
 }
 
 .news_logo {
-	width:31%;
+	width:32%;
 	float:left;
-	background: red;
+// 	background: red;
 	display: flex;
   justify-content: center;
   align-items: center; 
@@ -204,7 +207,7 @@ span.firm_news_title {
 .news_content_wrapper {
 	display: table;
   height:100%;
-  width:69%;
+  width:68%;
   float:left;
   max-width:500px;
   border-left:1px solid $brown;
