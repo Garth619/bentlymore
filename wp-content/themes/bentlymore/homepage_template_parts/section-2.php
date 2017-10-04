@@ -87,6 +87,46 @@
 		
 		
 		</div><!-- settlements_wrapper -->
+		
+		
+		<div class="news_wrapper">
+			
+			
+			<div class="inner_news_wrapper">
+				
+				<span class="firm_news_title">Firm News</span><!-- firm_news_title -->
+				
+				<div class="news_feed">
+					
+					<a href="" class="single_news_wrapper">
+						
+						<div class="news_logo">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/dj_logo_high_rez.png"/>
+							
+						</div><!-- news_logo -->
+						
+						<div class="news_content_wrapper">
+							
+							<div class="centered_wrapper">
+							
+								<span class="news_date">June 26, 2017</span><!-- news_date -->
+							
+								<span class="news_title">Daily Journal: Greg Bentley Named Top 30 Plaintiff Attorney</span><!-- news_title -->
+							
+							</div><!-- flex_centered_wrapper -->
+							
+						</div><!-- news_content_wrapper -->
+						
+					</a><!-- single_news_wrapper -->
+					
+				</div><!-- news_feed -->
+				
+			</div><!-- inner_news_wrapper -->
+			
+			
+		</div><!-- news_wrapper -->
+		
 	
 	</div><!-- inner_section_two -->
 	
