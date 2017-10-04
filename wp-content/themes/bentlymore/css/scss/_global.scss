@@ -1,3 +1,19 @@
+
+body {
+	background:$off_white_two;
+}
+
+
+
+.content {
+	font-family: $libre, "Comic-Sans";
+	font-size:16px;
+	line-height: 40px;
+	color:$letterblack;
+}
+
+
+
 .alignleft,
 img.alignleft {
 	display: inline;
@@ -25,7 +41,3 @@ img.aligncenter {
 	margin-bottom: 12px;
 }
 
-
-body {
-	background:$off_white_two;
-}

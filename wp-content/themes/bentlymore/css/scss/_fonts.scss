@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'actadisplayw04-mediumitalicRg';
     src: url('#{$themePath}fonts/acta/acta_display_w04_medium_italic-webfont.woff2') format('woff2'),
@@ -79,59 +81,70 @@
 
 
 
-@font-face {
-    font-family: 'libre_franklinbold';
-    src: url('#{$themePath}fonts/libre/librefranklin-bold-webfont.woff2') format('woff2'),
-         url('#{$themePath}fonts/libre/librefranklin-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
+// Libre
+
+
+@font-face {
+	font-family: 'LibreFranklin-Black';
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-Black.eot');
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-Black.eot?#iefix') format('embedded-opentype'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-Black.woff') format('woff'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LibreFranklin-Bold';
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-Bold.eot');
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-Bold.eot?#iefix') format('embedded-opentype'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-Bold.woff') format('woff'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LibreFranklin-Regular';
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-Regular.eot');
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-Regular.eot?#iefix') format('embedded-opentype'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-Regular.woff') format('woff'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LibreFranklin-Medium';
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-Medium.eot');
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-Medium.eot?#iefix') format('embedded-opentype'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-Medium.woff') format('woff'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LibreFranklin-ExtraBold';
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-ExtraBold.eot');
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-ExtraBold.woff') format('woff'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-ExtraBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LibreFranklin-SemiBold';
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-SemiBold.eot');
+	src: url('#{$themePath}fonts/libre_two/LibreFranklin-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-SemiBold.woff') format('woff'),
+		url('#{$themePath}fonts/libre_two/LibreFranklin-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 
 
 
-@font-face {
-    font-family: 'libre_franklinextrabold';
-    src: url('#{$themePath}fonts/libre/librefranklin-extrabold-webfont.woff2') format('woff2'),
-         url('#{$themePath}fonts/libre/librefranklin-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'libre_franklinmedium';
-    src: url('#{$themePath}fonts/libre/librefranklin-medium-webfont.woff2') format('woff2'),
-         url('#{$themePath}fonts/libre/librefranklin-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'libre_franklinregular';
-    src: url('#{$themePath}fonts/libre/librefranklin-regular-webfont.woff2') format('woff2'),
-         url('#{$themePath}fonts/libre/librefranklin-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'libre_franklinsemibold';
-    src: url('#{$themePath}fonts/libre/librefranklin-semibold-webfont.woff2') format('woff2'),
-         url('#{$themePath}fonts/libre/librefranklin-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}

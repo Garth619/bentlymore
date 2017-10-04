@@ -131,6 +131,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/_section-3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/_section-3.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -432,6 +445,130 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/fonts\/libre_two\/demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/demo.html",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Black.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Black.eot",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Black.ttf",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Black.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Black.woff",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Bold.eot",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-ExtraBold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-ExtraBold.eot",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-ExtraBold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-ExtraBold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-ExtraBold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-ExtraBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Medium.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Medium.eot",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Medium.ttf",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Medium.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Medium.woff",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Regular.eot",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-Regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-SemiBold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-SemiBold.eot",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-SemiBold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-SemiBold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/LibreFranklin-SemiBold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/libre_two\/LibreFranklin-SemiBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/libre_two\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/libre_two\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/footer.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -460,6 +597,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/homepage_template_parts\/section-2.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-3.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/homepage_template_parts\/section-3.php",
 		"oF": 0
 		},
 	"\/images\/award-01.png": {
