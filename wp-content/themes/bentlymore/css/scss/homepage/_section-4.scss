@@ -1,0 +1,72 @@
+section.section_four {
+	width:100%;
+	background:url(images/sp-bkg.jpg) top left no-repeat;
+	padding:265px 0;
+}
+
+
+
+.selling_points_wrapper {
+	width:100%;
+	max-width:945px;
+	margin:0 auto;
+	height:615px;
+	background: rgba(54, 76, 88, 0.93);
+	position: relative;
+	
+}
+
+
+.border_wrapper {
+	position: absolute;
+	top:-23px;
+	left:0;
+	width:100%;
+	height:115%;
+	padding:0 23px;
+	.inner_border {
+		border:1px solid $brown;
+		height:100%;
+		width:100%;
+	}
+}
+
+.selling_point_single_slide {
+	text-align: center;
+	height:573px;
+// 	background: red;
+}
+
+
+.slide_inner_content {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+
+
+svg#sunburst_elements {
+	width:255px;
+}
+
+span.slide_count {
+	color: #fff;
+	display: block;
+	font-size: 55px;
+	font-family: $actaextrabold;
+	letter-spacing: 2px;
+	margin: -53px 0 0;
+}
+
+
+span.selling_point_title {
+	text-transform: uppercase;
+	font-family: $libreblack;
+	font-size:15px;
+	color:#a1b3c2;
+	line-height: 40px;
+	letter-spacing: 4.5px;
+	margin-top:35px;
+	display: block;
+}

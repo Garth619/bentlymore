@@ -144,6 +144,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/_section-4.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/_section-4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -603,6 +616,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/homepage_template_parts\/section-3.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-4.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/homepage_template_parts\/section-4.php",
 		"oF": 0
 		},
 	"\/images\/award-01.png": {
