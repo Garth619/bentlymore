@@ -24,6 +24,8 @@
 						
 						<span class="selling_point_title"> Reputation Amongst Peers</span><!-- selling_point_title -->
 						
+						<span class="selling_points_content">Judges know how deeply we care about our clients because it shows in court. </span><!-- selling_points_content -->
+						
 						
 						</div><!-- slide_inner_content -->
 						
