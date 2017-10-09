@@ -46,4 +46,15 @@
 	</div><!-- selling_points_wrapper -->
 	
 	
+	<ul class="selling_points_bullet_wrapper">
+		
+		<li class="one">No Upfront Fees</li>
+		<li class="two">Reputation</li>
+		<li class="three">Results</li>
+		<li class="four">Client Focused</li>
+		
+		
+	</ul><!-- selling_points_bullet_wrapper -->
+	
+	
 </section><!-- section_four -->
