@@ -2,6 +2,11 @@
 section.section_three {
 	padding:177px 0;
 	background: #fff;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
 	.inner_section_three {
 		max-width:1660px;
 		margin:0 auto;
@@ -33,22 +38,26 @@ section.section_three {
 
 .section_three_image_wrapper {
 	float:left;
-	margin-right:63px;
+	margin-right:123px;
 	letter-spacing: 0;
 }
 
 
 
 .blockquote_wrapper {
-	
-	margin-top:60px;
+	float:left;
+	margin-top:34px;
+	margin-left:-60px;
+	margin-bottom:45px;
+// 	width:calc(100% - 750px);
 	.image_wrapper {
 		border-top:1px solid $brown;
 		border-bottom:1px solid $brown;
 		padding:65px 10px 60px;
-// 		float:left;
+		float:left;
 		width:183px;
 		margin-right:18px;
+		
 		img {
 			display: block;
 			max-width:100%;
@@ -60,9 +69,18 @@ section.section_three {
 		color: $brown;
 		font-family:$actabold;
 		line-height: 60px;
-		margin-top:30px;
+		margin-top: 50px;
 		display: block;
 // 		float:left;
 	
 	}
+}
+
+
+
+
+.desktop_content_wrap {
+	width:calc(100% - 783px);
+	//width:40%;
+	float:left;
 }
