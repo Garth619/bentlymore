@@ -291,6 +291,24 @@
 		"oAP": "\/fonts\/acta\/acta_display_w04_medium_italic-webfont.woff2",
 		"oF": 0
 		},
+	"\/fonts\/acta\/ActaDisplayW01-MediumItalic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/acta\/ActaDisplayW01-MediumItalic.eot",
+		"oF": 0
+		},
+	"\/fonts\/acta\/ActaDisplayW01-MediumItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/acta\/ActaDisplayW01-MediumItalic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/acta\/ActaDisplayW01-MediumItalic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/acta\/ActaDisplayW01-MediumItalic.woff",
+		"oF": 0
+		},
 	"\/fonts\/acta\/generator_config.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -1130,7 +1148,7 @@
 		"oA": 0,
 		"oAP": "\/js\/custom-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/slick\/.gitignore": {

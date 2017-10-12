@@ -9,11 +9,23 @@
 			
 		</div><!-- image_container -->
 		
-		<div class="testimonials_wrapper">
+		<div class="testi_wrapper">
 			
-			<span class="testi_wrapper">Testimonials</span><!-- testi_wrapper -->
+			<span class="testi_title">Testimonials</span><!-- testi_wrapper -->
 			
-		</div><!-- testimonials_wrapper -->
+	
+			
+		<div class="testi_content_wrapper">
+			
+			<span class="quote">“</span><!-- quote -->
+			
+			<span class="testi_content">He is truly a<br/>one-of-a-kind lawyer: aggressive and confident yet compassionate.”</span><!-- test_content -->
+			
+			<span class="testi_name">Melinda O.</span><!-- testi_name -->
+			
+		</div><!-- testi_content_wrapper -->
+		
+	</div><!-- testi_wrapper -->
 		
 	</div><!-- section_five_inner -->
 	
