@@ -146,3 +146,28 @@ section.section_five {
 }
 
 
+
+.sec_five_content {
+	clear:both;
+	padding:100px 0 0 5%;
+	max-width:1600px;
+	.col {
+		
+		&:first-of-type {
+			float:left;
+			padding-right:0%;
+			background: red;
+			width:41%;
+			
+		}
+		&:last-of-type {
+			float:right;
+			width:59%;
+			padding-left:11%;
+			padding-right:30px;
+		}
+	}
+}
+
+
+
