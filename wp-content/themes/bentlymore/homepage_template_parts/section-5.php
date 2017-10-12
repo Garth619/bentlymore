@@ -25,7 +25,20 @@
 			
 		</div><!-- testi_content_wrapper -->
 		
+		
+		
 	</div><!-- testi_wrapper -->
+	
+	<div class="bottom_line_wrapper">
+		
+		<span class="testi_line"></span><!-- testi_line -->
+	
+		<span class="testi_line_dotted"></span><!-- testi_line_dotted -->
+		
+		
+	</div><!-- bottom_line_wrapper -->
+	
+	
 		
 	</div><!-- section_five_inner -->
 	

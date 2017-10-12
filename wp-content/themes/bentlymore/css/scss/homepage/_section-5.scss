@@ -4,7 +4,12 @@ section.section_five {
 		max-width:1678px;
 		margin:0 auto;
 		width:100%;
-		overflow: hidden;
+		&:after {
+			content:"";
+			display: block;
+			clear:both;
+		}
+		//overflow: hidden;
 		
 	}
 }
@@ -67,7 +72,7 @@ section.section_five {
 }
 
 .testi_content_wrapper {
-	margin-top:90px;
+	margin-top:94px;
 	color:$darkblue;
 	span {
 		font-family: $actabold;
@@ -85,7 +90,7 @@ section.section_five {
 		padding-left:4px;
 		line-height: 70px;
 		letter-spacing: 1px;
-		margin-bottom:53px;
+		margin-bottom:50px;
 	}
 	span.testi_name {
 		font-family: $actaimediumtalic;
@@ -106,3 +111,38 @@ section.section_five {
 		}
 	}
 }
+
+
+.bottom_line_wrapper {
+	padding-right:117px;
+	width:100%;
+	span.testi_line {
+		width:100%;
+		max-width:1028px;
+		height:2px;
+		background:$brown;
+		display: block;
+		clear:both;
+		position: relative;
+		top:-24px;
+		z-index:10;
+		left:56px;
+	}
+
+	span.testi_line_dotted {
+		&:before 	{content:"........................................................................................................................................................................................................................................................";
+			display: block;
+			font-family: $libreblack;
+			position: relative;
+			top: -6px;
+			right: 0px;
+			float:right;
+			font-size: 8px;
+			color: #2a2728;
+			letter-spacing: 2.2px;
+		}
+	}
+
+}
+
+
