@@ -35,6 +35,9 @@ section.section_four {
 .selling_point_single_slide {
 	text-align: center;
 	height:660px;
+	svg {
+		width:255px;
+	}
 }
 
 
@@ -47,7 +50,7 @@ section.section_four {
 
 
 svg#sunburst_elements {
-	width:255px;
+
 }
 
 span.slide_count {

@@ -15,5 +15,31 @@ jQuery(document).ready(function(){
 	});
 	
 	
+/*
+	
+	$('.selling_point_slideshow').slick({
+  	infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots:false,
+		asNavFor: '.number_slide',
+		// slide:'.selling_point_single_slide',
+		arrows:false
+	});
+	
+*/
+/*
+	
+	$('.selling_points_bullet_wrapper').slick({
+  	slidesToShow: 4,
+		slidesToScroll: 1,
+		asNavFor: '.selling_point_single_slide',
+		dots: false,
+		arrows:false,
+		focusOnSelect: true
+	});
+	
+*/
+	
   
 }); // document ready
