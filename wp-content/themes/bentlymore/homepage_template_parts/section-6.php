@@ -27,7 +27,89 @@
 				
 				<span class="large_header">Greg Bently Appearance on The Dr. Oz show</span><!-- large_header -->
 				
+				
+				
 			</div><!-- sec_six_subcontent -->
+			
+			<div class="logo_slideshow_wrapper">
+					
+					<div class="logo_slideshow">
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-01.png"/>
+							
+						</div><!-- logo_slide -->
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-02.png"/>
+							
+						</div><!-- logo_slide -->
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-03.png"/>
+							
+						</div><!-- logo_slide -->
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-04.png"/>
+							
+						</div><!-- logo_slide -->
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-05.png"/>
+							
+						</div><!-- logo_slide -->
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-06.png"/>
+							
+						</div><!-- logo_slide -->
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-07.png"/>
+							
+						</div><!-- logo_slide -->
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-08.png"/>
+							
+						</div><!-- logo_slide -->
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-09.png"/>
+							
+						</div><!-- logo_slide -->
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-10.png"/>
+							
+						</div><!-- logo_slide -->
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-11.png"/>
+							
+						</div><!-- logo_slide -->
+						
+						<div class="logo_slide">
+							
+							<img src="<?php bloginfo('template_directory');?>/images/news-12.png"/>
+							
+						</div><!-- logo_slide -->
+						
+					</div><!-- logo_slideshow -->
+					
+				</div><!-- logo_slider_wrapper -->
 			
 			</div><!-- sec_six_content -->
 			

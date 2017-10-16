@@ -88,9 +88,6 @@ svg#sec_six_play_button {
 }
 
 
-
-
-
 .press_bg_wrapper {
 	height:100%;
 	width:100%;
@@ -109,10 +106,22 @@ svg#sec_six_play_button {
 
 
 
-
-
-
-
+.logo_slideshow_wrapper {
+	clear:both;
+	max-width:775px;
+	margin:0 0 0 18%;
+	.logo_slideshow {
+		.logo_slide {
+			text-align: center;
+			
+			img {
+				display: block;
+				margin:0 auto;
+				background:red;
+			}
+		}
+	}
+}
 
 
 

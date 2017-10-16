@@ -15,6 +15,19 @@ jQuery(document).ready(function(){
 	});
 	
 	
+	$('.logo_slideshow').slick({
+  	infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+		dots:true,
+		
+		arrows:false
+	});
+	
+	
+	
+	
+	
 /*
 	
 	$('.selling_point_slideshow').slick({
