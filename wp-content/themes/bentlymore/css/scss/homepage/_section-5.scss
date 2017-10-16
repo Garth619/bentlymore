@@ -1,5 +1,6 @@
 section.section_five {
 	padding:138px 0;
+	background: #fff;
 	.section_five_inner {
 		max-width:1678px;
 		margin:0 auto;
@@ -149,22 +150,23 @@ section.section_five {
 
 .sec_five_content {
 	clear:both;
-	padding:100px 0 0 5%;
+	padding:160px 0 0 5%;
 	max-width:1600px;
 	.col {
 		
 		&:first-of-type {
 			float:left;
 			padding-right:0%;
-			background: red;
-			width:41%;
+			
+			width:44%;
 			
 		}
 		&:last-of-type {
 			float:right;
-			width:59%;
-			padding-left:11%;
-			padding-right:30px;
+			width:56%;
+			padding-left:8.5%;
+			padding-right:80px;
+			padding-top:35px;
 		}
 	}
 }

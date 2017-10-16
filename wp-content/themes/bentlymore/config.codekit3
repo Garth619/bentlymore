@@ -170,6 +170,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/_section-6.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/_section-6.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -661,6 +674,12 @@
 		"oAP": "\/homepage_template_parts\/section-5.php",
 		"oF": 0
 		},
+	"\/homepage_template_parts\/section-6.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/homepage_template_parts\/section-6.php",
+		"oF": 0
+		},
 	"\/images\/award-01.png": {
 		"ft": 32768,
 		"iS": 5943,
@@ -985,7 +1004,7 @@
 		"oAP": "\/images\/news-img.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/play.svg": {
