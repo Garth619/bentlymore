@@ -14,6 +14,8 @@
 		<div class="form_wrapper">
 			
 			<?php gravity_form(1, false, false, false, '', true, 12); ?>
+			
+			<span class="fields_required"><span class="form_bullet">&bull;</span> All Fields Required</span><!-- fields_required -->
 
 		</div><!-- form_wrapper -->
 		

@@ -39,7 +39,13 @@ svg#footer_svg {
 
 .form_wrapper {
 	max-width:1200px;
-	margin:108px auto 0;
+	margin:108px auto 250px;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+	
 	.validation_error {
 		display: none;
 	}
@@ -67,7 +73,7 @@ svg#footer_svg {
 				&:after {
 					content:"•";
 					display: inline;
-					color:$brown;
+					color:#c19345;
 					font-size:17px;
 					position: relative;
 					top:2px;
@@ -103,4 +109,49 @@ svg#footer_svg {
 			}
 		}
 	}
+	.gform_footer {
+		width:240px;
+		float:right;
+		input {
+			border:none;
+			background:$darkblue;
+			width:100%;
+			color:#fff;
+			font-family: $libreblack;
+			font-size:14px;
+			text-transform: uppercase;
+			padding:29px 0;
+			box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.42);
+			letter-spacing: 6px;
+			cursor: pointer;
+			transition: all .2s ease-in-out;
+			&:hover {
+				background:#9a7537;
+			}
+		}
+	}
+	.gfield_description, .validation_message {
+		color:#c19345;
+		font-family: $librebold;
+		text-transform: uppercase;
+		font-size: 10px;
+		letter-spacing: 1.4px;
+		margin:10px 0 0;
+	}
+	span.fields_required {
+		float:left;
+		color:#fff;
+		text-transform: lowercase;
+		font-family: $actaimediumtalic;
+		font-size:17px;
+		margin:25px 0 0;
+		letter-spacing: 1px;
+		span.form_bullet {
+			color:#c19345;
+		}
+	}
 }
+
+
+
+
