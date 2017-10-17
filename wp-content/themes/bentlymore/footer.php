@@ -25,6 +25,26 @@
 	
 </footer>
 
+<div class="lower_footer">
+	
+	<div class="lower_footer_inner">
+		
+		<div class="locations_wrapper">
+			
+			<div class="locations"></div><!-- locations -->
+			
+			<div class="social_wrapper"></div><!-- social_wrapper -->
+			
+			<span class="copyright">Copyright</span><!-- copyright -->
+			
+			<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/"/></a>
+			
+		</div><!-- locations_wrapper -->
+		
+	</div><!-- lower_footer_inner -->
+	
+</div><!-- lower_footer -->
+
 
 <?php wp_footer();?>
 
