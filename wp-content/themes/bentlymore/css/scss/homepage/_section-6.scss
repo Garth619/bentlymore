@@ -26,7 +26,7 @@ section.section_six {
 		font-size:122px;
 		line-height: 129px;
 		color:$letterblue;
-		padding:200px 0 0;
+		padding:210px 0 0;
 		margin-left:25%;
 		letter-spacing: 6px;
 		span.second_word {
@@ -109,7 +109,8 @@ svg#sec_six_play_button {
 .logo_slideshow_wrapper {
 	clear:both;
 	max-width:775px;
-	margin:0 0 0 18%;
+	margin:0px 0 0 18%;
+	padding:85px 0 0;
 	.logo_slideshow {
 		.logo_slide {
 			text-align: center;
@@ -118,6 +119,38 @@ svg#sec_six_play_button {
 				display: block;
 				margin:0 auto;
 				
+			}
+		}
+	}
+}
+
+
+.slick-dots {
+	bottom: -65px;
+	li.slick-active {
+		button {
+			&:before {
+				color:$brown;
+				opacity: 1;
+			}
+		}
+	}
+	li:hover {
+		button {
+			&:before {
+				color:$brown;
+				opacity: 1;
+			}
+		}
+	}
+	li {
+		margin:0;
+		button {
+			
+			&:before {
+				opacity: 1;
+				color:#a3b4b9;
+				font-size:8px;
 			}
 		}
 	}
