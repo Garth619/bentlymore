@@ -31,9 +31,32 @@
 		
 		<div class="locations_wrapper">
 			
-			<div class="locations"></div><!-- locations -->
+			<div class="footer_box">
+				
+				<div class="footer_box_inner">
+				
+					<a class="footer_address" href="">4 Park Plaza #500<br/>Irvine, CA 92614</a>
+					<a class="footer_tel" href="">(949) 870-3800</a>
+					<a class="footer_email" href="">contact@bentleymore.com</a>
+					
+					
+					<span class="footer_gold_line"></span><!-- footer_gold_line -->
+					
+					<a class="footer_directions" href="">Directions</a>
+				
+				</div><!-- footer_box_inner -->
+				
+			</div><!-- locations -->
 			
-			<div class="social_wrapper"></div><!-- social_wrapper -->
+			<div class="footer_box">
+				
+				<div class="footer_box_inner">
+					
+					
+					
+				</div><!-- footer_box_inner -->
+				
+			</div><!-- social_wrapper -->
 			
 			<span class="copyright">Copyright</span><!-- copyright -->
 			
