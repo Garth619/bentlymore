@@ -52,19 +52,28 @@
 				
 				<div class="footer_box_inner">
 					
-					
+					<ul>
+						<li><a class="social_link" href="" target="_blank">Facebook</a></li>
+						<li><a class="social_link" href="" target="_blank">Google+</a></li>
+						<li><a class="social_link" href="" target="_blank">Twitter</a></li>
+						<li><a class="social_link" href="" target="_blank">Yelp</a></li>
+					</ul>
 					
 				</div><!-- footer_box_inner -->
 				
 			</div><!-- social_wrapper -->
 			
-			<span class="copyright">Copyright</span><!-- copyright -->
+			<span class="copyright">&copy; 2017 Bentley & More LLP. All Rights Reserved.  <a class="" href="">Privacy Policy</a><a class="" href="">Disclaimer</a></span><!-- copyright -->
 			
 			<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/"/></a>
 			
+			
 		</div><!-- locations_wrapper -->
 		
+		
+		
 	</div><!-- lower_footer_inner -->
+	
 	
 </div><!-- lower_footer -->
 
