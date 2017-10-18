@@ -31,10 +31,7 @@
 
 <body <?php body_class(); ?>>
 				
-
-<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
-			
-	<header>
+<header>
 		
 		<div class="inner_header">
 			
@@ -67,5 +64,18 @@
 			</div><!-- header_right -->
 			
 		</div><!-- inner_header -->
+		
+		<div class="nav_dropdown">
+			
+			<div class="nav_close">
+				
+				<span></span>
+				<span></span>
+				
+			</div><!-- close -->
+			
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+			
+		</div><!-- nav_dropdown -->
 		
 	</header>

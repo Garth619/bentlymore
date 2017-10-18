@@ -4,6 +4,41 @@
 jQuery(document).ready(function(){
 	
 	
+	// dropdown menu
+	
+	
+	
+	$('.menu_wrapper').on('click', function(e) {
+	  
+	  $('.nav_dropdown').slideToggle();
+	  $('body').css("overflow-y","hidden");
+	  
+	});
+	
+	
+	
+	$('.nav_close').on('click', function(e) {
+	  
+	  $('.nav_dropdown').slideToggle();
+	  $('body').css("overflow-y","auto");
+	  
+	});
+
+
+	$('ul#menu-top-nav > li.menu-item-has-children > a').on('click', function(e) {
+	  
+	  event.preventDefault();
+	  
+	  $(this).next('ul.sub-menu').toggleClass('open');
+	  
+	  
+	});
+	
+	
+	
+	
+	
+	
 	
 	$('.settlement_slideshow').slick({
   	infinite: true,
@@ -53,6 +88,9 @@ jQuery(document).ready(function(){
 	});
 	
 */
+
+
+
 	
   
 }); // document ready
