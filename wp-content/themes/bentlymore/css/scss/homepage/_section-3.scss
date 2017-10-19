@@ -35,11 +35,16 @@ section.section_three {
 	}
 }
 
+.section_three_content {
+	margin:100px 0 0 0;
+}
+
 
 .section_three_image_wrapper {
 	float:left;
 	margin-right:123px;
 	letter-spacing: 0;
+	margin-top: 13px;
 }
 
 
@@ -83,7 +88,7 @@ section.section_three {
 
 .blockquote_wrapper {
 	float:left;
-	margin-top:34px;
+	margin-top:20px;
 	margin-left:-60px;
 	margin-bottom:45px;
 	.image_wrapper {
@@ -129,7 +134,7 @@ section.section_three {
 	
 	
 	section.section_three {
-		padding:177px 70px 145px;
+		padding: 177px 70px 47px;
 	}
 	
 	.section_three_image_wrapper {
@@ -216,6 +221,22 @@ section.section_three {
 		letter-spacing: 0px;
 	}
 }
+
+
+.sec_three_col {
+	width:47%;
+	
+}
+
+
+.col_one {
+		float:left;
+		
+	}
+	.col_two {
+		float:right;
+		
+	}
 
 	
 	
