@@ -3,12 +3,14 @@ header {
 	top:72px;
 	left:0;
 	width:100%;
+	padding:0 70px;
 	.inner_header {
 		width:100%;
 		max-width: 1700px;
 		margin:0 auto;
 		background: #fff;
 		height:73px;
+		
 	}
 }
 
@@ -175,6 +177,18 @@ a.tel {
 		}
 	}
 }
+
+
+@media screen and (max-width: 1450px) {
+	
+	header {
+		top:42px;
+	}
+	
+	
+	
+	
+} /* Media Query */
 
 
 

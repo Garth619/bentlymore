@@ -70,3 +70,26 @@ a.begin {
 		top:20px;
 	}
 }
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	
+	.banner {
+		padding-top: 326px;
+		height:auto;
+		min-height: 800px;
+	}
+	
+	a.begin {
+		margin-top:26px;
+	}
+	
+	.scroll_wrapper {
+    margin-top: 69px;
+	}
+	
+	
+	
+} /* Media Query */
