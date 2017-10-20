@@ -85,6 +85,18 @@ span.selling_points_content {
 }
 
 
+.selling_points_bullet_wrapper {
+	.bullet_slide:hover, .bullet_slide.slick-current {
+		span.bullet_slide_title {
+			&:after {
+				opacity: 1;
+			}
+		}
+		span.bullet_slide_number {
+			opacity: 1;
+		}
+	}
+}
 
 
 .selling_points_bullet_wrapper {
@@ -113,6 +125,8 @@ span.selling_points_content {
 				position: absolute;
 				bottom:-16px;
 				left:-3px;
+				opacity: 0;
+				transition: all .2s ease-in-out;
 			}
 		}
 		span.bullet_slide_number {
@@ -122,6 +136,8 @@ span.selling_points_content {
 			font-size:26px;
 			letter-spacing: 4px;
 			color:#fff;
+			opacity: 0;
+			transition: all .2s ease-in-out;
 		}
 	}
 }

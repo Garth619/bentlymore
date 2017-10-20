@@ -20,7 +20,7 @@ section.section_five {
 	position: relative;
 	float:left;
 	width:710px;
-	z-index:10;
+	z-index:50;
 	&:before {
 		content:"";
 		width:100%;
@@ -47,6 +47,8 @@ section.section_five {
 	float:left;
 	padding:0 7% 0 70px;
 	margin:72px 0 0;
+	position: relative;
+	z-index:10;
 	span.testi_title {
 		text-transform: uppercase;
 		font-family: $libreblack;
@@ -117,6 +119,7 @@ section.section_five {
 .bottom_line_wrapper {
 	padding-right:117px;
 	width:100%;
+	clear:both;
 	span.testi_line {
 		width:100%;
 		max-width:1028px;
@@ -126,8 +129,8 @@ section.section_five {
 		clear:both;
 		position: relative;
 		top:-24px;
-		z-index:10;
 		left:56px;
+		z-index: 50;
 	}
 
 	span.testi_line_dotted {
@@ -152,6 +155,7 @@ section.section_five {
 	clear:both;
 	padding:160px 0 0 5%;
 	max-width:1600px;
+	overflow: hidden;
 	.col {
 		
 		&:first-of-type {
@@ -170,6 +174,102 @@ section.section_five {
 		}
 	}
 }
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	
+	section.section_five {
+		padding:62px 0;	
+		position: relative;
+	}
+	
+	.sec_five_image_container {
+		margin-left: 58px;
+		width: 484px;
+		z-index:0;
+		&:before {
+			width: 104%;
+			height: 132%;
+		}
+		img {
+			top:80px;
+		}
+	} 
+	
+	
+	.testi_content_wrapper {
+    margin-top: 80px;
+    border-bottom: 2px solid #9a7537;
+    padding-bottom:95px;
+    &:after {
+	    content:"";
+	    
+    }
+    span.testi_content {
+	    font-size:55px;
+	    line-height: 60px;
+	    margin-bottom: 41px;
+    }
+  }
+	
+	
+	.testi_wrapper {
+		margin:41px 0 0;
+		width: calc(100% - 542px);
+		padding: 0 38px 0 101px;
+		span.testi_title:before {
+			
+		}
+	}
+	
+
+	
+	.sec_five_white_spacer {
+		position: absolute;
+		top:62px;
+		left:0px;
+		background: #fff;
+		width:60px;
+		height:75px;
+		z-index:20;
+	}
+	
+	
+	.sec_five_spacer {
+		position: absolute;
+		top:62px;
+		left:58px;
+		width:56px;
+		height:200px;
+		background: $off_white_one;
+		z-index:500;
+	}
+	
+	
+	.bottom_line_wrapper {
+		span.testi_line {
+			display: none;
+		}
+		span.testi_line_dotted {
+			&:before {
+				top:34px;
+			}
+		}
+	} 
+	
+	
+	
+
+.sec_five_content {
+	padding:140px 0 0 5%;
+}
+	
+	
+	
+} /* Media Query */
 
 
 

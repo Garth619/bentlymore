@@ -1,11 +1,17 @@
 <section class="section_five">
 	
 	
+	<div class="sec_five_white_spacer"></div><!-- sec_five_spacer -->
+	
 	<div class="section_five_inner">
+		
+		<div class="sec_five_spacer"></div><!-- sec_five_spacer -->
 		
 		<div class="sec_five_image_container">
 			
 			<img src="<?php bloginfo('template_directory');?>/images/img-02.jpg"/>
+			
+			
 			
 		</div><!-- image_container -->
 		
