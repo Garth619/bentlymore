@@ -177,7 +177,7 @@ section.section_five {
 
 
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1650px) {
 	
 	
 	
@@ -192,7 +192,7 @@ section.section_five {
 		z-index:0;
 		&:before {
 			width: 104%;
-			height: 132%;
+			height: 133%;
 		}
 		img {
 			top:80px;
@@ -219,7 +219,7 @@ section.section_five {
 	.testi_wrapper {
 		margin:41px 0 0;
 		width: calc(100% - 542px);
-		padding: 0 38px 0 101px;
+		padding: 0 62px 0 101px;
 		span.testi_title:before {
 			
 		}
@@ -255,7 +255,8 @@ section.section_five {
 		}
 		span.testi_line_dotted {
 			&:before {
-				top:34px;
+				top:39px;
+				right: -58px;
 			}
 		}
 	} 
