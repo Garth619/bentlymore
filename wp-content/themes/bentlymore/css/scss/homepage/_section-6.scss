@@ -182,8 +182,46 @@ svg#sec_six_play_button {
 	}
 	
 	
-	
-	    
+	.press_bg_wrapper {
+    width: 82%;
+		padding-left: 17%;
+	}
 	
 	
 } /* Media Query */
+
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	.sec_six_content {
+		span.press_title {
+			padding: 130px 0 0;
+			font-size:85px;
+			line-height: 90px;
+		}
+	}
+	
+	
+	
+	.sec_six_play_wrapper {
+   	margin: -20px 0 0;
+   	width: 37%;
+   }
+   
+   
+  .press_bg_wrapper {
+    width: 86%;
+		padding-left: 22%;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+
