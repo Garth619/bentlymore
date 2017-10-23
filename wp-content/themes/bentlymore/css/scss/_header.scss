@@ -186,6 +186,35 @@ a.tel {
 	}
 	
 	
+} /* Media Query */
+
+
+@media screen and (max-width: 1150px) {
+	
+	
+	
+	
+header {
+	.inner_header {
+		height: 65px;
+	}
+}	
+	
+	.logo {
+		max-width: 350px;
+		margin-left: 19px;
+		margin-top:17px;
+	}
+	
+	
+	span.free_consultation {
+		display: none;
+	}
+	
+	a.tel {
+		font-size: 27px;
+		margin: 24px 21px 0 13px;
+	}
 	
 	
 } /* Media Query */

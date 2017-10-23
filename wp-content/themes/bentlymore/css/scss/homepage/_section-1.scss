@@ -93,3 +93,32 @@ a.begin {
 	
 	
 } /* Media Query */
+
+
+
+@media screen and (max-width: 1150px) {
+	
+	.banner {
+    padding-top: 267px;
+    height: 670px;
+    min-height: 0px;
+   }
+	
+	.banner_content {
+		font-size: 87px;
+		letter-spacing: 1.5px;
+	}
+	
+	a.begin {
+		font-size: 20.5px;
+		margin-top:39px;
+		padding: 16px 39px;
+	}
+	
+	.scroll_wrapper {
+    margin-top: 41px;
+	}
+	
+	
+	
+} /* Media Query */
