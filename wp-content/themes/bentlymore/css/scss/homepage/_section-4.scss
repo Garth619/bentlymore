@@ -59,7 +59,7 @@ span.slide_count {
 	font-size: 55px;
 	font-family: $actaextrabold;
 	letter-spacing: 2px;
-	margin: -53px 0 0;
+	margin: -50px 0 0;
 }
 
 
@@ -148,6 +148,35 @@ span.selling_points_content {
 	section.section_four {
 		padding: 167px 0 28px;
 	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1230px) {
+	
+	
+	section.section_four {
+		padding: 132px 70px 6px;
+	}
+	
+	
+	.selling_points_wrapper {
+    max-width: 945px;
+   }
+	
+	
+	.selling_points_bullet_wrapper {
+    margin: 115px auto 0;
+    max-width: 1085px;
+    padding-left:28px;
+    padding-right:28px;
+    .bullet_slide {
+	    
+    }
+   }
+	
+	
 	
 	
 } /* Media Query */

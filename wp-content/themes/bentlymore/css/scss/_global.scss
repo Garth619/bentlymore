@@ -84,3 +84,13 @@ img.aligncenter {
 	margin-bottom: 12px;
 }
 
+
+@media screen and (max-width: 1230px) {
+	
+	.content {
+		h2{
+			margin-bottom:20px;
+		}
+	}
+	
+} /* Media Query */

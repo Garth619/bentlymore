@@ -245,3 +245,46 @@ section.section_three {
 } /* Media Query */
 
 
+@media screen and (max-width: 1260px) {
+	
+	
+	section.section_three {
+    padding: 152px 70px 70px;
+	}
+	
+	.title_wrapper {
+		h1 {
+			font-size: 100px;
+		}
+		h2 {
+			margin: 58px auto;
+		}
+	}
+	
+	
+	.section_three_image_wrapper {
+		margin: -215px 6% 0 0;
+		img {
+			max-width: 340px;
+		}
+	}
+	
+	
+	.blockquote_wrapper {
+    padding: 24px 0 0 0;
+   }
+   
+  
+  
+  .sec_three_col {
+	  width:100%
+  }
+  
+  .col_one, .col_two {
+	  float:none;
+  }
+	
+	
+} /* Media Query */
+
+
