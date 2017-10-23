@@ -1,7 +1,7 @@
 footer {
 	background: $lightblue_one;
 	width:100%;
-	padding:110px 110px;
+	padding:110px;
 	clear:both;
 }
 
@@ -9,6 +9,8 @@ footer {
 	width:100%;
 	border:1px solid #c19345;
 	text-align: center;
+	padding-left:85px;
+	padding-right:85px;
 	span.sub_header {
 		font-family: $libreblack;
 		text-transform: uppercase;
@@ -312,8 +314,37 @@ a.ilawyer {
 }
 
 
+@media screen and (max-width: 1605px) {
+	
+	
+	footer {
+    padding: 67px 65px;
+  }
+  
+  .locations_wrapper {
+		padding-left:150px;
+		padding-right:150px;
+		max-width: 1497px;
+	}
+	
+	
+	
+} /* Media Query */
 
 
+
+@media screen and (max-width: 1450px) {
+	
+	
+	
+	
+	
+  
+  .inner_footer {
+	  
+  }
+	
+} /* Media Query */
 
 
 
