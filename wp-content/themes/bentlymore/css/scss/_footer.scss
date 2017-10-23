@@ -298,6 +298,8 @@ span.copyright {
 	font-family: $libremedium;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	position: relative;
+  top: 3px;
 	a {
 		color:#172a36;
 		margin-left:15px;
@@ -336,7 +338,11 @@ a.ilawyer {
 @media screen and (max-width: 1450px) {
 	
 	
-	
+	.copyright_wrapper {
+		padding-left:152px;
+		padding-right: 152px;
+		max-width: 100%;
+	}
 	
 	
   
