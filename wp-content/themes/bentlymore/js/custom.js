@@ -47,7 +47,19 @@ jQuery(document).ready(function(){
 		slidesToScroll: 1,
 		dots:true,
 		slide:'.settlement_slides',
-		arrows:false
+		arrows:false,
+		responsive: [
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false,
+        swipe:false
+      }
+    }
+  ]
 	});
 	
 	

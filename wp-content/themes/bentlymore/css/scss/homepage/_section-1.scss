@@ -122,3 +122,33 @@ a.begin {
 	
 	
 } /* Media Query */
+
+
+@media screen and (max-width: 900px) {
+	
+	 .banner {
+    	padding-top: 241px;
+    	height: 531px;
+    	background-position: center -30px;
+    	background-size: 1440px 734px;
+   }
+   
+	 
+	 
+	 
+	 .banner_content {
+		 font-size: 65px;
+	 }
+	 
+	 a.begin {
+		margin-top: 28px;
+	 }
+	 
+	 
+	 .scroll_wrapper {
+		 display: none;
+	 }
+	
+	
+	
+} /* Media Query */

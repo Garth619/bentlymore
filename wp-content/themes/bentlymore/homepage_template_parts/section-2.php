@@ -71,7 +71,8 @@
 					
 				</div><!-- settlement_slideshow -->
 				
-				<a class="view_more" href="">View More Results</a><!-- view_more -->
+				<a class="view_more desktop" href="">View More Results</a><!-- view_more -->
+				<a class="view_more mobile" href="">View More</a><!-- view_more -->
 				
 				<div class="desktop_grey_bg">
 					

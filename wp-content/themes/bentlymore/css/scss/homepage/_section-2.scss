@@ -129,6 +129,11 @@ a.view_more {
 }
 
 
+a.view_more.mobile {
+	display: none;
+}
+
+
 
 
 
@@ -433,6 +438,74 @@ span.firm_news_title {
 	  max-width: 76%;
   }
 }
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 900px) {
+	
+	
+	section.section_two {
+		.inner_section_two {
+    	height: 376px;
+		}
+	} 
+	
+	
+	.news_wrapper {
+		width:50%;
+	}
+	
+	
+	.settlements_wrapper {
+		width:50%;
+		background: $lightblue_one;
+		padding:0px 34px;
+	}
+	
+	.settlement_slideshow_wrapper {
+		padding: 34px 0;
+	}
+	
+	.settlement_slides {
+		padding: 38px 20px 122px;
+		.slide_icon {
+			display: none;
+		}
+		span.sett_amount {
+			color:#fff;
+		}
+		.settlement_slides span.brown_line {
+    	margin-top: 18px;
+		}
+		span.sett_type {
+			color:#fff;
+			font-size:12px;
+		}
+	}
+	
+	
+	a.view_more {
+    margin-top: 0;
+    position: relative;
+    top: -77px;
+    padding:19px 30px;
+    &:hover {
+	    background: #fff;
+	    color:$lightblue_one;
+    }
+	}
+	
+	a.view_more.mobile {
+		display: inline-block;
+	}
+	
+	a.view_more.desktop {
+		display: none;
+	}
+
+	
 	
 	
 } /* Media Query */

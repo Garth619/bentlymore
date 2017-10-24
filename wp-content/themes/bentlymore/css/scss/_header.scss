@@ -159,8 +159,8 @@ a.tel {
 .nav_close {
 	width:40px;
 	position: absolute;
-	top:40px;
-	right:40px;
+	top: 56px;
+	right:55px;
 	cursor: pointer;
 	span {
 		width:100%;
@@ -203,7 +203,7 @@ header {
 	.logo {
 		max-width: 350px;
 		margin-left: 19px;
-		margin-top:17px;
+		margin-top:14px;
 	}
 	
 	
@@ -220,6 +220,35 @@ header {
 } /* Media Query */
 
 
+
+@media screen and (max-width: 900px) {
+	
+	
+	header {
+		padding: 0 28px;
+		.inner_header {
+			height: 56px;
+		}
+	}
+	
+	.logo {
+		max-width: 297px;
+		margin-left: 13px;
+		margin-top: 11px;
+	}
+	
+	
+	a.tel {
+		font-size: 25px;
+		margin: 16px 21px 0 13px;
+	}
+	
+	.menu_wrapper {
+		margin-top: 18px;
+	}
+	
+	 
+} /* Media Query */
 
 
 
