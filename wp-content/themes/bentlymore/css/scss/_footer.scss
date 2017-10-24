@@ -347,8 +347,79 @@ a.ilawyer {
 	
   
   .inner_footer {
-	  
+	  padding-left: 61px;
+	   padding-right: 61px;
   }
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1230px) {
+	
+	
+	.inner_footer {
+		span.sub_header {
+			margin: 72px 0 30px;
+		}
+		span.large_header {
+			font-size: 65px;
+			line-height: 80px;
+		}
+	}
+	
+	
+	.form_wrapper {
+		margin: 108px auto 197px;
+		ul {
+			li#field_1_4 {
+				margin-bottom: 30px;
+			}
+		}
+	}
+	
+	
+	.locations_wrapper {
+		padding-right: 129px;
+		padding-left: 129px;
+		margin: -204px auto 0;
+	}
+	
+	.footer_box {
+		height: 433px;
+		a.footer_address {
+			font-size:25px;
+			line-height: 31px;
+		}
+		a.footer_box a.footer_tel {
+    	margin-bottom: 28px;
+		}
+		span.footer_gold_line {
+			margin: 41px auto 0;
+		}
+		.footer_box_inner {
+		ul {
+			li {
+				a.social_link {
+					font-size: 25px;
+					&:after {
+						margin: 25px auto 29px;
+					}
+				}
+			}
+		}
+	}
+	}
+	
+	
+	
+	.copyright_wrapper {
+    padding-left: 62px;
+    padding-right: 62px;
+  }
+	
+	
+	
+	
 	
 } /* Media Query */
 
