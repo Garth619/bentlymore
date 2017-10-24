@@ -383,34 +383,27 @@ section.section_five {
 
 
 
-@media screen and (max-width: 1162px) {
-	
-	.testi_content_wrapper {
-		// min-height: 378px;
-	}
+@media screen and (max-width: 1230px) {
 	
 	
-	
-} /* Media Query */
-
-
-@media screen and (max-width: 1050px) {
-	
-	
-	.testi_content_wrapper {
-		
-		span {
-			//font-size: 45px;
+	.sec_five_content {
+		padding: 146px 57px 0;
+		.col {
+			width:100%;
+			&:first-of-type {
+				float:none;
+				width:100%;
+			}
+			&:last-of-type {
+				float:none;
+				width:100%;
+				padding:0;
+			}
 		}
-		span.testi_content {
-			// font-size:45px;
-/*
-			font-size:4.1vw;
-			line-height: 1.27;
-			margin-bottom: 25px;
-*/
+		blockquote {
+			margin: 40px 0 45px 0px;
 		}
-	}
+	} 
 	
 	
 	
