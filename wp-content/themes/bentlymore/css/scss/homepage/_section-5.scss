@@ -104,6 +104,7 @@ section.section_five {
 		line-height: 70px;
 		letter-spacing: 1px;
 		margin-bottom:50px;
+		
 	}
 	span.testi_name {
 		font-family: $actaimediumtalic;
@@ -111,6 +112,7 @@ section.section_five {
 		color:#4c6775;
 		letter-spacing: 1px;
 		display: block;
+		clear:both;
 		&:before {
 			content:"";
 			width:55px;
@@ -233,6 +235,7 @@ section.section_five {
 	    font-size:55px;
 	    line-height: 60px;
 	    margin-bottom: 46px;
+	    max-width:700px;
     }
   }
 	
@@ -297,12 +300,13 @@ section.section_five {
 } /* Media Query */
 
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1380px) {
 	
 	
 	.testi_wrapper {
     margin: 18px 0 0;
     width: calc(100% - 469px);
+    padding: 0 62px 0 9%;
     span.testi_title {
 	    padding-bottom: 29px;
 	    position: relative;
@@ -314,9 +318,10 @@ section.section_five {
   }
   
   .sec_five_image_container {
-	   width: 411px;
+	   width: 405px;
 	   &:before {
 		  width: 100%;
+		  height: 132%;
 	   }
 		img {
     	top: 50px;
@@ -330,17 +335,47 @@ section.section_five {
 	
 	.testi_content_wrapper {
 		margin-top: 70px;
+		padding-bottom: 0px;
+		border:none;
+		min-height: 378px;
+		
 		span {
 			font-size: 45px;
 		}
 		span.testi_content {
 			font-size:45px;
 			line-height: 55px;
+			max-width: 560px;
+			
+			margin-bottom: 25px;
 		}
 		span.quote {
     	width: 20px;
     }
+    span.testi_name {
+	    font-size:30px;
+	    
+	    &:before {
+		    margin-right: 14px;
+	    }
+    }
 	} 
+	
+	
+	.bottom_line_wrapper {
+		span.testi_line {
+			display: block;
+			top: -2px;
+			right: 57px;
+			left:unset;
+			max-width:100vw;
+			width:100vw;
+		
+		}
+		span.testi_line_dotted:before {
+			top: 13px;
+		}
+	}
 	
 	
 	
@@ -348,3 +383,35 @@ section.section_five {
 
 
 
+@media screen and (max-width: 1162px) {
+	
+	.testi_content_wrapper {
+		// min-height: 378px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1050px) {
+	
+	
+	.testi_content_wrapper {
+		
+		span {
+			//font-size: 45px;
+		}
+		span.testi_content {
+			// font-size:45px;
+/*
+			font-size:4.1vw;
+			line-height: 1.27;
+			margin-bottom: 25px;
+*/
+		}
+	}
+	
+	
+	
+} /* Media Query */
