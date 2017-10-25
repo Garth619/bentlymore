@@ -63,6 +63,32 @@ jQuery(document).ready(function(){
 	});
 	
 	
+	
+	
+	
+	$('.news_feed').slick({
+  	infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots:true,
+		slide:'.single_news_wrapper',
+		arrows:false,
+		mobileFirst:true,
+		responsive: [
+    {
+      breakpoint: 900,
+      settings: "unslick"
+    }
+  ]
+	});
+	
+	
+	
+	
+	
+	
+	
+	
 	$('.logo_slideshow').slick({
   	infinite: true,
 		slidesToShow: 3,

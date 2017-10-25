@@ -125,37 +125,40 @@ svg#sec_six_play_button {
 	}
 }
 
-
-.slick-dots {
-	bottom: -65px;
-	li.slick-active {
-		button {
-			&:before {
-				color:$brown;
-				opacity: 1;
+section.section_six {
+	.slick-dots {
+		bottom: -65px;
+		li.slick-active {
+			button {
+				&:before {
+					color:$brown;
+					opacity: 1;
+				}
 			}
 		}
-	}
-	li:hover {
-		button {
-			&:before {
-				color:$brown;
-				opacity: 1;
+		li:hover {
+			button {
+				&:before {
+					color:$brown;
+					opacity: 1;
+				}
 			}
 		}
-	}
-	li {
-		margin:0;
-		button {
+		li {
+			margin:0;
+			button {
 			
-			&:before {
-				opacity: 1;
-				color:#a3b4b9;
-				font-size:8px;
+				&:before {
+					opacity: 1;
+					color:#a3b4b9;
+					font-size:8px;
+				}
 			}
 		}
 	}
 }
+
+
 
 
 
