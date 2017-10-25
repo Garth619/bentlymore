@@ -442,6 +442,8 @@ section.section_five {
 	
 	
 	.testi_content_wrapper {
+		min-height: auto;
+		margin-top: 91px;
 		span.testi_content {
 			text-align: center;
 			margin-left:auto;
@@ -458,6 +460,8 @@ section.section_five {
 		span.testi_name {
 			text-align: center;
 			margin-left:-120px;
+			margin-top: 57px;
+			margin-bottom: 75px;
 		}
 		span.quote {
 			display: none;
@@ -466,6 +470,11 @@ section.section_five {
 			display: inline;
 		}
 	}
+	
+	.sec_five_content {
+		padding: 69px 57px 0;
+	}
+	
 	
 	
 } /* Media Query */
