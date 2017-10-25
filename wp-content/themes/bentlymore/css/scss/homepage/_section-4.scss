@@ -180,3 +180,52 @@ span.selling_points_content {
 	
 	
 } /* Media Query */
+
+
+@media screen and (max-width: 900px) {
+	
+	
+	
+	section.section_four {
+    padding: 97px 25px 6px;
+	}
+
+
+	.border_wrapper {
+		top: -20px;
+		.inner_border {
+			height: 97%;
+		}
+	}
+	
+	.selling_points_wrapper {
+		height: 541px;
+	}
+	
+	
+	span.selling_point_title {
+		margin-top: 27px;
+	}
+	    
+	    
+	span.selling_points_content {
+		font-size: 38px;
+		line-height: 48px;
+		 max-width: 505px;
+	}
+	
+	
+	.slide_inner_content {
+		 top: 49%;
+		 margin: 19px auto 0;
+	}
+	
+	.selling_point_single_slide {
+		height: 561px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
