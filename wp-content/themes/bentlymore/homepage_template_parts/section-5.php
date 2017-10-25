@@ -25,7 +25,7 @@
 			
 			<span class="quote">“</span><!-- quote -->
 			
-			<span class="testi_content">He is truly a<br/>one-of-a-kind lawyer: aggressive and confident yet compassionate.”</span><!-- test_content -->
+			<span class="testi_content"><span class="inner_quote">“</span>He is truly a<br class="mobile_break"/> one-of-a-kind lawyer: aggressive and confident yet compassionate.”</span><!-- test_content -->
 			
 			<span class="testi_name">Melinda O.</span><!-- testi_name -->
 			

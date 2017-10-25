@@ -95,8 +95,13 @@ section.section_five {
 	span.quote {
 		width:28px;
 		float:left;
-		
 	}
+	
+	span.inner_quote {
+		display: none;
+	}
+	
+	
 	span.testi_content {
 		float:left;
 		width:calc(100% - 28px);
@@ -409,6 +414,58 @@ section.section_five {
 		}
 	} 
 	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 900px) {
+	
+	
+	section.section_five {
+		padding: 53px 0;
+	}
+	
+	    
+	
+	
+	
+	.sec_five_image_container {
+		display: none;
+	}
+	
+	.testi_wrapper {
+		width:100%;
+		float:none;
+	}
+	
+	
+	.testi_content_wrapper {
+		span.testi_content {
+			text-align: center;
+			margin-left:auto;
+			margin-right:auto;
+			float:none;
+			display: block;
+			padding:0px;
+			max-width:700px;
+			width: 100%;
+			br.mobile_break {
+				display: none;
+			}
+		}
+		span.testi_name {
+			text-align: center;
+			margin-left:-120px;
+		}
+		span.quote {
+			display: none;
+		}
+		span.inner_quote {
+			display: inline;
+		}
+	}
 	
 	
 } /* Media Query */

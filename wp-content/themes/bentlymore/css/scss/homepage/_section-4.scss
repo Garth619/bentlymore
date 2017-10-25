@@ -194,7 +194,7 @@ span.selling_points_content {
 	.border_wrapper {
 		top: -20px;
 		.inner_border {
-			height: 97%;
+			height: 97.5%;
 		}
 	}
 	
@@ -224,8 +224,47 @@ span.selling_points_content {
 		height: 561px;
 	}
 	
-	
-	
+	.selling_points_bullet_wrapper {
+		 margin: 90px auto 0;
+		 max-width: 390px;
+		 .bullet_slide.slick-current {
+			 span.bullet_slide_number {
+				
+				&:after {
+					opacity: 1;
+				}
+			}
+		 }
+		.bullet_slide {
+			opacity: 1;
+			&:hover {
+				span.bullet_slide_number {
+					opacity: 1;
+				}
+			}
+			span.bullet_slide_number {
+				opacity: 1;
+				display: inline-block;
+				margin-top:0;
+				&:after {
+					content:"";
+					width:100%;
+					height:4px;
+					background: $brown;
+					display: inline-block;
+					padding:0 6px;
+					margin-left:-2px;
+					position: relative;
+					top:-4px;
+					opacity: 0;
+					transition: all .2s ease-in-out;
+				}
+			}
+			span.bullet_slide_title {
+				display: none;
+			}
+		}
+	} 
 	
 	
 } /* Media Query */
