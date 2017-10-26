@@ -174,7 +174,9 @@ section.section_five {
 	max-width:1600px;
 	overflow: hidden;
 	.col {
-		
+		.mobile_image {
+			display: none;
+		}
 		&:first-of-type {
 			float:left;
 			padding-right:0%;
@@ -424,7 +426,7 @@ section.section_five {
 	
 	
 	section.section_five {
-		padding: 53px 0;
+		padding: 53px 0 0;
 	}
 	
 	    
@@ -470,10 +472,37 @@ section.section_five {
 			display: inline;
 		}
 	}
+
+	
 	
 	.sec_five_content {
-		padding: 69px 57px 0;
+		padding: 70px 52px 0;
+		.col {
+			.mobile_image {
+				display: block;float:left;
+				width:350px;
+				max-width: 100%;
+				height:auto;
+				margin-right:20px;
+				margin-top:10px;
+				margin-bottom:30px;
+			}
+		}
 	}
+	
+	
+
+.sec_five_content {
+	blockquote {
+		margin-left: -43px;
+		font-size:44px;
+		line-height: 59px;
+		margin: 40px 0 35px -43px;
+		&:before, &:after {
+			left: -28px;
+		}
+	}
+}
 	
 	
 	

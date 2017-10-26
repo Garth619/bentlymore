@@ -50,6 +50,7 @@
 		
 		<div class="col">
 			
+			<img class="mobile_image" src="<?php bloginfo('template_directory');?>/images/img-02.jpg"/>
 			
 			<h2>Nunc bibendum molestie mauris, sed semper nisi sodales quis orci nunc conditumet.</h2>
 
