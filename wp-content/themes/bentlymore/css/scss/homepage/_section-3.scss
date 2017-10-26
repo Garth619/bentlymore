@@ -380,17 +380,19 @@ section.section_three {
 @media screen and (max-width:767px) {
 	
 	
+	section.section_three {
+		padding: 67px 22px 5px;
+	}
+	
+	
+	
+	
 	.section_three_image_wrapper {
 		margin:0;
 		img {
 			max-width: 100%;
 		}
 	} 
-	
-	
-section.section_three {
-	padding: 67px 22px 35px;
-}
 	
 	
 	.title_wrapper {
@@ -416,6 +418,30 @@ section.section_three {
 	
 	.desktop_content_wrap {
 		margin-top: 84px;
+		.blockquote_wrapper {
+			 padding: 15px 0 0px 0px;
+			 margin: 0px auto 3px;
+			.image_wrapper {
+				width:100%;
+				float:none;
+				border-bottom: none;
+				padding: 51px 0px 0;
+				img {
+					margin-left:auto;
+					margin-right:auto;
+					max-width: 158px;
+				}
+			}
+			span.text_wrapper {
+				margin-top: 15px;
+			}
+			span.text_wrapper {
+				width:100%;
+				float:none;
+				border-bottom: 1px solid #9a7537;
+				padding-bottom: 49px;
+			}
+		}
 	}
 	
 	
