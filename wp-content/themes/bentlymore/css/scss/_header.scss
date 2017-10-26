@@ -15,6 +15,12 @@ header {
 }
 
 
+
+.mobile_logo_wrapper {
+	display: none;
+}
+
+
 .logo {
 	width:100%;
 	max-width:397px;
@@ -24,10 +30,15 @@ header {
 }
 
 
+
+
 .header_right {
 	float:right;
-	display: flex;
 	margin-right:27px;
+}
+
+.header_right_inner {
+	display: flex;
 }
 
 span.free_consultation {
@@ -248,6 +259,75 @@ header {
 	}
 	
 	 
+} /* Media Query */
+
+
+@media screen and (max-width: 769px) {
+	
+	
+	header {
+		top:0;
+		left:0;
+		padding:0;
+		position: fixed;
+		z-index:100;
+	}
+	
+	
+	.logo_link {
+		display: none;
+	}
+	
+	
+	.mobile_logo_wrapper {
+		display: block;
+		background:$letterblue;
+		padding:18px;
+		text-align: center;
+		svg {
+			max-width:270px;
+		}
+	}
+	
+	
+	.header_right {
+		background: #fff;
+		width:100%;
+		float:none;
+		margin:0;
+	}
+	
+	.header_right_inner {
+		display: block;
+		text-align: center;
+		height: 47px;
+	}
+	
+	a.tel {
+		display: inline-block;
+		margin: 0px 12px 0 0px;
+		font-size:22px;
+		position: relative;
+		top:9px;
+	}
+	
+	.menu_wrapper {
+		display: inline-block;
+		margin-top: 0px;
+		position: relative;
+		top:12px;
+		width: 104px;
+	}
+	
+	
+	.banner_content {
+		font-size:58px;
+		padding:0 10px;
+		line-height: 60px;
+		//display: block;
+	}
+	
+	
 } /* Media Query */
 
 

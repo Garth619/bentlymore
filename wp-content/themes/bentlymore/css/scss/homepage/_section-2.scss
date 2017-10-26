@@ -605,3 +605,60 @@ section.section_two {
 
 	
 } /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	section.section_two {
+		.inner_section_two {
+			height:auto;
+		}
+	} 
+	
+	.settlements_wrapper {
+		width:100%;
+		float:none;
+		padding:0 28px;
+		height: 363px;
+	}
+	
+	
+	.settlement_slideshow_wrapper {
+		padding:28px 0;
+	}
+	
+	.settlement_slides {
+    padding: 29px 20px 127px;
+	}
+	
+	
+	a.view_more {
+		top:-91px;
+	}
+	
+	.news_feed {
+		margin-top: 39px;
+	}
+	    
+	
+	
+	.news_wrapper {
+		width:100%;
+		float:none;
+		padding-left: 23px;
+		padding-right: 23px;
+	}	
+	
+	
+	.single_news_wrapper {
+    padding-bottom: 77px;
+	}
+	
+	
+	section.section_two .slick-dots {
+    bottom: 11px;
+	}
+	
+	
+} /* Media Query */
