@@ -374,3 +374,83 @@ section.section_three {
 } /* Media Query */
 
 
+
+
+
+@media screen and (max-width:767px) {
+	
+	
+	.section_three_image_wrapper {
+		margin:0;
+		img {
+			max-width: 100%;
+		}
+	} 
+	
+	
+section.section_three {
+	padding: 67px 22px 35px;
+}
+	
+	
+	.title_wrapper {
+		
+		h1 {
+			font-size: 70px;
+			line-height: 75px;
+			max-width: 485px;
+			display: inline-block;
+		}
+		h2 {
+			font-size:17px;
+			line-height: 25px;
+			margin: 18px auto 40px;
+			letter-spacing: 4px;
+		}
+	} 	
+	
+	
+	.section_three_content {
+		margin-top:0;
+	}
+	
+	.desktop_content_wrap {
+		margin-top: 84px;
+	}
+	
+	
+	.section_three_image_wrapper {
+		z-index:0;
+		float:none;
+	}
+	
+	
+   .video_play_wrapper {
+	   
+	   top:-164px;
+	   
+	   z-index:5;
+	   margin-right:-22px;
+	   width: 100vw;
+	   .video_line {
+				top: 63px;
+			}
+	   .small_monitor_play_wrapper {
+		    float: none;
+				width: 100%;
+				text-align: center;
+				
+				svg {
+					float:none;
+					margin-right:auto;
+					margin-left:auto;
+					width:132px;
+				}
+	   }
+   }
+	
+	
+} /* Media Query */
+
+
+
