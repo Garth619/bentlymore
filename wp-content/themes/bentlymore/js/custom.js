@@ -94,7 +94,17 @@ jQuery(document).ready(function(){
 		slidesToShow: 3,
 		slidesToScroll: 3,
 		dots:true,
-		arrows:false
+		arrows:false,
+		responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        
+        slidesToShow: 1,
+				slidesToScroll: 1,
+      }
+    }
+  ]
 	});
 	
 	
