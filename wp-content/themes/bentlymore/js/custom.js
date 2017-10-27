@@ -109,7 +109,17 @@ jQuery(document).ready(function(){
 		asNavFor: '.selling_points_bullet_wrapper',
 		arrows:false,
 		swipe:false,
-		fade:true
+		fade:true,
+		responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        
+        swipe:true,
+        adaptiveHeight: true
+      }
+    }
+  ]
 	});
 	
 	
@@ -123,7 +133,8 @@ jQuery(document).ready(function(){
 		slide:'.bullet_slide',
 		 focusOnSelect: true,
 		asNavFor: '.selling_point_slideshow',
-		arrows:false
+		arrows:false,
+		swipe:false
 	});
 	
 	
