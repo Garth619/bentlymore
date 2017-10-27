@@ -2,9 +2,18 @@
 
 
 
-<?php get_template_part( 'loop', 'index' );?>
+<?php // get_template_part( 'loop', 'index' );?>
 
-<?php //use get_template_part( 'loop', 'page' ) if needed ?>
+<div class="main">
+	
+	<div class="inner_main">
+		
+		
+		
+	</div><!-- inner_main -->
+	
+	
+</div><!-- main -->
 
 	
 
