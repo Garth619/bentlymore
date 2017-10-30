@@ -105,6 +105,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_sidebars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_sidebars.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_slick.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -780,6 +793,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/dot.png": {
+		"ft": 32768,
+		"iS": 993,
+		"oA": 0,
+		"oAP": "\/images\/dot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

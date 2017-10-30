@@ -2,18 +2,19 @@
 
 
 
-<?php // get_template_part( 'loop', 'index' );?>
+
 
 <div class="main">
 	
 	<div class="inner_main">
 		
-		
-		<div class="sidebar"></div><!-- sidebar -->
+		<?php get_sidebar(); ?>
 		
 		<div class="inner_content content">
 			
 			<h1>Orange County Car Accident Attorneys</h1>
+			
+			<?php // get_template_part( 'loop', 'index' );?>
 			
 			<h2>Heading Style 2  - Nunc bibendum molestie mauris, sed semper nisi sodales quis orci nunc conditumet.</h2>
 			
@@ -44,6 +45,8 @@
 				<li>Vestibulum vel eleifend dolor. In laoreet ultricies tellus id mollis. Nullam in dui tincidunt, dignissim lorem ut.</li>
 			</ol>
 			
+			<p>Curabitur a mauris et nisi malesuada malesuada eu non nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id enim tempus, rutrum felis non, aliquam leo. Mauris volutpat a nulla accumsan ullamcorper. Aliquam erat tortor, congue in vestibulum sit amet, bibendum vitae lectus. Duis eleifend nisi fringilla sem pretium, non auctor metus egestas. Pellentesque vel mauris sit amet dui molestie faucibus in quis enim. Aliquam dictum at justo eu malesuada. </p>
+			
 		</div><!-- inner_content -->
 		
 		
@@ -52,8 +55,6 @@
 	
 </div><!-- main -->
 
-	
 
-<?php // get_sidebar(); ?>
 
 <?php get_footer(); ?>

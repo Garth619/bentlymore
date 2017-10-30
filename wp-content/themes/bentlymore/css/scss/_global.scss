@@ -181,6 +181,68 @@ img.aligncenter {
 }
 
 
+@media screen and (max-width: 1435px) {
+	
+	
+	
+body:not(.page-template-page-home) {
+	.content {
+		p {
+			
+		}
+		blockquote {
+			margin: 62px 0 21px 0px;
+			padding:3%;
+			&:before {
+				left: -3%;
+			}
+			&:after {
+				left: -3%;
+			}
+		}
+	}
+}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1320px) {
+	
+
+body:not(.page-template-page-home) {
+	.content {
+		h1 {
+			font-size:72px;
+			line-height: 80px;
+			margin-bottom:49px;
+		}
+		h2 {
+			margin-bottom: 29px;
+		}
+		p {
+			
+		}
+		blockquote {
+			
+			
+			
+			&:before {
+				
+			}
+			&:after {
+				
+			}
+		}
+	}
+}
+	
+	
+
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1230px) {
 	
 	.content {
@@ -192,13 +254,54 @@ img.aligncenter {
 } /* Media Query */
 
 
+@media screen and (max-width: 900px) {
+	
+	
+body:not(.page-template-page-home) {
+	.content {
+		h1 {
+			
+		}
+		h2 {
+			
+		}
+		p {
+			
+		}
+		blockquote {
+			
+			font-size:35px;
+			line-height: 50px;
+			margin: 21px 0;
+			&:before {
+				margin: 0px 0 26px 0px;
+			}
+			&:after {
+				margin: 26px 0 0 0;
+			}
+		}
+	}
+}
+	
+	
+	
+} /* Media Query */
+
+
 
 @media screen and (max-width: 767px) {
 	
-	
+	body:not(.page-template-page-home) .content h1 {
+    font-size: 38px;
+    line-height: 45px;
+   
+	}
 
 	
 	.content {
+		h1 {
+			//font-size:38px;
+		}
 		h2 {
 			font-size: 25px;
 		}

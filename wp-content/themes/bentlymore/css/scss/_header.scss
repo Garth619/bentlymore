@@ -15,6 +15,11 @@ header {
 }
 
 
+.mobile_free_consultation {
+	display: none;
+}
+
+
 
 .mobile_logo_wrapper {
 	display: none;
@@ -265,13 +270,42 @@ header {
 @media screen and (max-width: 769px) {
 	
 	
+	
+	body:not(.page-template-page-home) {
+		.mobile_free_consultation {
+			display: block;
+			a {
+				display: block;
+				width:100%;
+				text-align: center;
+				background: $brown;
+				color:#fff;
+				font-family: $actaextrabold;
+				text-transform: lowercase;
+				text-decoration: none;
+				font-size: 20px;
+				padding:17px 0;
+				letter-spacing: 1px;
+			}
+		}
+	}
+	
+	
+	
+	
+	
 	header {
 		top:0;
 		left:0;
 		padding:0;
 		position: fixed;
 		z-index:100;
+		.inner_header {
+			height: auto;
+		}
 	}
+	
+	
 	
 	
 	.logo_link {
