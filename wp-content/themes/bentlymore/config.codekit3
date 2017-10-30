@@ -79,7 +79,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/scss\/_page-default.scss": {
+	"\/css\/scss\/_inner-pages-global.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -87,7 +87,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/scss\/_page-default.css",
+		"oAP": "\/css\/scss\/_inner-pages-global.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_pa-directory.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_pa-directory.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1470,6 +1483,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-home.php",
+		"oF": 0
+		},
+	"\/page-practiceareas.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-practiceareas.php",
 		"oF": 0
 		},
 	"\/page.php": {

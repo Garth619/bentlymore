@@ -1,0 +1,171 @@
+body:not(.page-template-page-home) {
+	header {
+		.inner_header {
+			box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.35);
+		}
+	}
+}
+
+
+
+// Inner Page Default
+
+
+.main {
+	width:100%;
+	height:auto;
+	min-height: 400px;
+	margin:270px 0 158px 0;
+}
+
+
+.inner_main {
+	max-width:1640px;
+	margin:0 auto;
+	overflow: hidden;
+	padding:0 70px;
+}
+
+.inner_content {
+	margin-top:0px;
+	padding:0 0 0 100px;
+	float:left;
+	width:calc(100% - 428px);
+	
+}
+
+// One Column
+
+.one_column {
+	padding-bottom:0px;
+	h1 {
+		text-align: center;
+		
+	}
+	
+}
+
+.internal_header_wrapper {
+	padding-bottom: 30px;
+}
+
+span.internal_gold_line {
+	width:100%;
+	height:2px;
+	background: $brown;
+	display: block;
+	max-width:780px;
+	margin-left:auto;
+	margin-right:auto;
+	&:before {
+		content:"";
+		width:80%;
+		height:2px;
+		// border-top:2px dotted $darkblue;
+		
+		background-image: linear-gradient(to right, #333 40%, rgba(255, 255, 255, 0) 20%);
+		background-position: top;
+		background-size: 4px 5px;
+		background-repeat: repeat-x;
+  
+  
+  
+		display: block;
+		top:-20px;
+		position: relative;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	&:after {
+		content:"";
+		width:80%;
+		height:2px;
+		
+		background-image: linear-gradient(to right, #333 40%, rgba(255, 255, 255, 0) 20%);
+		background-position: top;
+		background-size: 4px 5px;
+		background-repeat: repeat-x;
+		
+		
+		// border-bottom:2px dotted $darkblue;
+		display: block;
+		top:19px;
+		position: relative;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+
+
+@media screen and (max-width: 1435px) {
+	
+	
+.main {
+	margin: 220px 0 48px 0;
+}
+
+
+.inner_content {
+	padding:0 0 0 0%;
+	float:none;
+	width:auto;
+}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1320px) {
+	
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 900px) {
+	
+	
+	.main {
+		margin: 159px 0 42px 0;
+	}
+	
+	.inner_main {
+		padding: 0 45px;
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+body:not(.page-template-page-home) {
+	header {
+		.inner_header {
+			box-shadow: none;
+			height: auto;
+		}
+	}
+}
+
+.inner_main {
+    padding: 0 23px;
+}
+
+.inner_content {
+	margin-top: 38px;
+}
+	
+	
+	
+} /* Media Query */
+

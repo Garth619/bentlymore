@@ -269,7 +269,6 @@ body:not(.page-template-page-home) {
 			
 		}
 		blockquote {
-			
 			font-size:35px;
 			line-height: 50px;
 			margin: 21px 0;
@@ -291,11 +290,28 @@ body:not(.page-template-page-home) {
 
 @media screen and (max-width: 767px) {
 	
-	body:not(.page-template-page-home) .content h1 {
-    font-size: 38px;
-    line-height: 45px;
-   
-	}
+	body:not(.page-template-page-home)  {
+		.content {
+			h1 {
+				font-size: 38px;
+				line-height: 45px;
+				margin-bottom:0px;
+   		}
+   		h2 {
+	   		margin-top:22px;
+   		}
+   		blockquote {
+	   		padding:0;
+	   		margin: 41px 0;
+	   		&:before {
+		   		left:0;
+	   		}
+	   		&:after {
+		   		left:0;
+	   		}
+   		}
+		}
+	} 
 
 	
 	.content {
