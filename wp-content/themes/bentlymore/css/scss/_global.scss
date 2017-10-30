@@ -68,7 +68,32 @@
 		}
 	}
 	ol {
-		margin:0 0 0 16px;
+		margin:0 0 0 0px;
+		counter-reset: my-counter;
+		list-style: none;
+		li {
+			position: relative;
+			margin-bottom:25px;
+			margin-left:20px;
+			&:before {
+				content: counter(my-counter);
+				counter-increment: my-counter;
+				position: absolute;
+				top:0;
+				left:-20px;
+				font-family: $libreblack;
+				color:$brown;
+			}
+			&:after {
+				content:")";
+				position: absolute;
+				top:-1px;
+				left:-10px;
+				display: block;
+				font-family: $libreblack;
+				color:$brown;
+			}
+		}
 	}
 	blockquote {
 		color:$brown;
