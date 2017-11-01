@@ -12,6 +12,15 @@
 }
 
 
+/*
+body:not(.page-template-default) {
+	.main {
+		margin-bottom:120px;
+	}
+}
+*/
+
+
 .inner_main {
 	max-width:1640px;
 	margin:0 auto;
@@ -25,6 +34,13 @@
 	float:left;
 	width:calc(100% - 428px);
 	
+}
+
+
+body.page-template-page-videocenter {
+	.inner_main {
+		max-width:100%;
+	}
 }
 
 // Internal Banners

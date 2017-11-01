@@ -105,6 +105,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-about.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-attorneysdirectory.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -140,6 +153,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_page-testimonials.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-videocenter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-videocenter.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1518,6 +1544,12 @@
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
+	"\/page-aboutus.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-aboutus.php",
+		"oF": 0
+		},
 	"\/page-attorneysdirectory.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1546,6 +1578,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-testimonials.php",
+		"oF": 0
+		},
+	"\/page-videocenter.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-videocenter.php",
 		"oF": 0
 		},
 	"\/page.php": {
