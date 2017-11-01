@@ -148,6 +148,30 @@ jQuery(document).ready(function(){
 	});
 	
 	
+	
+	
+	// Case Results
+	
+
+	
+	$('.int_single_case_results').on('mouseenter', function(e) {
+	  
+	  $(this).find('.int_case_hover').addClass('open');
+	  
+	  $(this).find('.int_case_content').addClass('hide');
+	  
+	});
+	
+	
+	
+	$('.int_single_case_results').on('mouseleave', function(e) {
+	  
+	  $(this).find('.int_case_hover').removeClass('open');
+	   $(this).find('.int_case_content').removeClass('hide');
+	  
+	});
+	
+	
 
 
 
