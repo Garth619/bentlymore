@@ -172,6 +172,47 @@ jQuery(document).ready(function(){
 	});
 	
 	
+	
+	
+	
+	
+function checkWidth() {
+    
+    if (jQuery(window).width() < 970) {
+        
+      
+    		$('body').addClass('garrrrrett-mobile');
+    	   		
+    		
+    } else {
+		
+				$('body').addClass('garrrrrett-desktop');
+		
+    }
+};
+	
+
+checkWidth();
+	
+	
+	
+	  /* Resize Functions
+     --------------------------------------------------------------------------------------- */
+    var resizeTimer;
+    
+    
+    jQuery(window).on('resize', function() {
+
+        clearTimeout(resizeTimer)
+
+        resizeTimer = setTimeout(function() {
+            
+            checkWidth();
+        }, 500)
+
+    })
+	
+	
 
 
 
