@@ -1,0 +1,115 @@
+.int_case_results_wrapper {
+	margin:58px auto 0;
+	max-width:1475px;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+}
+
+.int_single_case_results {
+	width:31%;
+	float:left;
+	position: relative;
+	padding:40px 0;
+	text-align: center;
+	margin-right:3.5%;
+	margin-bottom:60px;
+	&:nth-of-type(3n + 3) {
+		margin-right:0%;
+	}
+}
+
+.int_single_case_border {
+	border:1px solid $brown;
+	position: relative;
+	z-index:5;
+	padding:100px 0 88px 0;
+}
+
+.int_case_content {
+	opacity: 0;
+	visibility: hidden;
+}
+
+
+.int_case_bg_wrapper {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	padding:0 25px;
+	.int_case_bg_wrapper_inner {
+		background: $off_white_two;
+		width:100%;
+		height:100%;
+	}
+}
+
+.int_case_hover {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	padding:0 25px;
+	z-index: 1;
+	.int_case_hover_inner {
+		width:100%;
+		height:100%;
+		background: $lightblue_one;
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+	}
+}
+
+
+
+
+span.int_case_amount {
+	font-size: 85px;
+	font-family:$actabold;
+	color:$lightblue_one;
+}
+
+span.int_case_line {
+	width:55px;
+	height:1px;
+	background: $brown;
+	display: block;
+	margin:30px auto 0;
+}
+
+span.int_case_type {
+	text-transform: uppercase;
+	color:$brown;
+	font-family:$libreblack;
+	font-size: 14px;
+	letter-spacing: 7.5px;
+	display: block;
+	margin:38px 0 20px;
+}
+
+
+span.int_result {
+	text-transform: lowercase;
+	font-family: $actabolditalic;
+	font-size: 20px;
+	color:$lightblue_one;
+	letter-spacing: 2px;
+}
+
+
+.int_case_hover_inner.content {
+	color:#fff;
+	p {
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+}
+
+
