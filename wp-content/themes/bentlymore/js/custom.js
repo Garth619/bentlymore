@@ -203,7 +203,7 @@ function checkWidth() {
 checkWidth();
 	
 	
-/*
+
 	
     var resizeTimer;
     
@@ -215,11 +215,11 @@ checkWidth();
         resizeTimer = setTimeout(function() {
             
             checkWidth();
-        }, 500)
+        }, 200)
 
     })
 	
-*/
+
 
 	
 

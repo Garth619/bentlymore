@@ -1,4 +1,4 @@
-
+<div class="sidebar_wrapper">
 		
 <div class="sidebar">
 	
@@ -22,6 +22,6 @@
 </div><!-- sidebar -->
 
 
-
+</div><!-- sidebar_wrapper -->
 
 	<?php // dynamic_sidebar( 'sidebar' ); ?>

@@ -1,0 +1,48 @@
+body.page-template-page-bio {
+	.content {
+		h1 {
+			 margin-bottom: 15px;
+		}
+	}
+}
+
+
+   
+
+
+span.bio_sub_title {
+	display: inline-block;
+	margin:0 auto;
+	text-transform: uppercase;
+	color: $brown;
+	text-transform: uppercase;
+	font-family: $libreblack;
+	font-size:18px;
+	letter-spacing: 8.5px;
+	margin:0px 0 63px;
+}
+
+
+.att_bio_wrapper {
+	margin-top:90px;
+}
+
+
+
+body.page-template-page-bio {
+	.inner_content {
+		padding: 0 0 0 129px;
+	}
+}
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	body.page-template-page-bio {
+	.inner_content {
+		padding: 0 0 0 0px;
+	}
+}
+	
+} /* Media Query */
