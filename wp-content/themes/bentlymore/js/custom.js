@@ -154,13 +154,26 @@ jQuery(document).ready(function(){
 	
 
 	
-	$('.int_single_case_results').on('mouseenter', function(e) {
+
+	
+
+	
+	
+	
+
+	
+function checkWidth() {
+    
+    if (jQuery(window).width() > 970) {
+        
+      
+    			$('.int_single_case_results').on('mouseenter', function(e) {
 	  
-	  $(this).find('.int_case_hover').addClass('open');
+					$(this).find('.int_case_hover').addClass('open');
 	  
-	  $(this).find('.int_case_content').addClass('hide');
+					$(this).find('.int_case_content').addClass('hide');
 	  
-	});
+		});
 	
 	
 	
@@ -170,23 +183,18 @@ jQuery(document).ready(function(){
 	   $(this).find('.int_case_content').removeClass('hide');
 	  
 	});
-	
-	
-	
-	
-	
-	
-function checkWidth() {
-    
-    if (jQuery(window).width() < 970) {
-        
-      
-    		$('body').addClass('garrrrrett-mobile');
     	   		
     		
     } else {
 		
-				$('body').addClass('garrrrrett-desktop');
+					
+	$('.int_single_case_results').on('click', function(e) {
+	  
+		$(this).find('.int_case_hover').toggleClass('open');
+		$(this).find('.tri').toggleClass('open');
+	
+	});
+
 		
     }
 };
@@ -195,9 +203,8 @@ function checkWidth() {
 checkWidth();
 	
 	
+/*
 	
-	  /* Resize Functions
-     --------------------------------------------------------------------------------------- */
     var resizeTimer;
     
     
@@ -212,6 +219,8 @@ checkWidth();
 
     })
 	
+*/
+
 	
 
 

@@ -60,6 +60,8 @@ get_header(); ?>
 									</div><!-- int_case_hover_inner -->
 									
 							</div><!-- int_case_hover -->
+							
+							<div class="tri"></div><!-- tri -->
 						
 					</div><!-- int_single_case_results -->
 					
