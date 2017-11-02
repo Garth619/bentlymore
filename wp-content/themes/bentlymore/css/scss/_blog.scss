@@ -1,0 +1,17 @@
+.single_post {
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+}
+
+.single_post_img {
+	width:40%;
+	float:left;
+}
+
+.single_post_content {
+	width:60%;
+	float:left;
+}

@@ -27,6 +27,19 @@
 		"oAP": "\/category.php",
 		"oF": 0
 		},
+	"\/css\/scss\/_blog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_blog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1171,6 +1184,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/post-image.png": {
+		"ft": 32768,
+		"iS": 1793,
+		"oA": 0,
+		"oAP": "\/images\/post-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/profile-clare.jpg": {
 		"ft": 16384,
 		"iS": 223423,
@@ -1588,6 +1612,12 @@
 		"oAP": "\/page-bio.php",
 		"oF": 0
 		},
+	"\/page-blog.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-blog.php",
+		"oF": 0
+		},
 	"\/page-caseresults.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1651,6 +1681,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sidebar-bio.php",
+		"oF": 0
+		},
+	"\/sidebar-blog.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sidebar-blog.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {

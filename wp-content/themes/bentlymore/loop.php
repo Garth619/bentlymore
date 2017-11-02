@@ -18,9 +18,26 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-	<?php the_content();?>
+	
+	<div class="single_post">
+		
+		<div class="single_post_img">
 			
-		<?php edit_post_link( __( 'Edit'), '', '' ); ?>
+			<img src="<?php bloginfo('template_directory');?>/images/post-image.png"/>
+			
+		</div><!-- single_post_img -->
+		
+		<div class="single_post_content">
+		
+			<h2><?php the_title();?></h2>
+	
+			<?php echo wp_trim_words( get_the_content(), 32, '...' );?>
+			
+			<?php edit_post_link( __( 'Edit'), '', '' ); ?>
+		
+		</div><!-- single_post_content -->
+		
+	</div><!-- single_post -->
 			
 		
 <?php endwhile; // end of loop ?>

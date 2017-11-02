@@ -38,6 +38,21 @@ body:not(.page-template-default) {
 }
 
 
+body.blog {
+	.inner_content {
+		padding-left:50px;
+	}
+	.content {
+		h2 {
+			margin-top:0;
+		}
+	}
+	.sidebar_wrapper {
+		margin-top:0;
+	}
+}
+
+
 body.page-template-page-videocenter {
 	.inner_main {
 		max-width:100%;
