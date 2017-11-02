@@ -1,4 +1,4 @@
-<div class="sidebar_wrapper">
+<div class="sidebar_wrapper sidebar_bio_wrapper">
 	
 	<img src="<?php bloginfo('template_directory');?>/images/profile-greg.jpg"/>
 		

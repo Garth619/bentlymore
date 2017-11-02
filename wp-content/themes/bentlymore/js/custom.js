@@ -151,18 +151,8 @@ jQuery(document).ready(function(){
 	
 	
 	// Case Results
-	
 
-	
-
-	
-
-	
-	
-	
-
-	
-function checkWidth() {
+	function checkWidth() {
     
     if (jQuery(window).width() > 970) {
         
@@ -222,6 +212,22 @@ checkWidth();
 
 
 	
+	// Bios
+	
+
+	
+	
+	$('.view_landmark_cases').on('click', function(e) {
+	  
+		$(this).fadeOut(200);
+		
+		$('.bio_slide_wrapper').addClass('open');
+		
+		
+		$('.inner_content').addClass('adjust');
+	
+	
+	});
 
 
 

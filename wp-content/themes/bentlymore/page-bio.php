@@ -54,6 +54,14 @@ get_header(); ?>
 <p>Other leadership positions include President of the Riverside/San Bernardino ABOTA Chapter in 2015, CAL ABOTA Board 2014-2016, and President of the Consumer Attorneys of the Inland Empire from 2009-2012. Mr. Bentley has been recognized as a Super Lawyer by the Los Angeles Magazine (2010-2017) and a Top 100 Trial Lawyer in the State of California by The National Trial Lawyers Association (2011-2017).</p>
 
 
+<div class="view_landmark_cases">
+	
+	<span>View Landmark Cases</span>
+	
+</div><!-- view_landmark_cases -->
+
+<div class="bio_slide_wrapper">
+
 <h2>Mr. Bentley’s courtroom success is highlighted by:</h2>
 <ol> 
 <li>July 2012 $31.5 million jury verdict against Caltrans and a left-turning driver on behalf of a Los Angeles County prosecutor who suffered catastrophic brain and spinal cord injuries as a result of an accident on SR 138. (Evans v. Caltrans, et. al. – Victorville Daily Press article)</li>
@@ -67,6 +75,10 @@ get_header(); ?>
 <li>Mr. Bentley was lead counsel on behalf of 11 clients (2 adult church leaders and 9 high school students) involved in a tragic head-on collision on Highway 395, resulting in 4 deaths and major injuries to the survivors. Due to his litigation efforts, Mr. Bentley was able to uncover numerous Caltrans memorandums dating back to 1965 confirming Caltrans’ knowledge of the dangerous propensities of a 6” Type A dike along State highways, which caused wayward vehicles to violently “launch” back into oncoming traffic. This complex case resulted in 60 depositions, the production of thousands of documents and extensive expert workup. The matter settled against multiple defendants for an amount in excess of $20 million.  </li>
 <li>A staunch advocate for patient’s rights, Mr. Bentley took on a major HMO representing over 90 patients who lost kidney transplant opportunities following the forced transfer of their care for cost saving purposes. The litigation efforts resulted in a $17 million settlement and the transfer of all patient care back to qualified hospitals.</li>
 <ol>
+	
+	
+	
+	</div><!-- bio_slide_wrapper -->
 			
 		</div><!-- inner_content -->	
 					
