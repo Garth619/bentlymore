@@ -24,7 +24,9 @@
 						
 						<?php get_template_part( 'loop', 'index' );?>
 			
-					
+						<?php wpbeginner_numeric_posts_nav(); ?>
+							
+							
 					</div><!-- inner_content -->	
 					
 					
@@ -39,7 +41,7 @@
 	
 </div><!-- main -->
 
-<?php wpbeginner_numeric_posts_nav(); ?>
+
 
 
 <?php get_footer(); ?>

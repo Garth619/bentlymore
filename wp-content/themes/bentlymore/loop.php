@@ -61,6 +61,7 @@
 
 
 
+<!--
 <?php if (  $wp_query->max_num_pages > 1 ) : ?>
 	
 	<div id="nav-below" class="navigation">
@@ -69,7 +70,8 @@
 			
 		<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>') ); ?></div>
 	
-	</div><!-- #nav-below -->
+	</div>
 
 <?php endif; ?>
+-->
 

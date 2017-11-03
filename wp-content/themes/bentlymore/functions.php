@@ -169,7 +169,7 @@ function cc_mime_types($mimes)
 add_filter('upload_mimes', 'cc_mime_types');
 
 
-// http://www.wpbeginner.com/wp-themes/how-to-add-numeric-pagination-in-your-wordpress-theme/
+
 
 
 function wpbeginner_numeric_posts_nav() {
@@ -201,11 +201,11 @@ function wpbeginner_numeric_posts_nav() {
         $links[] = $paged + 1;
     }
  
-    echo '<div class="navigation"><ul>' . "\n";
+    echo '<div class="post_pagination"><ul>' . "\n";
  
     /** Previous Post Link */
     if ( get_previous_posts_link() )
-        printf( '<li>%s</li>' . "\n", get_previous_posts_link() );
+        printf( '<li class="previous">%s</li>' . "\n", get_previous_posts_link('Older') );
  
     /** Link to first page, plus ellipses if necessary */
     if ( ! in_array( 1, $links ) ) {
@@ -235,7 +235,7 @@ function wpbeginner_numeric_posts_nav() {
  
     /** Next Post Link */
     if ( get_next_posts_link() )
-        printf( '<li>%s</li>' . "\n", get_next_posts_link() );
+        printf( '<li class="next">%s</li>' . "\n", get_next_posts_link('Newer') );
  
     echo '</ul></div>' . "\n";
  
