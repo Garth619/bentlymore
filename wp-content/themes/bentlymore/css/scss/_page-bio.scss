@@ -38,6 +38,10 @@ body.page-template-page-bio {
 	}
 }
 
+.view_landmark_cases {
+	display: none;
+}
+
 
 @media screen and (max-width: 1450px) {
 	
@@ -198,7 +202,7 @@ body.page-template-page-bio {
 	background: $brown;
 	color:#fff;
 	width:100vw;
-	
+	display: block;
 
 	text-align: center;
 	text-transform: lowercase;

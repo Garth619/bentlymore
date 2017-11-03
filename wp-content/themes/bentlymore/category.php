@@ -1,25 +1,54 @@
+
 <?php get_header(); ?>
 
-
-
-				<h1 class="page-title"><?php
-					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
-				?></h1>
+<div class="main">
+	
+	<div class="inner_main">
+		
+		<div class="one_column">
+			
+			<div class="internal_header_wrapper content">
 				
-				
-				<?php
-					$category_description = category_description();
-					if ( ! empty( $category_description ) )
-						echo '<div class="archive-meta">' . $category_description . '</div>';
-
-				/*
-				
-				 * include a file called loop-category.php and that will be used instead.
-				 */
-				get_template_part( 'loop', 'category' );
+				<h1>
+					<?php
+					printf( __( '%s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 				?>
+				</h1>
+				
+				<span class="internal_gold_line"></span><!-- internal_line -->
+				
+				</div><!-- internal_header_wrapper -->
+				
+				
+				<div class="blog_wrapper">
+					
+					<?php get_sidebar('blog'); ?>
+					
+					<div class="inner_content content">
+			
+						
+						<?php get_template_part( 'loop', 'index' );?>
+			
+					
+					</div><!-- inner_content -->	
+					
+					
+				</div><!-- blog_wrapper -->			
+					
+		
+		</div><!-- one_column -->
+		
+		
+	</div><!-- inner_main -->
+	
+	
+</div><!-- main -->
+
+
+
+<?php get_footer(); ?>
+
+
 
 		
 
-<?php // get_sidebar(); ?>
-<?php get_footer(); ?>

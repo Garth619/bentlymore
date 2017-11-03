@@ -26,39 +26,7 @@ get_header(); ?>
 					<div class="inner_pa_border_wrapper">
 						
 						
-						<ul>
-							
-							
-							<li><a href="">Rollover</a></li>
-							<li><a href="">Practice Areas  This is a Practice Areas</a></li>
-							<li><a href="">Practice Areas  This is a Practice Areas</a></li>
-							<li><a href="">Practice Areas  This is a Practice Areas</a></li>
-							<li><a href="">This is a Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							
-							<li><a href="">Practice Areas Test</a></li>
-							<li><a href="">Practice Areas Test</a></li>
-							<li><a href="">Practice Areas Test</a></li>
-							<li><a href="">Practice Areas Test</a></li>
-							<li><a href="">Practice Areas Test</a></li>
-							<li><a href="">Practice Areas Test</a></li>
-							<li><a href="">Practice Areas Test</a></li>
-							
-							
-							
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							
-							<li><a href="">Practice Areas</a></li>
-							
-							
-						</ul>
+						<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'practicearea_menu' ) ); ?>
 						
 						
 					</div><!-- inner_pa_border_wrapper -->

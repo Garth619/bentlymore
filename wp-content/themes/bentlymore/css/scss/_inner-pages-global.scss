@@ -1,6 +1,4 @@
 
-
-
 // Inner Page Default
 
 
@@ -34,11 +32,10 @@ body:not(.page-template-default) {
 	float:left;
 	width:calc(100% - 428px);
 	position: relative;
-	
 }
 
 
-body.blog {
+body.blog, body.archive {
 	.inner_content {
 		padding-left:50px;
 		margin-top:50px;
@@ -167,7 +164,7 @@ span.internal_gold_line {
 }
 
 
-body.blog {
+body.blog, body.archive {
 	.inner_content {
 		float:left;
 		width: calc(100% - 511px);
@@ -229,7 +226,7 @@ body.single {
 	}
 	
 	
-body.blog {
+body.blog, body.archive {
 	.inner_content {
 		float:none;
 		width:100%;
@@ -288,7 +285,7 @@ body:not(.page-template-page-home) {
 }
 
 
-body.blog {
+body.blog, body.archive {
 	.inner_content {
 		margin-top:0;
 	}

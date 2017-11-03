@@ -4,17 +4,7 @@
 	
 	<div class="inner_sidebar">
 		
-		<ul>
-			<li><a href="">Practice Areas</a></li>
-			<li><a href="">Practice Areas</a></li>
-			<li><a href="">Practice Areas</a></li>
-			<li><a href="">Practice Areas</a></li>
-			<li><a href="">Practice Areas</a></li>
-			<li><a href="">Practice Areas</a></li>
-			<li><a href="">Practice Areas</a></li>
-		</ul>
-		
-		
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'practicearea_menu' ) ); ?>
 		
 	</div><!-- inner_sidebar -->
 	

@@ -39,6 +39,7 @@
 	
 </div><!-- main -->
 
+<?php wpbeginner_numeric_posts_nav(); ?>
 
 
 <?php get_footer(); ?>

@@ -52,6 +52,7 @@ get_header(); ?>
 				<div class="about_wrapper">
 					
 					
+					<?php get_template_part( 'loop', 'page' );?>
 					
 					
 				</div><!-- about_wrapper -->

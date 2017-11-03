@@ -23,148 +23,44 @@ get_header(); ?>
 				<div class="internal_attorneys_wrapper">
 					
 					
-					<div class="single_attorney_wrapper">
+					<?php $posts = get_field('attorney_grid');
+					
+					if( $posts ): ?>
+					    
+					    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+					        <?php setup_postdata($post); ?>
+					        
+       
+					        		
+					 <div class="single_attorney_wrapper">
 						
-						<a class="" href="">
+						<a class="" href="<?php the_permalink();?>">
 						
 						<div class="inner_attorney_wrapper">
 						
-							<img src="<?php bloginfo('template_directory');?>/images/profile-greg.jpg"/>
+							<img src="<?php the_field( 'profile_image' ); ?>"/>
 							
 							<span class="view_profile">View Profile</span><!-- view_profile -->
 						
 						</div><!-- inner_attorney_wrapper -->
 						
-						<span class="large_header">Greg Bently</span><!-- large_header -->
+						<span class="large_header"><?php the_title();?></span><!-- large_header -->
 						
-						<span class="sub_header">Partner</span>
-						
-						</a>
-						
-					</div><!-- single_attorney_wrapper -->
-					
-					
-					<div class="single_attorney_wrapper">
-						
-						<a class="" href="">
-						
-						<div class="inner_attorney_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/profile-greg.jpg"/>
-							
-							<span class="view_profile">View Profile</span><!-- view_profile -->
-						
-						</div><!-- inner_attorney_wrapper -->
-						
-						<span class="large_header">Greg Bently</span><!-- large_header -->
-						
-						<span class="sub_header">Partner</span>
+						<span class="sub_header"><?php the_field( 'position' ); ?></span>
 						
 						</a>
 						
 					</div><!-- single_attorney_wrapper -->
+					        
+					           
+					        
+					    <?php endforeach; ?>
+					    
+					    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+					<?php endif; ?>
 					
 					
-					<div class="single_attorney_wrapper">
-						
-						<a class="" href="">
-						
-						<div class="inner_attorney_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/profile-greg.jpg"/>
-							
-							<span class="view_profile">View Profile</span><!-- view_profile -->
-						
-						</div><!-- inner_attorney_wrapper -->
-						
-						<span class="large_header">Greg Bently</span><!-- large_header -->
-						
-						<span class="sub_header">Partner</span>
-						
-						</a>
-						
-					</div><!-- single_attorney_wrapper -->
 					
-					
-					<div class="single_attorney_wrapper">
-						
-						<a class="" href="">
-						
-						<div class="inner_attorney_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/profile-greg.jpg"/>
-							
-							<span class="view_profile">View Profile</span><!-- view_profile -->
-						
-						</div><!-- inner_attorney_wrapper -->
-						
-						<span class="large_header">Greg Bently</span><!-- large_header -->
-						
-						<span class="sub_header">Partner</span>
-						
-						</a>
-						
-					</div><!-- single_attorney_wrapper -->
-					
-					<div class="single_attorney_wrapper">
-						
-						<a class="" href="">
-						
-						<div class="inner_attorney_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/profile-greg.jpg"/>
-							
-							<span class="view_profile">View Profile</span><!-- view_profile -->
-						
-						</div><!-- inner_attorney_wrapper -->
-						
-						<span class="large_header">Greg Bently</span><!-- large_header -->
-						
-						<span class="sub_header">Partner</span>
-						
-						</a>
-						
-					</div><!-- single_attorney_wrapper -->
-					
-					<div class="single_attorney_wrapper">
-						
-						<a class="" href="">
-						
-						<div class="inner_attorney_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/profile-greg.jpg"/>
-							
-							<span class="view_profile">View Profile</span><!-- view_profile -->
-						
-						</div><!-- inner_attorney_wrapper -->
-						
-						<span class="large_header">Greg Bently</span><!-- large_header -->
-						
-						<span class="sub_header">Partner</span>
-						
-						</a>
-						
-					</div><!-- single_attorney_wrapper -->
-					
-					<div class="single_attorney_wrapper">
-						
-						<a class="" href="">
-						
-						<div class="inner_attorney_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/profile-greg.jpg"/>
-							
-							<span class="view_profile">View Profile</span><!-- view_profile -->
-						
-						</div><!-- inner_attorney_wrapper -->
-						
-						<span class="large_header">Greg Bently</span><!-- large_header -->
-						
-						<span class="sub_header">Partner</span>
-						
-						</a>
-						
-					</div><!-- single_attorney_wrapper -->
 					
 					
 				</div><!-- attorneys_wrapper -->		
