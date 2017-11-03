@@ -13,8 +13,14 @@
                 	
     
     	<li>
-    		<span class="recent_post_date" href=""><?php $pfx_datetwo = get_the_date(); echo $pfx_datetwo; ?></span>
-    		<a class="recent_post_link" href="<?php the_permalink();?>"><?php the_title();?></a>
+    		
+    		<a class="recent_post_bullet" href="<?php the_permalink();?>">
+    		
+    			<span class="recent_post_date"><?php $pfx_datetwo = get_the_date(); echo $pfx_datetwo; ?></span>
+					<span class="recent_post_link"><?php the_title();?></span>
+    		
+    		</a><!-- recent_post_bullet -->
+    	
     	</li>
     
     

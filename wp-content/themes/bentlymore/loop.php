@@ -40,11 +40,15 @@
 				
 			</div><!-- post_info -->
 	
-			<?php echo wp_trim_words( get_the_content(), 32, '...' );?>
+			<div class="excerpt">
 			
-			<?php edit_post_link( __( 'Edit'), '', '' ); ?>
+				<?php echo wp_trim_words( get_the_content(), 32, '...' );?>
+			
+				<?php edit_post_link( __( 'Edit'), '', '' ); ?>
 			
 			<a class="read_more" href="">Read More</a><!-- Read More -->
+			
+			</div><!-- excerpt -->
 		
 		</div><!-- single_post_content -->
 		

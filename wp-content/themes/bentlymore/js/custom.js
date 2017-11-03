@@ -28,7 +28,7 @@ jQuery(document).ready(function(){
 
 	$('ul#menu-top-nav > li.menu-item-has-children > a').on('click', function(e) {
 	  
-	  event.preventDefault();
+	  // event.preventDefault();
 	  
 	  $(this).next('ul.sub-menu').toggleClass('open');
 	  

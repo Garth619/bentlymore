@@ -1,8 +1,4 @@
-<?php
-	
-/* Template Name: Case Results */	
-	
-get_header(); ?>
+<?php get_header(); ?>
 
 <div class="main">
 	

@@ -91,9 +91,13 @@
 		}
 }
 
+.content {
+	a.recent_post_bullet {
+		transition:none;
+	}
+}
 
-
-span.recent_post_date, a.recent_post_link {
+span.recent_post_date, span.recent_post_link {
 	font-size: 14px;
 	line-height: 22px;
 } 
@@ -103,9 +107,12 @@ span.recent_post_date {
 	display: block;
 }
 
-a.recent_post_link {
+span.recent_post_link {
 	text-transform: none;
 	letter-spacing: 0.5px;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 span.sidebar_title {
@@ -126,6 +133,11 @@ span.sidebar_title {
 		float:left;
 		margin-top:0px;
 		margin-right:5%;
+	}
+	
+	
+	.sidebar_wrapper.sidebar_blog_wrapper {
+		float:left;
 	}
 	
 	
