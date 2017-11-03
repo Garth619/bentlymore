@@ -29,11 +29,22 @@
 		
 		<div class="single_post_content">
 		
-			<h2><?php the_title();?></h2>
+			<h2><a class="post_link" href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+			
+			<div class="post_info">
+				
+				<span class="date"><?php $pfx_date = get_the_date(); echo $pfx_date; ?></span>
+				<span class="user">Bently & More LLP</span>
+				
+				<?php echo get_the_category_list();?>
+				
+			</div><!-- post_info -->
 	
 			<?php echo wp_trim_words( get_the_content(), 32, '...' );?>
 			
 			<?php edit_post_link( __( 'Edit'), '', '' ); ?>
+			
+			<a class="read_more" href="">Read More</a><!-- Read More -->
 		
 		</div><!-- single_post_content -->
 		

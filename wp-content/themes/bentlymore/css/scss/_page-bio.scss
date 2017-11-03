@@ -23,6 +23,11 @@ span.bio_sub_title {
 
 .att_bio_wrapper {
 	margin-top:90px;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
 }
 
 

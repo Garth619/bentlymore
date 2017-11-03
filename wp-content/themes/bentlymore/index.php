@@ -19,19 +19,20 @@ get_header(); ?>
 				</div><!-- internal_header_wrapper -->
 				
 				
-				<div class="att_bio_wrapper">
+				<div class="blog_wrapper">
 					
 					<?php get_sidebar('blog'); ?>
 					
 					<div class="inner_content content">
 			
+						
 						<?php get_template_part( 'loop', 'index' );?>
 			
 					
 					</div><!-- inner_content -->	
 					
 					
-				</div><!-- att_bio_wrapper -->			
+				</div><!-- blog_wrapper -->			
 					
 		
 		</div><!-- one_column -->

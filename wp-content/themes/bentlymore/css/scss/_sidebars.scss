@@ -50,6 +50,7 @@
 
 .sidebar.sidebar_bio {
 	.inner_sidebar {
+		
 		ul {
 			li {
 				text-transform: none;
@@ -70,6 +71,51 @@
 			}
 		}
 	}
+}
+
+
+.sidebar.sidebar_blog {
+	margin-bottom:70px;
+	&:first-of-type {
+		.inner_sidebar {
+			ul {
+				margin: 54px 55px;
+				li {
+					margin-bottom: 36px;
+				}
+			}
+		}
+	}
+	h3 {
+			display: none;
+		}
+}
+
+
+
+span.recent_post_date, a.recent_post_link {
+	font-size: 14px;
+	line-height: 22px;
+} 
+
+span.recent_post_date {
+	color:$brown;
+	display: block;
+}
+
+a.recent_post_link {
+	text-transform: none;
+	letter-spacing: 0.5px;
+}
+
+span.sidebar_title {
+	font-size:30px;
+	color:$darkblue;
+	font-family: $actabold;
+	text-transform: lowercase;
+	margin-bottom:17px;
+	display: block;
+	letter-spacing: 0.7px;
 }
 
 
