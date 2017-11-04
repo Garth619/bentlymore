@@ -167,7 +167,7 @@ span.internal_gold_line {
 body.blog, body.archive {
 	.inner_content {
 		float:left;
-		width: calc(100% - 511px);
+		width: calc(100% - 478px);
 		padding-left:0;
 	}
 }
@@ -207,6 +207,21 @@ body.single {
 	
 	
 	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1230px) {
+	
+	
+	
+	body.blog, body.archive {
+	.inner_content {
+		width: calc(100% - 410px);
+	}
+}
 	
 	
 	
@@ -256,6 +271,8 @@ body.blog, body.archive {
 
 	}
 }
+
+
 
 	
 	

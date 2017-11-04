@@ -23,6 +23,8 @@
 			
 						
 						<?php get_template_part( 'loop', 'single' ) ?>
+						
+						<?php wpbeginner_numeric_posts_nav(); ?>
 			
 					
 					</div><!-- inner_content -->	

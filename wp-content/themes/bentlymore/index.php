@@ -21,8 +21,11 @@
 					
 					<div class="inner_content content">
 			
+						<div class="single_wrapper">
 						
-						<?php get_template_part( 'loop', 'index' );?>
+							<?php get_template_part( 'loop', 'index' );?>
+					
+						</div><!-- single_wrapper -->
 			
 						<?php wpbeginner_numeric_posts_nav(); ?>
 							

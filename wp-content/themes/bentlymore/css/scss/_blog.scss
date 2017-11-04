@@ -14,8 +14,9 @@
 		display: block;
 	}
 	&:last-of-type {
-		// background: red;
 		border: none;
+		margin-bottom:0;
+		padding-bottom:0;
 	}
 }
 
@@ -123,6 +124,7 @@ a.read_more {
 .content {
 
 .post_pagination {
+	margin: 140px 0 0 0;
 	ul {
 		list-style: none;
 		
@@ -136,6 +138,7 @@ a.read_more {
 			margin:0 10px;
 			width:35px;
 			text-align: center;
+			padding:0px 0 ;
 			a {
 				color:$darkblue;
 				position: relative;
@@ -147,10 +150,10 @@ a.read_more {
 						content:"";
 						width:100%;
 						display: block;
-						height:3px;
+						height:4px;
 						background: $brown;
 						position: absolute;
-						top:0;
+						top:-5px;
 						left:0;
 					}
 				}
@@ -162,6 +165,13 @@ a.read_more {
 			font-size: 12px;
 			letter-spacing: 4px;
 			width:auto;
+			top:-5px;
+			position: relative;
+			a {
+				&:before {
+					display: none;
+				}
+			}
 			&:hover {
 				text-decoration: underline;
 				
@@ -182,10 +192,10 @@ a.read_more {
 						content:"";
 						width:100%;
 						display: block;
-						height:3px;
+						height:4px;
 						background: $brown;
 						position: absolute;
-						top:0;
+						top:-5px;
 						left:0;
 					}
 			}
@@ -203,8 +213,8 @@ a.read_more {
 .single_post {
 	display: flex;
 	flex-direction: column;
-	padding-bottom:90px;
-	margin-bottom:80px;
+	padding-bottom:60px;
+	margin-bottom:40px;
 }
 
 
@@ -225,6 +235,18 @@ a.read_more {
 	padding-left:0;
 	order:1;
 }
+
+
+.content {
+
+.post_pagination {
+	margin-top:70px;
+}
+
+}
+
+
+
 	
 	
 	
@@ -249,25 +271,17 @@ a.read_more {
 }
 
 
-/*
-.single_post_img {
-	width:33%;
-	float:left;
-	margin-top:0px;
-	
-	img {
-		
+.content {
+	.post_pagination {
+		text-align: center;
+		margin:39px auto 0;
+		ul {
+			margin-bottom:0;
+		}
 	}
 }
 
 
-.single_post_content {
-	width:66%;
-	float:left;
-	padding-left:30px;
-
-}
-*/
 
 	
 	

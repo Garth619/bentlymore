@@ -27,7 +27,15 @@
 					<div class="inner_content content">
 			
 						
-						<?php get_template_part( 'loop', 'index' );?>
+						<div class="single_wrapper">
+						
+							<?php get_template_part( 'loop', 'index' );?>
+					
+						</div><!-- single_wrapper -->
+						
+						
+						
+						<?php wpbeginner_numeric_posts_nav(); ?>
 			
 					
 					</div><!-- inner_content -->	
