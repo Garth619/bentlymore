@@ -1,4 +1,4 @@
-<section class="section_two">
+<section id="sec_two" class="section_two">
 	
 	<div class="inner_section_two">
 	

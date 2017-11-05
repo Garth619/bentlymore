@@ -1,11 +1,11 @@
-footer {
+footer, .overlay_form {
 	background: $lightblue_one;
 	width:100%;
 	padding:110px;
 	clear:both;
 }
 
-.inner_footer {
+.inner_footer, .inner_overlay_form {
 	width:100%;
 	border:1px solid #c19345;
 	text-align: center;
@@ -322,7 +322,7 @@ a.ilawyer {
 @media screen and (max-width: 1605px) {
 	
 	
-	footer {
+	footer, .overlay_form {
     padding: 67px 65px;
   }
   
@@ -349,7 +349,7 @@ a.ilawyer {
 	
 	
   
-  .inner_footer {
+  .inner_footer, .inner_overlay_form {
 	  padding-left: 61px;
 	   padding-right: 61px;
   }
@@ -360,7 +360,7 @@ a.ilawyer {
 @media screen and (max-width: 1230px) {
 	
 	
-	.inner_footer {
+	.inner_footer, .inner_overlay_form {
 		span.sub_header {
 			margin: 72px 0 30px;
 		}
@@ -455,7 +455,7 @@ a.ilawyer {
 	
 	
 	
-	footer {
+	footer, .overlay_form {
 		padding: 46px;
 	}
 	
@@ -463,7 +463,7 @@ a.ilawyer {
     width: 95px;
    }
    
-   .inner_footer {
+   .inner_footer, .inner_overlay_form {
 	   padding-left: 50px;
 		 padding-right: 50px;
 	   span.sub_header {
@@ -550,11 +550,11 @@ a.ilawyer {
 @media screen and (max-width: 767px) {
 	
 	
-	footer {
+	footer, .overlay_form {
 		padding: 26px 26px 30px 26px;
 	}
 	
-	.inner_footer {
+	.inner_footer, .inner_overlay_form {
 		padding-left: 23px;
 		padding-right:23px;
 		span.sub_header {
