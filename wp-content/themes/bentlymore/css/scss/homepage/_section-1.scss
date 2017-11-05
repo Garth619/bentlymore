@@ -18,7 +18,7 @@
 	}
 }
 
-a.begin {
+.begin {
 	background: #fff;
 	margin-top:43px;
 	color:$brown;
@@ -30,6 +30,7 @@ a.begin {
 	padding:22px 50px;
 	box-shadow: 0px 4px 10px 0px rgba(23, 42, 54, 0.76);
 	transition: all .2s ease-in-out;
+	cursor: pointer;
 	&:hover {
 		background: $brown;
 		color:#fff;
@@ -37,12 +38,12 @@ a.begin {
 }
 
 
-a.begin.desktop {
+.begin.desktop {
 	display: inline-block;
 }
 
 
-a.begin.mobile {
+.begin.mobile {
 	display: none;
 }
 
@@ -94,7 +95,7 @@ a.begin.mobile {
 		min-height: 800px;
 	}
 	
-	a.begin {
+	.begin {
 		margin-top:26px;
 	}
 	
@@ -121,7 +122,7 @@ a.begin.mobile {
 		letter-spacing: 1.5px;
 	}
 	
-	a.begin {
+	.begin {
 		font-size: 20.5px;
 		margin-top:39px;
 		padding: 16px 39px;
@@ -152,7 +153,7 @@ a.begin.mobile {
 		 font-size: 65px;
 	 }
 	 
-	 a.begin {
+	 .begin {
 		margin-top: 28px;
 	 }
 	 
@@ -190,15 +191,15 @@ a.begin.mobile {
 		 }
 	 }
 	 
-	 a.begin {
+	 .begin {
 		margin-top: 28px;
 	 }
 	 
-	 a.begin.desktop {
+	 .begin.desktop {
 		 display: none;
 	 }
 	 
-	 a.begin.mobile {
+	 .begin.mobile {
 		 display: inline-block;
 	 }
 	 

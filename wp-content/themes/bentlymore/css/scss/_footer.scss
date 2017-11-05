@@ -32,6 +32,10 @@ footer, .overlay_form {
 	}
 }
 
+.inner_overlay_form {
+	position: relative;
+}
+
 
 svg#footer_svg {
 	width:120px;
@@ -55,7 +59,7 @@ svg#footer_svg {
 	ul {
 		list-style: none;
 		overflow: hidden;
-		li#field_1_4 {
+		li#field_1_4, li#field_2_4 {
 			width:100%;
 		}
 		li:nth-of-type(3) {
@@ -374,7 +378,7 @@ a.ilawyer {
 	.form_wrapper {
 		margin: 108px auto 197px;
 		ul {
-			li#field_1_4 {
+			li#field_1_4, li#field_2_4{
 				margin-bottom: 30px;
 			}
 		}
@@ -478,7 +482,7 @@ a.ilawyer {
    .form_wrapper {
 	   margin: 85px auto 79px;
 	   ul {
-		   li#field_1_4 {
+		   li#field_1_4, li#field_2_4 {
 			 		margin-bottom: 25px;
 				}
 		   li {

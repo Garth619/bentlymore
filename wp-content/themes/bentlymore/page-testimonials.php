@@ -33,7 +33,7 @@ get_header(); ?>
 </section><!-- banner -->
 
 	
-	<div class="inner_main">
+	<div id="inner_main_trigger" class="inner_main">
 		
 		
 		

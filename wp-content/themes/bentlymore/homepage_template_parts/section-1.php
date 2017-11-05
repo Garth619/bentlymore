@@ -2,9 +2,9 @@
 	
 	<span class="banner_content">Telling<br/> Your Story</span>
 	
-	<a class="begin desktop" href="">begin with a free consultation</a><!-- begin -->
+	<span class="begin desktop">begin with a free consultation</span><!-- begin -->
 	
-	<a class="begin mobile" href="">free consultation</a><!-- begin -->
+	<span class="begin mobile">free consultation</span><!-- begin -->
 	
 	<div class="scroll_wrapper">
 		

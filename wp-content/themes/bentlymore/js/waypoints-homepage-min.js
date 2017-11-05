@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){function e(e,n,t,o,c){var l=new Waypoint({element:document.getElementById(e),handler:function(e){"down"===e?($(n).addClass(t),"function"==typeof c&&c.call()):($(n).removeClass(t),"function"==typeof c&&c.call())},offset:o})}e("sec_two",".free_consultation_desktop","active","0%",null)});

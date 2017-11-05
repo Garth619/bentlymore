@@ -1587,6 +1587,26 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/js\/waypoints-homepage.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints-homepage-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/waypoints-internals.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints-internals-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/js\/waypoints\/.eslintrc": {
 		"ft": 8192,
 		"oA": 2,

@@ -28,48 +28,30 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 jQuery(document).ready(function($){
 	
 	
-	
 
-    
-     function createWaypoint (triggerElementId, animatedElement, className, offsetVal, functionName) {
-            var waypoint = new Waypoint({
-                element: document.getElementById(triggerElementId),
-                handler: function(direction) {
-                    if (direction === 'down') {
-                        $(animatedElement).addClass(className);
-    
-                        if(typeof functionName === 'function') {
-                            functionName.call();
-                        }
-                    }
-    
-                    else {
-                        $(animatedElement).removeClass(className);
-    
-                        if(typeof functionName === 'function') {
-                            functionName.call();
-                        }
-                    }
-                },
-                offset: offsetVal
-            });
-        }
-    
-        createWaypoint("sec_two", ".free_consultation_desktop", "active", "0%", null);
-        createWaypoint("footer", ".free_consultation_desktop", "hide", "100%", null);
-        
- 
-    
    
     
     
-    $('.free_consultation_desktop').on('click', function(e) {
+   $('.free_consultation_desktop, .begin').on('click', function(e) {
       
     	$('.fc_form_overlay').addClass('open');	
     	
     	$('body').css('overflow-y','hidden');
+    	
+    
+    });
     
     
+  
+    
+    
+    
+    $('.nav_close_desktop').on('click', function(e) {
+	    
+	    $('.fc_form_overlay').removeClass('open');
+	    
+	    $('body').css('overflow-y','scroll');
+      
     });
     
     
@@ -89,7 +71,7 @@ jQuery(document).ready(function($){
 	
 	
 	
-	$('.nav_close').on('click', function(e) {
+	$('.nav_close_mobile').on('click', function(e) {
 	  
 	  $('.nav_dropdown').slideToggle();
 	  $('body').css("overflow-y","auto");
@@ -98,8 +80,6 @@ jQuery(document).ready(function($){
 
 
 	$('ul#menu-top-nav > li.menu-item-has-children > a').on('click', function(e) {
-	  
-	  // event.preventDefault();
 	  
 	  $(this).next('ul.sub-menu').toggleClass('open');
 	  

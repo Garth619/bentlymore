@@ -6,7 +6,7 @@
 
 <div class="main">
 	
-	<div class="inner_main">
+	<div id="inner_main_trigger" class="inner_main">
 		
 		<?php get_sidebar(); ?>
 		
