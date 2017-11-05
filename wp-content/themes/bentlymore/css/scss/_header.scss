@@ -323,7 +323,7 @@ a.tel {
 @media screen and (max-width: 1450px) {
 	
 	header {
-		top:42px;
+		top: 35px;
 	}
 	
 	
@@ -378,7 +378,12 @@ header {
 	
 	a.tel {
 		font-size: 27px;
-		margin: 24px 21px 0 13px;
+		margin: 21px 21px 0 13px;
+	}
+	
+	
+	.menu_wrapper {
+		margin-top:23px;
 	}
 	
 	
