@@ -12,7 +12,7 @@
 	width:100%;
 	position: relative;
 	z-index:5;
-	padding:90px 135px;
+	padding:90px 135px 30px;
 	ul {
 		list-style: none;
 		margin-bottom:0;
@@ -31,6 +31,7 @@
 			align-items: center;
 			// display: flex;
 			padding-left:5%;
+			line-height: 18px;
 
 			&:nth-of-type(3n + 3) {
 				margin-right: 0;
@@ -128,13 +129,13 @@
 	.inner_pa_border_wrapper {
 		padding: 46px 13% 20px;
 		ul {
-			width:80%;
+			width:90%;
 			margin-left:auto;
 			margin-right:auto;
 			li {
 				
 			
-				padding-left:2%;
+				padding-left:4%;
 				&:nth-of-type(3n + 3) {
 					
 				}

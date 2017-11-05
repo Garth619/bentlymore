@@ -1,9 +1,6 @@
 <?php get_header(); ?>
 
 
-
-
-
 <div class="main">
 	
 	<div id="inner_main_trigger" class="inner_main">
@@ -12,7 +9,7 @@
 		
 		<div class="inner_content content">
 			
-			<h1>Orange County Car Accident Attorneys</h1>
+			<h1><?php the_title();?></h1>
 			
 			<?php get_template_part( 'loop', 'page' );?>
 			

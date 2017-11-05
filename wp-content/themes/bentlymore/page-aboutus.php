@@ -9,28 +9,7 @@ get_header(); ?>
 
 <div class="main internal_banner_main">
 	
-	<section class="banner">
-	
-	<span class="banner_content">Telling<br/> Your Story</span>
-	
-	<a class="begin desktop" href="">begin with a free consultation</a><!-- begin -->
-	
-	<a class="begin mobile" href="">free consultation</a><!-- begin -->
-	
-	<div class="scroll_wrapper">
-		
-		<div class="scroll_lines">
-			
-			<span class="orange_line"></span><!-- orange_line -->
-			<span class="white_line"></span><!-- white_line -->
-			
-		</div><!-- scroll_lines -->
-		
-		<span class="scroll">Scroll</span><!-- scroll -->
-		
-	</div><!-- scroll_wrapper -->
-	
-</section><!-- banner -->
+	<?php get_template_part( 'top', 'banner' ); ?>
 
 	
 	<div id="inner_main_trigger" class="inner_main">

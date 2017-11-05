@@ -32,7 +32,7 @@ jQuery(document).ready(function($){
    
     
     
-   $('.free_consultation_desktop, .free_consultation_tablet, .begin').on('click', function(e) {
+   $('.free_consultation_desktop, .free_consultation_tablet, .mobile_free_consultation, .begin').on('click', function(e) {
       
     	$('.fc_form_overlay').addClass('open');	
     	

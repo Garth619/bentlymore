@@ -76,9 +76,9 @@
 			
 				<br/>
 				
-				<a href="">Privacy Policy</a>
+				<a href="<?php the_permalink(198);?>">Privacy Policy</a>
 			
-				<a href="">Disclaimer</a>
+				<a href="<?php the_permalink(200);?>">Disclaimer</a>
 			
 			</span><!-- copyright -->
 			

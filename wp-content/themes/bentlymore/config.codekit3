@@ -2308,6 +2308,12 @@
 		"oA": 2,
 		"oAP": "\/style.css.map",
 		"oF": 0
+		},
+	"\/top-banner.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/top-banner.php",
+		"oF": 0
 		}
 	},
 "hooks": [
