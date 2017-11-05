@@ -1,11 +1,34 @@
-footer, .overlay_form {
+footer {
 	background: $lightblue_one;
 	width:100%;
 	padding:110px;
 	clear:both;
 }
 
-.inner_footer, .inner_overlay_form {
+.overlay_form {
+	background: $lightblue_one;
+	width:100%;
+}
+
+.inner_overlay_form {
+	width:100%;
+	text-align: center;
+	padding-left:85px;
+	padding-right:85px;
+	span.large_header {
+		font-size:75px;
+		color:#fff;
+		display: block;
+		font-family: $actabold;
+		line-height: 80px;
+		max-width:1000px;
+		margin:123px auto 0px;
+		letter-spacing: 1.3px;
+	}
+}
+
+
+.inner_footer {
 	width:100%;
 	border:1px solid #c19345;
 	text-align: center;
@@ -326,8 +349,12 @@ a.ilawyer {
 @media screen and (max-width: 1605px) {
 	
 	
-	footer, .overlay_form {
+	footer {
     padding: 67px 65px;
+  }
+  
+  .overlay_form {
+	   padding: 0px;
   }
   
   .locations_wrapper {
@@ -459,15 +486,20 @@ a.ilawyer {
 	
 	
 	
-	footer, .overlay_form {
+	footer {
 		padding: 46px;
+	}
+	
+	
+	.overlay_form {
+		padding:0 46px;
 	}
 	
 	svg#footer_svg {
     width: 95px;
    }
    
-   .inner_footer, .inner_overlay_form {
+   .inner_footer {
 	   padding-left: 50px;
 		 padding-right: 50px;
 	   span.sub_header {
@@ -478,6 +510,20 @@ a.ilawyer {
 		   line-height: 60px;
 	   }
    } 
+   
+   
+   .inner_overlay_form {
+	   padding-left: 0px;
+		 padding-right: 0px;
+	   span.large_header {
+		   font-size: 45px;
+		   line-height: 60px;
+		   padding-left: 50px;
+			 padding-right: 50px;
+	   }
+   }
+   
+   
    
    .form_wrapper {
 	   margin: 85px auto 79px;
@@ -554,11 +600,17 @@ a.ilawyer {
 @media screen and (max-width: 767px) {
 	
 	
-	footer, .overlay_form {
+	footer {
 		padding: 26px 26px 30px 26px;
 	}
 	
-	.inner_footer, .inner_overlay_form {
+	.overlay_form {
+		padding: 0px 26px;
+	}
+	
+	
+	
+	.inner_footer {
 		padding-left: 23px;
 		padding-right:23px;
 		span.sub_header {
@@ -572,6 +624,26 @@ a.ilawyer {
 		}
 		
 	} 
+	
+	
+	
+	
+	.inner_overlay_form {
+		padding-left: 0px;
+		padding-right:0px;
+		span.sub_header {
+			display: none;
+		}
+		span.large_header {
+			margin-top:42px;
+			font-size:35px;
+			line-height: 42px;
+			max-width:400px;
+			padding:0;
+		}
+	}
+	
+	
 	
 	
 	.form_wrapper {

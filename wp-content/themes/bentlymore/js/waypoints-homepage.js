@@ -30,7 +30,7 @@ jQuery(document).ready(function($){
         }
         
        
-       createWaypoint("header_trigger", ".sticky_clone", "active", "-157px", null);
+       createWaypoint("header_trigger", ".sticky_clone, .nav_dropdown", "active", "-157px", null);
     
        createWaypoint("sec_two", ".free_consultation_desktop, .free_consultation_tablet", "active", "0%", null);
 			 

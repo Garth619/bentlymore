@@ -1,3 +1,12 @@
+body.fixed {
+	overflow-y: hidden;
+}
+
+body {
+	overflow-y: scroll;
+}
+
+
 .content {
 	font-family: $libre, "Comic-Sans";
 	font-size:16px;

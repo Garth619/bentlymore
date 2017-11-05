@@ -34,9 +34,11 @@ jQuery(document).ready(function($){
     
    $('.free_consultation_desktop, .free_consultation_tablet, .mobile_free_consultation, .begin').on('click', function(e) {
       
-    	$('.fc_form_overlay').addClass('open');	
+    	$('.fc_form_overlay').addClass('open');
     	
-    	$('body').css('overflow-y','hidden');
+    	 
+    	
+    	$('body').addClass('fixed');
     	
     
     });
@@ -50,7 +52,9 @@ jQuery(document).ready(function($){
 	    
 	    $('.fc_form_overlay').removeClass('open');
 	    
-	    $('body').css('overflow-y','scroll');
+	   
+	    
+	    $('body').removeClass('fixed');
       
     });
     
@@ -65,7 +69,8 @@ jQuery(document).ready(function($){
 	$('.menu_wrapper').on('click', function(e) {
 	  
 	  $('.nav_dropdown').slideToggle();
-	  $('body').css("overflow-y","hidden");
+	  
+	  $('body').toggleClass('fixed');
 	  
 	});
 	
@@ -74,7 +79,7 @@ jQuery(document).ready(function($){
 	$('.nav_close_mobile').on('click', function(e) {
 	  
 	  $('.nav_dropdown').slideToggle();
-	  $('body').css("overflow-y","auto");
+	  $('body').removeClass('fixed');
 	  
 	});
 
