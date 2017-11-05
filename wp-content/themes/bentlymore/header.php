@@ -108,3 +108,18 @@
 		</div><!-- nav_dropdown -->
 		
 	</header>
+	
+	<div class="free_consultation_desktop">
+		
+	
+	<img src="<?php bloginfo('template_directory');?>/images/chat.png"/>
+	
+	<div class="fc_verbiage_wrapper">
+		
+			<span class="fc_title">Free Consultation</span>
+			
+			<span class="fc_start">Start Here</span><!-- fc_title -->
+		
+	</div><!-- fc_verbiage_wrapper -->
+			
+	</div><!-- free_consultation_desktop -->

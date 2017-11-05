@@ -198,6 +198,60 @@ a.tel {
 }
 
 
+
+.free_consultation_desktop {
+	width:368px;
+	height:100px;
+	background: $lightblue_one;
+	position: fixed;
+	right:0;
+	top:50%;
+	z-index: 20;
+	cursor: pointer;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+	img {
+		width:72px;
+		margin:13px 0 0 13px;
+		float:left;
+	}
+	.fc_verbiage_wrapper {
+		float:left;
+		padding:23px 0 0 23px;
+	  width: calc(100% - 85px);
+		span.fc_title {
+			display: block;
+			font-family: $actabold;
+			color:#fff;
+			font-size: 28px;
+			text-transform: lowercase;
+			letter-spacing: 0.7px;
+		}
+		span.fc_start {
+			text-transform: uppercase;
+			font-family: $libreblack;
+			font-size: 13px;
+			color:$lightblue_two;
+			display: inline-block;
+			letter-spacing: 4.5px;
+			margin:12px 0 0 0;
+			&:after {
+				content:"..........";
+				display: inline-block;
+				font-size: 11px;
+				margin-left:19px;
+				position: relative;
+				top:-3px;
+			}
+			
+		}
+	}
+}
+
+
 @media screen and (max-width: 1450px) {
 	
 	header {
