@@ -28,9 +28,13 @@ jQuery(document).ready(function($){
                 offset: offsetVal
             });
         }
+        
+       
+       createWaypoint("header_trigger", ".sticky_clone", "active", "-157px", null);
     
-       createWaypoint("sec_two", ".free_consultation_desktop", "active", "0%", null);
-
+       createWaypoint("sec_two", ".free_consultation_desktop, .free_consultation_tablet", "active", "0%", null);
+			 
+			 createWaypoint("footer", ".free_consultation_desktop, .free_consultation_tablet", "hide", "70%", null);
 
 
 }); // Document Ready

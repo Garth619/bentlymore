@@ -211,6 +211,7 @@ a.tel {
 
 
 
+
 .free_consultation_desktop {
 	width:368px;
 	height:100px;
@@ -267,6 +268,17 @@ a.tel {
 }
 
 
+
+.free_consultation_tablet {
+	display: none;
+}
+
+
+.header_right.sticky_clone, .mobile_free_consultation.sticky_clone {
+	display: none;
+}
+
+
 .fc_form_overlay {
 	position: fixed;
 	top:0;
@@ -287,6 +299,9 @@ a.tel {
 	opacity: 1;
 	visibility: visible;
 }
+
+
+
 
 
 @media screen and (max-width: 1450px) {
@@ -357,6 +372,50 @@ header {
 		margin-top: 18px;
 	}
 	
+	
+	.free_consultation_desktop {
+		display: none;
+	}
+	
+	
+	.free_consultation_tablet {
+		display: block;
+		width:100%;
+		background: $brown;
+		position: fixed;
+		top:0;
+		left:0;
+		z-index:100;
+		height:60px;
+		text-align: center;
+		cursor: pointer;
+		opacity: 0;
+		visibility: hidden;
+		transition: all .2s ease-in-out;
+		img {
+			width:75px;
+			position: absolute;
+			top:-2px;
+			left:15px;
+		}
+		.fc_verbiage_wrapper {
+			font-family: $actabold;
+			color:#fff;
+			font-size:26px;
+			padding-top:15px;
+		}
+	}
+	
+	.free_consultation_tablet.active {
+		opacity: 1;
+		visibility: visible;
+	}
+	
+	.free_consultation_tablet.active.hide {
+		opacity: 0;
+		visibility: hidden;
+	}
+	
 	 
 } /* Media Query */
 
@@ -365,10 +424,10 @@ header {
 	
 	
 	
-	body:not(.page-template-page-home) {
+
 		.mobile_free_consultation {
 			display: block;
-			a {
+			span {
 				display: block;
 				width:100%;
 				text-align: center;
@@ -382,7 +441,7 @@ header {
 				letter-spacing: 1px;
 			}
 		}
-	}
+	
 	
 	
 	
@@ -392,10 +451,11 @@ header {
 		top:0;
 		left:0;
 		padding:0;
-		position: fixed;
+		// position: fixed;
 		z-index:100;
 		.inner_header {
 			height: auto;
+			box-shadow: none;
 		}
 	}
 	
@@ -447,6 +507,35 @@ header {
 		width: 104px;
 	}
 	
+	.header_right.sticky_clone, .mobile_free_consultation.sticky_clone  {
+		position: fixed;
+		top:0;
+		left:0;
+		width:100%;
+		display: block;
+		opacity: 0;
+		visibility: hidden;
+		transition: all .2s ease-in-out;
+	}
+	
+	.header_right.sticky_clone.active, .mobile_free_consultation.sticky_clone.active  {
+		opacity: 1;
+		visibility: visible;
+	}
+	
+	.header_right.sticky_clone {
+		.header_right_inner {
+			
+		}
+	}
+	
+	.mobile_free_consultation.sticky_clone {
+		top:46px;	
+		span {
+			padding:13px 0;
+		}
+	}
+	
 	
 	.banner_content {
 		font-size:58px;
@@ -454,6 +543,13 @@ header {
 		line-height: 60px;
 		//display: block;
 	}
+	
+	
+	.free_consultation_tablet {
+		display: none;
+	}
+	
+
 	
 	
 } /* Media Query */

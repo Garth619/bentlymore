@@ -31,7 +31,7 @@
 
 <body <?php body_class(); ?>>
 				
-<header>
+<header id="header_trigger">
 		
 		<div class="inner_header">
 			
@@ -88,9 +88,46 @@
 			
 			<div class="mobile_free_consultation">
 				
-				<a class="" href="">Free Consultation</a>
+				<span>Free Consultation</span>
 				
 			</div><!-- mobile_free_consultation -->
+			
+			
+			<div class="header_right sticky_clone">
+				
+				<div class="header_right_inner">
+				
+					<span class="free_consultation">free consultations</span><!-- free_consultation -->
+				
+					<a class="tel" href="tel:(949) 870-3800">(949) 870-3800</a>
+				
+					<div class="menu_wrapper">
+					
+						<div class="menu_bar_wrapper">
+					
+							<div class="menu_bar"></div><!-- menu_bar -->
+							<div class="menu_bar"></div><!-- menu_bar -->
+							<div class="menu_bar"></div><!-- menu_bar -->
+						
+						</div><!--menu_bar_wrapper -->
+					
+						<span class="menu_verbiage">Menu</span><!-- menu_verbiage -->
+					
+					</div><!-- menu_wrapper -->
+					
+					</div><!-- header_right_inner -->
+				
+			</div><!-- header_right -->
+			
+			<div class="mobile_free_consultation sticky_clone">
+				
+				<span>Free Consultation</span>
+				
+			</div><!-- mobile_free_consultation -->
+			
+			
+			
+			
 			
 		</div><!-- inner_header -->
 		
@@ -120,6 +157,18 @@
 			
 			<span class="fc_start">Start Here</span><!-- fc_title -->
 		
+		</div><!-- fc_verbiage_wrapper -->
+			
+	</div><!-- free_consultation_desktop -->
+	
+	<div class="free_consultation_tablet">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/tablet-logo.png"/>
+	
+		<div class="fc_verbiage_wrapper">
+		
+			<span class="fc_title">start a free consultation here</span>
+			
 		</div><!-- fc_verbiage_wrapper -->
 			
 	</div><!-- free_consultation_desktop -->

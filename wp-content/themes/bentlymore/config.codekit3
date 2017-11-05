@@ -1333,6 +1333,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/tablet-logo.png": {
+		"ft": 32768,
+		"iS": 18777,
+		"oA": 0,
+		"oAP": "\/images\/tablet-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1587,6 +1598,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/js\/waypoints-homepage-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints-homepage-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/waypoints-homepage.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1595,6 +1616,16 @@
 		"oAP": "\/js\/waypoints-homepage-min.js",
 		"oF": 0,
 		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/waypoints-internals-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints-internals-min-min.js",
+		"oF": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/waypoints-internals.js": {

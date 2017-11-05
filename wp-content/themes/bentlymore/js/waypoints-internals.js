@@ -28,9 +28,12 @@ jQuery(document).ready(function($){
             });
         }
     
-       createWaypoint("inner_main_trigger", ".free_consultation_desktop", "active", "0%", null);
+      
+      createWaypoint("header_trigger", ".sticky_clone", "active", "-157px", null);
+       
+       createWaypoint("inner_main_trigger", ".free_consultation_desktop, .free_consultation_tablet", "active", "0%", null);
         
-       createWaypoint("footer", ".free_consultation_desktop", "hide", "100%", null);
+       createWaypoint("footer", ".free_consultation_desktop, .free_consultation_tablet", "hide", "70%", null);
        
 
 
