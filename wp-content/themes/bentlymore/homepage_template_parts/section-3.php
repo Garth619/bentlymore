@@ -1,4 +1,4 @@
-<section class="section_three">
+<section id="sec_three_trigger" class="section_three">
 	
 	<div class="inner_section_three">
 		
@@ -15,7 +15,7 @@
 				
 				<img src="<?php bloginfo('template_directory');?>/images/img-01.png"/>
 				
-				<div class="video_play_wrapper large_monitor">
+				<div id="video_trigger" class="video_play_wrapper large_monitor">
 					
 					<svg id="play_button" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 228"><defs><style>
 						

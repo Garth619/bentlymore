@@ -181,6 +181,9 @@ checkWidthmenu();
 		dots:true,
 		slide:'.settlement_slides',
 		arrows:false,
+		useTransform: true,
+		cssEase: 'ease-in-out',
+		speed: 1000,
 		responsive: [
     {
       breakpoint: 900,

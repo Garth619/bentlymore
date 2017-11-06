@@ -18,6 +18,42 @@
 	}
 }
 
+
+
+.banner.animate {
+	.banner_content {
+		animation-name: title_fade, title_move;
+		animation-duration: 1000ms, 1500ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);;
+		animation-delay: 300ms;
+	}
+}
+
+
+
+@keyframes title_fade {
+  from {
+    opacity: 0;
+ 	}
+ 	to {
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes title_move {
+  from {
+    transform: translateY(-100px);
+ 	}
+ 	to {
+   transform: translateY(0px);
+  }
+}
+
+
+
 .begin {
 	background: #fff;
 	margin-top:43px;
@@ -38,6 +74,44 @@
 }
 
 
+
+.banner.animate {
+	.begin {
+		animation-name: button_fade, button_move;
+		animation-duration: 1000ms, 1500ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 1000ms;
+	}
+}
+
+
+
+
+@keyframes button_fade {
+  from {
+    opacity: 0;
+ 	}
+ 	to {
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes button_move {
+  from {
+    transform: translateY(-50px);
+ 	}
+ 	to {
+   transform: translateY(0px);
+  }
+}
+
+
+
+
+
 .begin.desktop {
 	display: inline-block;
 }
@@ -49,6 +123,7 @@
 
 .scroll_wrapper {
 	margin-top:90px;
+	opacity: 0;
 	span.scroll {
 		color:#fff;
 		margin-top:28px;
@@ -57,6 +132,7 @@
 		text-transform: uppercase;
 		font-size:10px;
 		letter-spacing: 10px;
+		
 	}
 }
 
@@ -80,9 +156,103 @@
 	}
 	span.white_line {
 		background:#fff;
-		top:20px;
+		top:0;
+		transform: translateY(-50px);
 	}
 }
+
+
+
+
+.banner.animate {
+	.scroll_wrapper {
+			animation-name: scroll_wrapper_fade;
+			animation-duration: 1000ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 1800ms;
+		span.scroll {
+			animation-name: scroll_title_move;
+			animation-duration: 1700ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 1700ms;
+		}
+	}
+	.scroll_lines {
+		animation-name: scroll_lines_move;
+		animation-duration: 2500ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+		animation-delay: 1000ms;
+		transform: translateY(-20px);
+		span.white_line {
+			animation-name: scroll_line_move;
+			animation-duration: 3000ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+		}
+	}
+}
+
+
+
+@keyframes scroll_lines_move {
+  0 {
+    transform: translateY(-20px);
+  }
+  50% {
+   	transform: translateY(0px);
+  }
+  100% {
+   	transform: translateY(-20px);
+  }
+ }
+
+
+@keyframes scroll_line_move {
+  0 {
+    transform: translateY(-50px);
+  }
+ 	100% {
+   	transform: translateY(50px);
+  }
+ }
+ 
+ 
+ 
+ 
+ @keyframes scroll_wrapper_fade {
+  from {
+    opacity: 0;
+  }
+ 	to {
+   	opacity: 1;
+  }
+ }
+ 
+ 
+ @keyframes scroll_title_move {
+  from {
+    transform: translateY(-20px);
+  }
+ 	to {
+   	transform: translateY(0px);
+  }
+ }
+ 
+
+
+ 
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 1450px) {
@@ -102,6 +272,25 @@
 	.scroll_wrapper {
     margin-top: 69px;
 	}
+	
+	
+	
+.banner.animate {
+	.banner_content {
+		animation-name: none;
+	}
+}
+
+
+.banner.animate {
+	.begin {
+		animation-name: none;
+	}
+}
+
+	
+	
+	
 	
 	
 	

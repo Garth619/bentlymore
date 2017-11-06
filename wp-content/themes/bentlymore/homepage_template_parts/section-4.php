@@ -1,4 +1,4 @@
-<section class="section_four">
+<section id="sec_four" class="section_four">
 	
 	
 	<div class="selling_points_wrapper">

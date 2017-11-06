@@ -31,6 +31,9 @@ section.section_five {
 		display: block;
 		top:0;
 		left:0;
+		
+		
+		opacity: 0;
 	}
 	img {
 		position: relative;
@@ -38,8 +41,103 @@ section.section_five {
 		left:56px;
 		max-width:100%;
 		height:auto;
+		
+		
+		opacity: 0;
 	}
 }
+
+
+
+
+.section_five.animate {
+	.sec_five_image_container {
+		&:before {
+			animation-name: grey_box_fade, grey_box_move;
+			animation-duration: 500ms, 1800ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 600ms;
+		}
+		&:after {
+			
+		}
+		img {
+			animation-name: testi_img_fade, testi_img_move;
+			animation-duration: 500ms, 1800ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			
+		}
+	}
+}
+
+
+
+
+@keyframes grey_box_fade {
+  from {
+    opacity: 0;
+ 	}
+
+  to {
+    opacity: 1;
+   }
+}
+
+
+
+
+@keyframes grey_box_move {
+  from {
+    transform: translateY(-100px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+
+@keyframes testi_img_fade {
+  from {
+    opacity: 0;
+ 	}
+
+  to {
+    opacity: 1;
+   }
+}
+
+
+
+@keyframes testi_img_move {
+  from {
+    transform: translateY(-100px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+
+
+
+
+.section_five.animate {
+	.testi_wrapper {
+		span.testi_title {
+			opacity: 1;
+		}
+	}
+}
+
+
+
+
 
 
 .testi_wrapper {
@@ -60,6 +158,11 @@ section.section_five {
 		text-align: right;
 		display: block;
 		position:relative;
+		
+		
+		opacity: 0;
+		transition: all 700ms ease-in-out;
+		transition-delay: 1000ms;
 		&:before {
 		content:"........................................................................................................................................................................................................................................................";
 			display: block;
@@ -133,10 +236,26 @@ section.section_five {
 }
 
 
+.section_five.animate {
+
+	.bottom_line_wrapper {
+		opacity: 1;
+	}
+
+}
+
+
+
+
 .bottom_line_wrapper {
 	padding-right:117px;
 	width:100%;
 	clear:both;
+	
+	
+	opacity: 0;
+	transition: all 700ms ease-in-out;
+	transition-delay: 0ms;
 	span.testi_line {
 		width:100%;
 		max-width:1028px;
@@ -259,6 +378,17 @@ section.section_five {
 		}
 	}
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	
 	.sec_five_white_spacer {
@@ -301,6 +431,110 @@ section.section_five {
 .sec_five_content {
 	padding:140px 0 0 5%;
 }
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	
+	
+	
+.sec_five_image_container {
+	&:before {
+		opacity: 1;
+	}
+	img {
+		opacity: 1;
+	}
+}
+
+
+
+
+.section_five.animate {
+	.sec_five_image_container {
+		&:before {
+			animation-name: none;
+		}
+		&:after {
+			
+		}
+		img {
+			animation-name: none;
+			
+		}
+	}
+}
+
+
+
+.section_five.animate {
+	.testi_wrapper {
+		span.testi_title {
+			opacity: 1;
+		}
+	}
+}
+
+
+
+
+
+
+.testi_wrapper {
+	
+	span.testi_title {
+				
+		opacity: 1;
+		transition: all 700ms ease-in-out;
+		transition-delay: 0ms;
+		&:before {
+	
+		}
+		&:after {
+		   
+	    }
+	}
+	
+}
+
+
+
+
+
+.section_five.animate {
+
+	.bottom_line_wrapper {
+		opacity: 1;
+	}
+
+}
+
+
+
+
+.bottom_line_wrapper {
+	opacity: 1;
+	
+	span.testi_line {
+		
+	}
+
+	span.testi_line_dotted {
+		&:before 	{
+		}
+	}
+
+}
+
+
+
+	
 	
 	
 	

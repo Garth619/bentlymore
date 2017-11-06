@@ -3,7 +3,10 @@ section.section_four {
 	background:url(#{$themePath}images/sp-bkg.jpg) top left no-repeat;
 	background-size:cover;
 	padding:265px 0 95px;
+
 }
+
+
 
 
 
@@ -144,12 +147,35 @@ span.selling_points_content {
 	}
 }
 
+.selling_points_bullet_wrapper {
+	opacity: 0;
+	transition: all 800ms ease-in-out;
+	
+}
+
+
+
+section.section_four.animate {
+	.selling_points_bullet_wrapper {
+		opacity: 1;
+	}
+}
+
+
 
 @media screen and (max-width: 1450px) {
 	
 	section.section_four {
 		padding: 167px 0 28px;
 	}
+	
+	
+	.selling_points_bullet_wrapper {
+		opacity: 1;
+		
+	}
+	
+	
 	
 	
 } /* Media Query */

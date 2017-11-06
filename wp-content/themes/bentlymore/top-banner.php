@@ -1,4 +1,4 @@
-<section class="banner">
+<section id="banner_trigger" class="banner">
 	
 	<span class="banner_content">Telling<br/> Your Story</span>
 	

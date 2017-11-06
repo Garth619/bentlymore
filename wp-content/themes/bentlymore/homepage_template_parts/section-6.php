@@ -1,4 +1,4 @@
-<section class="section_six">
+<section id="sec_six_trigger" class="section_six">
 	
 	<div class="sec_six_press_wrapper">
 		
