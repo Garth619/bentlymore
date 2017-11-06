@@ -19,11 +19,9 @@
 					
 					<svg id="play_button" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 228"><defs><style>
 						
-						.play_button-cls-1{fill:#4c6775;}
-						.play_button-cls-2{fill:none;stroke:#9a7537;stroke-linecap:round;stroke-dasharray:0 3;}
-						.play_button-cls-3{fill:#9a7537;}
-						.play_button-cls-4,
-						.play_button-cls-5{fill:#fff;}.cls-5{isolation:isolate;}</style></defs><title>play</title>
+						
+						
+					</style></defs><title>play</title>
 						
 						
 						<circle id="Ellipse_2_copy" data-name="Ellipse 2 copy" class="play_button-cls-1" cx="114" cy="114" r="49.5"/>

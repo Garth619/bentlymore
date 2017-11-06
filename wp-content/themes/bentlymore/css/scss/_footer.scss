@@ -265,6 +265,10 @@ svg#footer_svg {
 		text-decoration: none;
 		display: block;
 		font-size: 28px;
+		transition: all .2s ease-in-out;
+		&:hover {
+			color:$brown;
+		}
 	}
 	a.footer_address {
 		line-height: 31px;

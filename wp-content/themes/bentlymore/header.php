@@ -37,7 +37,15 @@
 			
 			<a class="logo_link" href="<?php bloginfo('url');?>">
 				
+				<?php if(is_front_page() || is_page_template('page-testimonials.php') || is_page_template('page-aboutus.php') || is_page_template('page-contact.php')): ?>
+				
 				<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+				
+				<?php else:?>
+				
+				<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo-inner.svg"/>
+				
+				<?php endif; ?>
 				
 			</a><!-- logo_link -->
 			
@@ -133,14 +141,27 @@
 		
 		<div class="nav_dropdown">
 			
-			<div class="nav_close nav_close_mobile">
-				
-				<span></span>
-				<span></span>
-				
-			</div><!-- close -->
+			<div class="nav_left">
 			
-			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+			
+			</div><!-- nav_left -->
+			
+			<div class="nav_right">
+			
+				<div class="nav_close nav_close_mobile">
+				
+					<span></span>
+					<span></span>
+				
+				</div><!-- close -->
+				
+				<div class="sub_menu_container">
+					
+					
+				</div><!-- sub_menu_container -->
+			
+			</div><!-- nav_right -->
 			
 		</div><!-- nav_dropdown -->
 		

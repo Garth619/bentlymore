@@ -26,7 +26,10 @@
 		line-height: 48px;
 		font-family: $actamedium;
 		display: block;
-		
+		transition: all .2s ease-in-out;
+		&:hover {
+			color: $brown;
+		}
 	}
 	a.contact_directions {
 		text-transform: uppercase;

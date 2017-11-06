@@ -100,8 +100,27 @@ a.tel {
 
 // nav dropdown
 
+.nav_dropdown.slideout.slidein {
+	
+	.nav_left {
+		transform: translateX(-100%);
+	}
+	.nav_right {
+		transform: translateX(100%);
+	}
+} 
 
 
+.nav_dropdown.slidein {
+	opacity: 1;
+	visibility: visible;
+	.nav_left {
+		transform: translateX(0);
+	}
+	.nav_right {
+		transform: translateX(0);
+	}
+}
 
 .nav_dropdown {
 	position: fixed;
@@ -110,30 +129,97 @@ a.tel {
 	width:100%;
 	height:100%;
 	z-index:100;
-	background: $lightblue_one;
 	overflow-y: scroll;
-/*
 	opacity: 0;
 	visibility: hidden;
-	transition: all .2s ease-in-out;
-*/
-	display: none;
+	
+	.nav_left {
+		width:50%;
+		float:left;
+		background:#364c58;
+		height:100%;
+		transform: translateX(-100%);
+		transition: all 1000ms cubic-bezier(.17,.66,.34,.98);
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+	}
+	.nav_right {
+		width:50%;
+		float:right;
+		background: #4c6775;
+		height:100%;
+		transform: translateX(100%);
+		transition: all 1000ms cubic-bezier(.17,.66,.34,.98);
+		.sub_menu_container {
+				display: flex;
+				justify-content: center;
+				align-items: center; 
+				width:100%;
+				height:100%;
+		}
+	}
 	ul {
 		list-style: none;
 		li {
-			text-align: center;
+			text-align: left;
 			font-family: $actamedium;
-			font-size:28px;
+			font-size:35px;
+			letter-spacing: 1.5px;
 			a {
 				color:#fff;
 				text-decoration: none;
 				display: inline-block;
-				margin-bottom: 37px;
+				margin-bottom: 30px;
+				position: relative;
+				&:before {
+					content:"";
+					transition: all .2s ease-in-out;
+				}
+				&:hover {
+					&:before {
+						content:"";
+						position: absolute;
+						top:40px;
+						left:0;
+						width: 100%;
+						height:3px;
+						background: $brown;
+						display: inline-block;
+					}
+				}
 			}
 		}
 	}
 	ul#menu-top-nav {
-		margin:300px 0;
+		> li.current-menu-item {
+			> a {
+				&:before {
+						content:"";
+						position: absolute;
+						top:40px;
+						left:0;
+						width: 100%;
+						height:3px;
+						background: $brown;
+						display: inline-block;
+					}
+			}
+		}
+		> li.current-menu-parent {
+			> a {
+					&:before {
+						content:"";
+						position: absolute;
+						top:40px;
+						left:0;
+						width: 100%;
+						height:3px;
+						background: $brown;
+						display: inline-block;
+					}
+			}
+		}
 		> li.menu-item-has-children {
 				> a {
 						position: relative;
@@ -142,27 +228,60 @@ a.tel {
 							content:"";
 							width: 0; 
 							height: 0; 
-							border-left: 4px solid transparent;
-							border-right: 4px solid transparent;
-							border-top: 4px solid #293641;
+							border-top: 4px solid transparent;
+							border-bottom: 4px solid transparent;
+							border-left: 4px solid #fff;
 							display:block;
 							position: absolute;
 							top:15px;
-							right:-33px;
+							right:-27px;
 						}
+					}
+					> a.active {
+							&:before {
+						content:"";
+						position: absolute;
+						top:40px;
+						left:0;
+						width: 100%;
+						height:3px;
+						background: $brown;
+						display: inline-block;
+					}
 					}
 		}
 	}
 	ul.sub-menu {
+		display: none;
+		> li.current-menu-item {
+			> a {
+				&:before {
+						content:"";
+						position: absolute;
+						top:40px;
+						left:0;
+						width: 100%;
+						height:3px;
+						background: $brown;
+						display: inline-block;
+					}
+			}
+		}
+		
+		
+/*
 		max-height: 0;
 		opacity: 0;
 		visibility: hidden;
 		transition: all .2s ease-in-out;
+*/
 	}
 	ul.sub-menu.open {
+/*
 		max-height:3000px;
 		opacity: 1;
 		visibility: visible;
+*/
 	}
 }
 
@@ -175,6 +294,7 @@ a.tel {
 } 
 
 
+/*
 .nav_close.form_close {
 	top: 86px;
 	&:before {
@@ -188,27 +308,32 @@ a.tel {
 		left:-8px;
 	}
 }
+*/
 
 
 .nav_close {
-	width:40px;
+	width:66px;
+	height:63px;
+	border:2px solid $brown;
 	position: absolute;
-	top: 56px;
+	top: 43px;
 	right:55px;
 	cursor: pointer;
-	
-	span {
+	svg {
 		width:100%;
+	}
+	span {
+		width:40px;
 		height:3px;
 		background: #fff;
 		display: block;
 		&:first-of-type {
 			transform: rotate(-45deg);
-			transform-origin: 24px 1px 0;
+			transform-origin: 57px 2px 0;
 		}
 		&:last-of-type {
 			transform: rotate(45deg);
-			transform-origin: 20px 3px 0;
+			transform-origin: -3px 26px 0;
 		}
 	}
 }

@@ -63,6 +63,21 @@ section.section_three {
 		float:left;
 		position: relative;
 		z-index:5;
+		cursor: pointer;
+		.play_button-cls-1{
+			fill:#4c6775;
+			transition: all .2s ease-in-out;
+			&:hover {
+				fill:$brown;
+			}
+		}
+		
+		
+		.play_button-cls-2{fill:none;stroke:#9a7537;stroke-linecap:round;stroke-dasharray:0 3;}
+		.play_button-cls-3{fill:#9a7537;}
+		.play_button-cls-4,
+		.play_button-cls-5{fill:#fff;}
+
 	}
 	.video_line {
 		width:100vw;
