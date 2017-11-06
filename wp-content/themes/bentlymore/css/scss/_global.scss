@@ -1,5 +1,8 @@
 body.fixed {
 	overflow-y: hidden;
+	position: fixed; // Iphone Fix
+	top:0;
+	left:0;
 }
 
 body {
@@ -306,7 +309,7 @@ body:not(.page-template-page-home) {
 			h1 {
 				font-size: 38px;
 				line-height: 45px;
-				margin-bottom:0px;
+				margin-bottom:30px;
    		}
    		h2 {
 	   		margin-top:22px;

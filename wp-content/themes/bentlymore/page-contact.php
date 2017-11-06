@@ -53,9 +53,6 @@ get_header(); ?>
 					
 					
 				</div><!-- contact_wrapper -->
-					
-					
-				</div><!-- testimonials_wrapper -->
 			
 			
 		</div><!-- one_column -->

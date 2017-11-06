@@ -4,7 +4,7 @@
 	
 	<div id="inner_main_trigger" class="inner_main">
 		
-		<div class="one_column">
+		
 			
 			<div class="internal_header_wrapper content">
 				
@@ -36,7 +36,7 @@
 				</div><!-- blog_wrapper -->			
 					
 		
-		</div><!-- one_column -->
+		
 		
 		
 	</div><!-- inner_main -->

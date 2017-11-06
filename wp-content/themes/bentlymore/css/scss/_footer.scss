@@ -610,7 +610,8 @@ a.ilawyer {
 	
 	
 	footer {
-		padding: 26px 26px 30px 26px;
+		padding: 0px;
+		
 	}
 	
 	.overlay_form {
@@ -622,12 +623,13 @@ a.ilawyer {
 	.inner_footer {
 		padding-left: 23px;
 		padding-right:23px;
+		border: none;
 		span.sub_header {
 			display: none;
 		}
 		span.large_header {
 			margin-top:42px;
-			font-size:35px;
+			font-size:30px;
 			line-height: 42px;
 			max-width:400px;
 		}

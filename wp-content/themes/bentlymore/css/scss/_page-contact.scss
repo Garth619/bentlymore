@@ -3,7 +3,7 @@
 .contact_wrapper {
 	background: $off_white_two;
 	width:100%;
-	margin:75px auto 105px;	
+	margin:75px auto 165px;	
 	max-width:1310px;
 	overflow: hidden;
 }
@@ -71,7 +71,9 @@
 
 @media screen and (max-width: 1365px) {
 	
-	
+	.contact_wrapper {
+		margin-bottom:110px;
+	}
 	
 	.inner_contact_address {
 		padding: 160px 30px 125px 65px;
@@ -113,7 +115,9 @@
 @media screen and (max-width: 1080px) {
 	
 	
-	
+	.contact_wrapper {
+		margin-bottom:80px;
+	}
 	
 	
 	

@@ -30,6 +30,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+
 				
 <header id="header_trigger">
 		
