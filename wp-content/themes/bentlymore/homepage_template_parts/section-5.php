@@ -52,13 +52,21 @@
 			
 			<img class="mobile_image" src="<?php bloginfo('template_directory');?>/images/img-02.jpg"/>
 			
-			<h2>Nunc bibendum molestie mauris, sed semper nisi sodales quis orci nunc conditumet.</h2>
+			<h2>Compensation in Personal Injury Claims </h2>
 
-<p>Morbi imperdiet orci ut viverra lacinia. Fusce fringilla vitae risus vestibulum volutpat. Curabitur semper scelerisque dui in interdum. Suspendisse eleifend finibus viverra. Quisque imperdiet, odio vitae condimentum volutpat, neque nisl suscipit risus, nec fringilla mauris tortor sit amet justo. Donec bibendum iaculis magna, eu auctor nisi placerat ut. Quisque cursus velit a gravida tempor. Vestibulum vel eleifend dolor. In laoreet ultricies tellus id mollis. Nullam in dui tincidunt, dignissim lorem ut, accumsan magna.</p> 
+<p>Plaintiffs in personal injury lawsuits can recover various types of compensation depending on the damages in the case. The plaintiff’s attorney will provide the court with evidence showing the extent of the plaintiff’s damages. Damages in personal injury cases usually include:</p>
 
-<p>Curabitur a mauris et nisi malesuada malesuada eu non nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id enim tempus, rutrum felis non, aliquam leo. Mauris volutpat a nulla accumsan ullamcorper. Aliquam erat tortor, congue in vestibulum sit amet, bibendum vitae lectus.</p>
+<ul>
+<li><strong>Medical expenses.</strong> This includes ambulance fees, hospital bills, and any costs for necessary treatments or ongoing care.</li>
 
-<p>Nunc bibendum molestie mauris, sed semper nisi sodales quis. Morbi imperdiet orci ut viverra lacinia. Fusce fringilla vitae risus vestibulum volutpat. Curabitur semper scelerisque dui in interdum. Suspendisse eleifend finibus viverra. Quisque imperdiet, odio vitae condimentum volutpat, neque nisl suscipit risus, nec fringilla mauris tortor sit amet justo. Donec bibendum iaculis magna, eu auctor nisi placerat ut. Quisque cursus velit a gravida tempor. Vestibulum vel eleifend dolor. In laoreet ultricies tellus id mollis.</p>
+<li><strong>Lost income.</strong> A plaintiff’s injuries may prevent him or her from returning to work for an extended time. The plaintiff can sue for those lost wages and the wages he or she would have reasonably expected to earn in the future if the injuries prevent the plaintiff from returning to work at all.</li>
+
+<li><strong>Property damage.</strong> If a defendant’s actions caused any damage to the plaintiff’s private property, he or she may sue for the costs of repairing or replacing that property.</li>
+
+<li><strong>Pain and suffering.</strong> A judge will consider expert witness testimony and award the plaintiff an appropriate amount. </li>
+
+</ul>
+
 			
 			
 			
@@ -68,11 +76,11 @@
 		<div class="col">
 			
 			
-			<p> Duis eleifend nisi fringilla sem pretium, non auctor metus egestas. Pellentesque vel mauris sit amet dui molestie faucibus in quis enim. Aliquam dictum at justo eu malesuada. Pellentesque ullamcorper tincidunt accumsan. Cras finibus tortor non lacus lacinia varius. Sed nec scelerisque nibh. Aenean feugiat congue quam, sed scelerisque ex luctus ut.</p>
+			<p> Bentley & More is comprised of experienced attorneys with the creativity and determination to achieve a positive result in your dispute.  At Bentley & More, we work closely with our clients to deeply understand their lives and needs. Our success comes from tailoring each solution to deliver a real difference in your quality of life.</p>
 			
-			<blockquote>Nunc bibendum molestie nunc mauris, sed semper nisi sodales interdum quis.</blockquote>
+			<blockquote>Our success comes from tailoring each solution to deliver a real difference in your quality of life.</blockquote>
 			
-			<p>Morbi imperdiet orci ut viverra lacinia. Fusce fringilla vitae risus vestibulum volutpat. Curabitur semper scelerisque dui in interdum. Suspendisse eleifend finibus viverra. Quisque imperdiet, odio vitae condimentum volutpat, neque nisl suscipit risus, nec fringilla mauris tortor sit amet justo. Donec bibendum iaculis magna, eu auctor nisi placerat ut. Quisque cursus velit a gravida tempor. Vestibulum vel eleifend dolor. In laoreet ultricies tellus id mollis. </p>
+			<p>Plaintiffs in personal injury cases need reliable, experienced legal representation to secure compensation for their losses. The attorneys at Bentley & More, LLP provide comprehensive legal representation in personal injury claims to clients all over the Orange County area, including Santa Ana, Irvine, and Anaheim. Reach out to our team today to schedule a consultation about your personal injury claim in Orange County. We’ll work closely with you to build a case.</p>
 
 			
 			

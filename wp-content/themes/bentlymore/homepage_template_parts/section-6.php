@@ -12,7 +12,7 @@
 			
 			
 			
-			<div class="sec_six_play_wrapper">
+			<div class="sec_six_play_wrapper wistia_embed wistia_async_jg0sfzh9mf popover=true popoverContent=html">
 				
 				
 				<div class="sec_six_brown_line"></div><!-- sec_six_brown_line -->

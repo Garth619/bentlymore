@@ -27,10 +27,8 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
 jQuery(document).ready(function($){
 	
-	
 
    
-    
     
    $('.free_consultation_desktop, .free_consultation_tablet, .mobile_free_consultation, .begin').on('click', function(e) {
       
@@ -38,10 +36,10 @@ jQuery(document).ready(function($){
     	
     	 
     	
-    	$('body').addClass('fixed');
+				$('html,body').addClass('fixed');
     	
+   });
     
-    });
     
     
   
@@ -54,7 +52,7 @@ jQuery(document).ready(function($){
 	    
 	   
 	    
-	    $('body').removeClass('fixed');
+	    $('html,body').removeClass('fixed');
       
     });
     
@@ -84,7 +82,8 @@ jQuery(document).ready(function($){
 	  
 	  
 				$('.nav_dropdown').addClass('slideout');
-				$('body').removeClass('fixed');
+				
+				$('html,body').removeClass('fixed');
 	  
 		
 				$('.nav_dropdown').delay(1500).queue(function(){
@@ -119,7 +118,7 @@ jQuery(document).ready(function($){
 	  
 					$('.nav_dropdown').slideToggle();
 	  
-					$('body').toggleClass('fixed');
+					$('html,body').toggleClass('fixed');
 	  
 				});
 	
@@ -128,7 +127,8 @@ jQuery(document).ready(function($){
 				$('.nav_close_mobile').on('click', function(e) {
 	  
 					$('.nav_dropdown').slideToggle();
-					$('body').removeClass('fixed');
+					
+					$('html,body').removeClass('fixed');
 	  
 				});
 

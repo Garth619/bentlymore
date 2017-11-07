@@ -28,11 +28,11 @@
 						
 						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
 						
-						<span class="sett_amount">$31.5m</span><!-- sett_amount -->
+						<span class="sett_amount">$7.0m</span><!-- sett_amount -->
 						
 						<span class="brown_line"></span><!-- brown_line -->
 						
-						<span class="sett_type">Dangerous Roads</span><!-- sett_type -->
+						<span class="sett_type">Brain Injury</span><!-- sett_type -->
 						
 					</div><!-- settlement_slides -->
 					
@@ -45,34 +45,57 @@
 						
 						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
 						
-						<span class="sett_amount">$31.5m</span><!-- sett_amount -->
+						<span class="sett_amount">$1.64m</span><!-- sett_amount -->
 						
 						<span class="brown_line"></span><!-- brown_line -->
 						
-						<span class="sett_type">Dangerous Roads</span><!-- sett_type -->
+						<span class="sett_type">Zip-Line Accident</span><!-- sett_type -->
 						
 					</div><!-- settlement_slides -->
-					
-					
-					
 					
 					
 					<div class="settlement_slides">
 						
 						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
 						
-						<span class="sett_amount">$31.5m</span><!-- sett_amount -->
+						<span class="sett_amount">$1.9m</span><!-- sett_amount -->
 						
 						<span class="brown_line"></span><!-- brown_line -->
 						
-						<span class="sett_type">Dangerous Roads</span><!-- sett_type -->
+						<span class="sett_type">E-Cig Explosion</span><!-- sett_type -->
+						
+					</div><!-- settlement_slides -->
+
+					
+					
+					<div class="settlement_slides">
+						
+						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
+						
+						<span class="sett_amount">$1.9m</span><!-- sett_amount -->
+						
+						<span class="brown_line"></span><!-- brown_line -->
+						
+						<span class="sett_type">E-Cig Explosion</span><!-- sett_type -->
+						
+					</div><!-- settlement_slides -->
+
+					<div class="settlement_slides">
+						
+						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
+						
+						<span class="sett_amount">$1.8m</span><!-- sett_amount -->
+						
+						<span class="brown_line"></span><!-- brown_line -->
+						
+						<span class="sett_type">E-Cig Explosion</span><!-- sett_type -->
 						
 					</div><!-- settlement_slides -->
 					
 				</div><!-- settlement_slideshow -->
 				
-				<a class="view_more desktop" href="">View More Results</a><!-- view_more -->
-				<a class="view_more mobile" href="">View More</a><!-- view_more -->
+				<a class="view_more desktop" href="/case-results/">View More Results</a><!-- view_more -->
+				<a class="view_more mobile" href="/case-results/">View More</a><!-- view_more -->
 				
 				<div class="desktop_grey_bg">
 					
@@ -99,7 +122,7 @@
 				
 				<div class="news_feed">
 					
-					<a href="" class="single_news_wrapper">
+					<a href="/news/" class="single_news_wrapper">
 						
 						<div class="news_logo">
 							
@@ -121,7 +144,7 @@
 						
 					</a><!-- single_news_wrapper -->
 					
-					<a href="" class="single_news_wrapper">
+					<a href="/news/" class="single_news_wrapper">
 						
 						<div class="news_logo">
 							
@@ -143,7 +166,7 @@
 						
 					</a><!-- single_news_wrapper -->
 					
-					<a href="" class="single_news_wrapper">
+					<a href="/news/" class="single_news_wrapper">
 						
 						<div class="news_logo">
 							

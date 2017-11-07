@@ -15,7 +15,7 @@
 				
 				<img src="<?php bloginfo('template_directory');?>/images/img-01.png"/>
 				
-				<div id="video_trigger" class="video_play_wrapper large_monitor">
+				<div id="video_trigger" class="video_play_wrapper large_monitor wistia_embed wistia_async_gdx870f81i popover=true popoverContent=html">
 					
 					<svg id="play_button" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 228"><defs><style>
 						
@@ -44,7 +44,7 @@
 				
 				<div class="video_play_wrapper small_monitor">
 					
-					<div class="small_monitor_play_wrapper">
+					<div class="small_monitor_play_wrapper wistia_embed wistia_async_gdx870f81i popover=true popoverContent=html">
 					
 					<svg id="play_button" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 228"><defs><style>
 						
@@ -73,11 +73,8 @@
 				</div><!-- video_play_wrapper -->
 				
 				
-				
-				
-				
-				
-				<p>Curabitur a mauris et nisi malesuada malesuada eu non nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id enim tempus, rutrum felis non, aliquam leo. Mauris volutpat a nulla accumsan ullamcorper. Aliquam erat tortor, congue in vestibulum sit amet, bibendum vitae lectus. Duis eleifend nisi fringilla sem pretium, non auctor metus egestas. Pellentesque vel mauris sit amet dui molestie faucibus in quis enim. Aliquam dictum at justo eu malesuada. Pellentesque ullamcorper tincidunt accumsan. Cras finibus tortor non lacus lacinia varius. Sed nec scelerisque nibh. Aenean feugiat congue quam, sed scelerisque ex luctus ut.</p>
+				<p>The attorneys at Bentley & More, LLP have extensive experience handling complex litigation in various practice areas including product liability, workers compensation, and personal injury. Residents of the Orange County area in need of legal representation should reach out to our team and schedule a consultation to meet with one of our attorneys about your case. We have the resources and experience to handle even the most complex civil actions. </p>
+							
 			
 			
 				<div class="blockquote_wrapper">
@@ -88,24 +85,37 @@
 					
 					</div><!-- image_wrapper -->
 				
-					<span class="text_wrapper">Nunc bibendum molestie mauris, sed semper nisi sodales quis orci nunc vel efinent conditumet.</span><!-- text_wrapper -->
+					<span class="text_wrapper">At Bentley & More, we work closely with our clients to deeply understand their lives and needs.</span><!-- text_wrapper -->
 				
 				</div><!-- blockquote_wrapper -->
 			
 				<div class="sec_three_col col_one">
 				
-				<p>Morbi imperdiet orci ut viverra lacinia. Fusce fringilla vitae risus vestibulum volutpat. Curabitur semper scelerisque dui in interdum. Suspendisse eleifend finibus viverra. Quisque imperdiet, odio vitae condimentum volutpat, neque nisl suscipit risus, nec fringilla mauris tortor sit amet justo. Donec bibendum iaculis magna, eu auctor nisi placerat ut. Quisque cursus velit a gravida tempor. Vestibulum vel eleifend dolor. In laoreet ultricies tellus id mollis. Nullam in dui tincidunt, dignissim lorem ut, accumsan magna.</p> 
+				<p>Our firm has helped secure millions of dollars in case awards and settlements for our clients. While many people assume personal injury lawsuits are straightforward, the truth is that they can quickly turn into complicated legal battles that can last months or even years. Cases involving long-term disability and serious injuries also require practiced legal counsel for successful results. Injured Californians in the Orange County area can reach out to our team for representation in even the most complicated personal injury cases.</p> 
 
-				<h2>Nunc bibendum molestie mauris, sed semper nisi sodales quis orci nunc conditumet.</h2>
+				<h2> Building a Personal Injury Lawsuit</h2>
 				
-				<p>Curabitur a mauris et nisi malesuada malesuada eu non nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+				<p> Personal injury lawsuits revolve around the legal concept of negligence. Negligence describes one party’s failure to act in a reasonable and responsible manner in a given situation. For example, a driver who fails to come to a stop at a red light violates the duty of care to follow the traffic laws and endangers others nearby. When negligence causes an injury, the injured party will often seek compensation for his or her damages through a personal injury claim. </p>
 
 				
 				</div><!-- sec_three_col -->
 				
 				<div class="sec_three_col col_two">
 
-								<p> Donec id enim tempus, rutrum felis non, aliquam leo. Mauris volutpat a nulla accumsan ullamcorper. Aliquam erat tortor, congue in vestibulum sit amet, bibendum vitae lectus. Duis eleifend nisi fringilla sem pretium, non auctor metus egestas. Pellentesque vel mauris sit amet dui molestie faucibus in quis enim. Aliquam dictum at justo eu malesuada. Pellentesque ullamcorper tincidunt accumsan. Cras finibus tortor non lacus lacinia varius. Sed nec scelerisque nibh. Aenean feugiat congue quam, sed scelerisque ex luctus ut. Nunc bibendum molestie mauris, sed semper nisi sodales quis. Morbi imperdiet orci ut viverra lacinia. Fusce fringilla vitae risus .</p>
+								
+								<p>To succeed in a personal injury claim, a plaintiff must demonstrate how the defendant in the case violated his or her duty of care. Proving negligence requires establishing four facts in court:</p>
+
+					<ul>
+						<li><strong>Duty.</strong> The plaintiff must show that the defendant owed the plaintiff a duty of care given the incident in question in the case.</li>
+
+						<li><strong>Breach.</strong> Next, the plaintiff must show how the defendant breached this duty of care. The plaintiff must prove the defendant took a specific action that was inappropriate for the circumstances. Negligence may also include inaction or failing to take an appropriate action when another reasonable person would have.</li>
+
+						<li><strong>Causation.</strong> The plaintiff must prove his or her damages were the direct results of the defendant’s breach of duty and not some other cause.</li>
+
+						<li><strong>Damages.</strong> Finally, the plaintiff can only sue if he or she suffered some injury or measurable loss. Even if the defendant acted negligently, the plaintiff can only sue if he or she experienced actual harm or some kind of measurable loss.</li>
+					</ul>
+
+
 				
 			</div><!-- sec_three_col -->				
 

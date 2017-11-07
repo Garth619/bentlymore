@@ -26,9 +26,9 @@
 						
 						<span class="slide_count">01</span><!-- slide_count -->
 						
-						<span class="selling_point_title"> Reputation Amongst Peers</span><!-- selling_point_title -->
+						<span class="selling_point_title">No Upfront Fees</span><!-- selling_point_title -->
 						
-						<span class="selling_points_content">Judges know how deeply we care about our clients because it shows in court. </span><!-- selling_points_content -->
+						<span class="selling_points_content">Contact us today for a no-obligation consultation. </span><!-- selling_points_content -->
 						
 						
 						</div><!-- slide_inner_content -->
@@ -53,7 +53,7 @@
 						
 						<span class="selling_point_title"> Reputation Amongst Peers</span><!-- selling_point_title -->
 						
-						<span class="selling_points_content">Lorem por incididunt ut labore et dolore magna. </span><!-- selling_points_content -->
+						<span class="selling_points_content">Judges know how deeply we care about our clients because it shows in court. </span><!-- selling_points_content -->
 						
 						
 						</div><!-- slide_inner_content -->
@@ -76,9 +76,9 @@
 						
 						<span class="slide_count">03</span><!-- slide_count -->
 						
-						<span class="selling_point_title"> Reputation Amongst Peers</span><!-- selling_point_title -->
+						<span class="selling_point_title">Results That Matter</span><!-- selling_point_title -->
 						
-						<span class="selling_points_content">Judges know how deeply we care about our clients because it shows in court. </span><!-- selling_points_content -->
+						<span class="selling_points_content">Our attorneys have reached settlements &amp; verdicts that help our clients recover & heal. </span><!-- selling_points_content -->
 						
 						
 						</div><!-- slide_inner_content -->
@@ -101,9 +101,9 @@
 						
 						<span class="slide_count">04</span><!-- slide_count -->
 						
-						<span class="selling_point_title"> Reputation Amongst Peers</span><!-- selling_point_title -->
+						<span class="selling_point_title"> Client Focused</span><!-- selling_point_title -->
 						
-						<span class="selling_points_content">Lorem por incididunt ut labore et dolore magna por incididunt ut . </span><!-- selling_points_content -->
+						<span class="selling_points_content">Let us guide you through the process, and tell your story, together. </span><!-- selling_points_content -->
 						
 						
 						</div><!-- slide_inner_content -->
