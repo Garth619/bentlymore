@@ -35,14 +35,14 @@
 				
 				<div class="footer_box_inner">
 				
-					<a class="footer_address" href="">4 Park Plaza #500<br/>Irvine, CA 92614</a>
-					<a class="footer_tel" href="">(949) 870-3800</a>
-					<a class="footer_email" href="">contact@bentleymore.com</a>
+					<a class="footer_address" href="https://www.google.com/maps/place/4+Park+Plaza+%23500,+Irvine,+CA+92614/@33.6782353,-117.840085,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde86c6583ebf:0x3c96a2b5dc2b12ed!8m2!3d33.6782353!4d-117.8378963" target="_blank">4 Park Plaza #500<br/>Irvine, CA 92614</a>
+					<a class="footer_tel" href="tel:9498703800">(949) 870-3800</a>
+					<a class="footer_email" href="mail:contact@bentleymore.com">contact@bentleymore.com</a>
 					
 					
 					<span class="footer_gold_line"></span><!-- footer_gold_line -->
 					
-					<a class="footer_directions" href="">Directions</a>
+					<a class="footer_directions" href="https://www.google.com/maps/place/4+Park+Plaza+%23500,+Irvine,+CA+92614/@33.6782353,-117.840085,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde86c6583ebf:0x3c96a2b5dc2b12ed!8m2!3d33.6782353!4d-117.8378963" target="_blank">Directions</a>
 				
 				</div><!-- footer_box_inner -->
 				
@@ -53,10 +53,10 @@
 				<div class="footer_box_inner">
 					
 					<ul>
-						<li><a class="social_link" href="" target="_blank">Facebook</a></li>
+						<li><a class="social_link" href="https://www.facebook.com/BentleyMoreLLP/" target="_blank">Facebook</a></li>
 						<li><a class="social_link" href="" target="_blank">Google+</a></li>
-						<li><a class="social_link" href="" target="_blank">Twitter</a></li>
-						<li><a class="social_link" href="" target="_blank">Yelp</a></li>
+						<li><a class="social_link" href="https://twitter.com/bentleymore?lang=en" target="_blank">Twitter</a></li>
+						<li><a class="social_link" href="https://www.yelp.com/biz/bentley-and-more-irvine" target="_blank">Yelp</a></li>
 					</ul>
 					
 				</div><!-- footer_box_inner -->

@@ -329,6 +329,18 @@ body:not(.page-template-page-home) {
    		}
 		}
 	} 
+	
+	
+	.content blockquote {
+		&:before {
+			max-width:100%;
+			height:1px;
+		}
+		&:after {
+			max-width:100%;
+			height:1px;
+		}
+	}
 
 	
 	.content {

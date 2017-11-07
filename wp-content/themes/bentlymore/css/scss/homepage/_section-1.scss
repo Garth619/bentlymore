@@ -19,16 +19,15 @@
 }
 
 
-
-.banner.animate {
 	.banner_content {
 		animation-name: title_fade, title_move;
 		animation-duration: 1000ms, 1500ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);;
 		animation-delay: 300ms;
+		opacity: 0;
 	}
-}
+
 
 
 
@@ -75,15 +74,16 @@
 
 
 
-.banner.animate {
+
 	.begin {
 		animation-name: button_fade, button_move;
 		animation-duration: 1000ms, 1500ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
 		animation-delay: 1000ms;
+		opacity: 0;
 	}
-}
+
 
 
 
@@ -164,7 +164,6 @@
 
 
 
-.banner.animate {
 	.scroll_wrapper {
 			animation-name: scroll_wrapper_fade;
 			animation-duration: 1000ms;
@@ -181,11 +180,11 @@
 	}
 	.scroll_lines {
 		animation-name: scroll_lines_move;
-		animation-duration: 2500ms;
+		animation-duration: 3000ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear;
 		animation-iteration-count: infinite;
-		animation-delay: 1000ms;
+		// animation-delay: 1000ms;
 		transform: translateY(-20px);
 		span.white_line {
 			animation-name: scroll_line_move;
@@ -195,7 +194,7 @@
 			animation-iteration-count: infinite;
 		}
 	}
-}
+
 
 
 
@@ -275,18 +274,19 @@
 	
 	
 	
-.banner.animate {
+
 	.banner_content {
 		animation-name: none;
+		opacity: 1;
 	}
-}
 
 
-.banner.animate {
+
 	.begin {
 		animation-name: none;
+		opacity: 1;
 	}
-}
+
 
 	
 	
@@ -366,7 +366,7 @@
     	height: 452px;
     	background-position: center -57px;
 			background-size: 1000px 510px;
-    	margin-top: 102px;
+    	margin-top: 140px;
    	}
    
 	 

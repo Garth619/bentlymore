@@ -72,7 +72,10 @@ jQuery(document).ready(function($){
       $('.menu_wrapper').on('click', function(e) {
 	  
 				$('.nav_dropdown').addClass('slidein');
+				
 				$('body').toggleClass('fixed');
+				
+				$('.menu_bar_wrapper').addClass('animate');
 	  
 			});
 	

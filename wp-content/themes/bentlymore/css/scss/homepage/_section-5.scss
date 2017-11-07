@@ -266,7 +266,7 @@ section.section_five {
 		position: relative;
 		top:-24px;
 		left:56px;
-		z-index: 50;
+		z-index: 10;
 	}
 
 	span.testi_line_dotted {
@@ -339,6 +339,7 @@ section.section_five {
 		margin-left: 58px;
 		width: 484px;
 		z-index:0;
+		position: relative;
 		&:before {
 			width: 104%;
 			height: 133%;
@@ -402,6 +403,13 @@ section.section_five {
 	}
 	
 	
+	
+
+	
+	
+
+	
+	
 	.sec_five_spacer {
 		position: absolute;
 		top:62px;
@@ -419,8 +427,10 @@ section.section_five {
 		}
 		span.testi_line_dotted {
 			&:before {
+				content:"......................................................................................................................................................................................................................................................................................";
 				top:29px;
 				right: -58px;
+				
 			}
 		}
 	} 
