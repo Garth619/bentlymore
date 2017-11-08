@@ -67,7 +67,7 @@ jQuery(document).ready(function($){
  				
  				},
   			
-				offset: 100
+				offset: 200
 			}) // waypoint
 			
 			

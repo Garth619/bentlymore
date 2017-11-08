@@ -233,7 +233,10 @@ checkWidthmenu();
 		slidesToShow: 3,
 		slidesToScroll: 3,
 		dots:true,
+		autoplay: true,
 		arrows:false,
+		autoplaySpeed: 3000,
+		speed:800,
 		responsive: [
     {
       breakpoint: 767,
@@ -264,8 +267,8 @@ checkWidthmenu();
       breakpoint: 767,
       settings: {
         
-        swipe:true,
-        adaptiveHeight: true
+        // swipe:true,
+        // adaptiveHeight: true
       }
     }
   ]

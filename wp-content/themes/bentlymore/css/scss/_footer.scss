@@ -338,6 +338,10 @@ span.copyright {
 		color:#172a36;
 		margin-left:15px;
 		text-decoration: none;
+		transition: all .2s ease-in-out;
+		&:hover {
+			color:$brown;
+		}
 	}
 }
 
@@ -610,7 +614,7 @@ a.ilawyer {
 	
 	
 	footer {
-		padding: 0px;
+		padding: 22px;
 		
 	}
 	
@@ -623,7 +627,7 @@ a.ilawyer {
 	.inner_footer {
 		padding-left: 23px;
 		padding-right:23px;
-		border: none;
+		
 		span.sub_header {
 			display: none;
 		}

@@ -567,6 +567,8 @@ header {
 		opacity: 0;
 		visibility: hidden;
 		transition: all .2s ease-in-out;
+		
+		transform: translate3d(0,0,0);
 		img {
 			width:75px;
 			position: absolute;
@@ -584,6 +586,7 @@ header {
 	.free_consultation_tablet.active {
 		opacity: 1;
 		visibility: visible;
+		
 	}
 	
 	.free_consultation_tablet.active.hide {

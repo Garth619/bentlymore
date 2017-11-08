@@ -28,9 +28,23 @@
 		svg {
 			.vc_cls-1 {
 				fill:$lightblue_one;
+				transition: all .2s ease-in-out;
 			}
 			.vc_cls-2 {
 				fill:#fff;
+			}
+		}
+	}
+}
+
+
+.single_video_wrapper {
+	&:hover {
+		.play_wrapper {
+			svg {
+				.vc_cls-1 {
+					fill:$brown;
+				}
 			}
 		}
 	}

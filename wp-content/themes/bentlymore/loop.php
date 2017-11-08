@@ -21,13 +21,22 @@
 	
 	<div class="single_post">
 		
+		
+		<?php if ( has_post_thumbnail() ) :?>
+		
 		<div class="single_post_img">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/post-image.png"/>
+			<img src="<?php the_post_thumbnail_url(); ?>"/>
 			
 		</div><!-- single_post_img -->
 		
 		<div class="single_post_content">
+			
+		<?php else:?>
+		
+			<div class="single_post_content" style="width:100%;float:none;padding-left:0">
+		
+		<?php endif;?>
 		
 			<h2><a class="post_link" href="<?php the_permalink();?>"><?php the_title();?></a></h2>
 			
