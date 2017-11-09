@@ -260,18 +260,8 @@ checkWidthmenu();
 		slide:'.selling_point_single_slide',
 		asNavFor: '.selling_points_bullet_wrapper',
 		arrows:false,
-		swipe:false,
-		fade:true,
-		responsive: [
-    {
-      breakpoint: 767,
-      settings: {
-        
-        // swipe:true,
-        // adaptiveHeight: true
-      }
-    }
-  ]
+		// swipe:false,
+		fade:true
 	});
 	
 	
@@ -280,26 +270,59 @@ checkWidthmenu();
 	$('.selling_points_bullet_wrapper').slick({
   	infinite: false,
 		slidesToShow: 4,
-		slidesToScroll: 1,
+		slidesToScroll: 4,
 		dots:false,
 		slide:'.bullet_slide',
-		 focusOnSelect: true,
+		focusOnSelect: true,
 		asNavFor: '.selling_point_slideshow',
-		arrows:false,
-		swipe:false
+		arrows:false
 	});
 	
 	
 	
 	
 	// Case Results
+	
+	
+	var windowWidth = $(window).width();
 
-	function checkWidth() {
+
+
+	function checkWidthcase() {
     
-    if (jQuery(window).width() > 970) {
+    if (windowWidth < 767) {
         
       
-    			$('.int_single_case_results').on('mouseenter', function(e) {
+    	$('.int_single_case_results').on('click', function(e) {
+	  
+				$(this).find('.int_case_hover').toggleClass('open');
+				$(this).find('.tri').toggleClass('open');
+	
+			});
+    	   		
+    		
+    } 
+    
+    
+    if (windowWidth > 767 && windowWidth < 970) {
+		
+			
+				$('.int_single_case_results').on('click', function(e) {
+	  
+					$(this).find('.int_case_hover').toggleClass('open');
+						$(this).find('.int_case_content').toggleClass('hide');
+	
+				});
+		
+		
+		}
+    
+    
+    
+		if (windowWidth > 970) {
+		
+					
+				$('.int_single_case_results').on('mouseenter', function(e) {
 	  
 						$(this).find('.int_case_hover').addClass('open');
 	  
@@ -315,24 +338,12 @@ checkWidthmenu();
 						$(this).find('.int_case_content').removeClass('hide');
 	  
 					});
-    	   		
-    		
-    } else {
-		
-					
-	$('.int_single_case_results').on('click', function(e) {
-	  
-		$(this).find('.int_case_hover').toggleClass('open');
-		$(this).find('.tri').toggleClass('open');
-	
-	});
-
-		
-    }
+			
+		}
 };
 	
 
-checkWidth();
+checkWidthcase();
 	
 	
 

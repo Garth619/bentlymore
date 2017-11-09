@@ -178,6 +178,11 @@ span.int_result {
 span.int_case_amount {
 	font-size: 72px;
 }
+
+.int_case_content.hide {
+		opacity: 0;
+		visibility: hidden;
+	}
 	
 	
 	
@@ -225,11 +230,11 @@ span.int_case_amount {
 		font-size: 55px;
 	}
 	
-	
 	.int_case_content.hide {
 		opacity: 1;
 		visibility: visible;
 	}
+	
 	
 	span.int_case_type {
 		margin-bottom:15px;

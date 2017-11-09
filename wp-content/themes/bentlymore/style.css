@@ -4726,7 +4726,10 @@ span.int_result {
     .int_single_case_results:nth-of-type(2n + 2) {
       margin-right: auto; }
   span.int_case_amount {
-    font-size: 72px; } }
+    font-size: 72px; }
+  .int_case_content.hide {
+    opacity: 0;
+    visibility: hidden; } }
 
 /* Media Query */
 @media screen and (max-width: 767px) {
