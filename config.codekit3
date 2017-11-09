@@ -30,6 +30,13 @@
 		"oAP": "\/bentlymore.sql.gz",
 		"oF": 0
 		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -22202,6 +22209,13 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/bentlymore\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/bentlymore\/favicon.ico",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/bentlymore\/fonts\/acta\/acta_display_w01_xbold-demo.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -22853,13 +22867,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/wp-content\/themes\/bentlymore\/images\/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/bentlymore\/images\/favicon.ico",
-		"oF": 0
 		},
 	"\/wp-content\/themes\/bentlymore\/images\/hero-2000.jpg": {
 		"ft": 16384,

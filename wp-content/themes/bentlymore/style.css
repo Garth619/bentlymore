@@ -414,13 +414,11 @@ input, textarea {
     text-decoration: none; }
     .content a:hover {
       text-decoration: underline; }
-  .content ul {
-    margin-bottom: 42px; }
-    .content ul li {
-      background: url(/wp-content/themes/bentlymore/images/dot.png) no-repeat scroll 0 10px;
-      list-style: none;
-      padding: 0px 0 0 15px;
-      margin-bottom: 25px; }
+  .content ul li {
+    background: url(/wp-content/themes/bentlymore/images/dot.png) no-repeat scroll 0 10px;
+    list-style: none;
+    padding: 0px 0 0 15px;
+    margin-bottom: 25px; }
   .content ol {
     margin: 0 0 0 0px;
     counter-reset: my-counter;
@@ -519,7 +517,7 @@ img.aligncenter {
 
 @media screen and (max-width: 1450px) {
   body:not(.page-template-page-home) .content blockquote {
-    margin: 0px 0 21px 0px;
+    margin: 0px 0 21px 450px;
     padding: 3%; }
     body:not(.page-template-page-home) .content blockquote:before {
       left: -3%; }
@@ -536,12 +534,21 @@ img.aligncenter {
     font-style: normal; } }
 
 /* Media Query */
+@media screen and (max-width: 1230px) {
+  body:not(.page-template-page-home) .content blockquote {
+    margin: 0px 0 21px 385px;
+    padding: 3%; }
+    body:not(.page-template-page-home) .content blockquote:before {
+      left: -3%; }
+    body:not(.page-template-page-home) .content blockquote:after {
+      left: -3%; } }
+
 /* Media Query */
 @media screen and (max-width: 900px) {
   body:not(.page-template-page-home) .content blockquote {
     font-size: 35px;
     line-height: 50px;
-    margin: 0px 0 23px; }
+    margin: 0px 0 23px 47%; }
     body:not(.page-template-page-home) .content blockquote:before {
       margin: 0px 0 26px 0px; }
     body:not(.page-template-page-home) .content blockquote:after {
