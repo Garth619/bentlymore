@@ -34,7 +34,7 @@ jQuery(document).ready(function($){
        
        createWaypoint("inner_main_trigger", ".free_consultation_desktop, .free_consultation_tablet", "active", "0%", null);
         
-       createWaypoint("footer", ".free_consultation_desktop, .free_consultation_tablet", "hide", "70%", null);
+       createWaypoint("footer", ".free_consultation_desktop, .free_consultation_tablet", "hide", "100%", null);
        
 
 

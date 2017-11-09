@@ -373,7 +373,9 @@ input, textarea {
     font-family: "actadisplayw01-xboldregular";
     color: #293641;
     line-height: 95px;
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    font-style: normal;
+    font-weight: 300; }
   .content p {
     margin-bottom: 40px; }
   .content h2 {
@@ -383,7 +385,9 @@ input, textarea {
     font-size: 30px;
     letter-spacing: 0px;
     margin-top: 45px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 300; }
   .content h3 {
     font-family: "actadisplayw04-mediumitalicRg";
     font-size: 25px;
@@ -892,7 +896,7 @@ a.tel {
   background: #4c6775;
   position: fixed;
   right: 0;
-  top: 44%;
+  bottom: 50px;
   z-index: 20;
   cursor: pointer;
   opacity: 0;
