@@ -23564,7 +23564,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/bentlymore\/js\/waypoints-homepage-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/wp-content\/themes\/bentlymore\/js\/waypoints-internals-min.js": {
@@ -23584,7 +23584,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/bentlymore\/js\/waypoints-internals-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/wp-content\/themes\/bentlymore\/js\/waypoints\/.eslintrc": {

@@ -33,7 +33,7 @@ section.section_five {
 		left:0;
 		
 		
-		opacity: 0;
+		// opacity: 0;
 	}
 	img {
 		position: relative;
@@ -43,84 +43,11 @@ section.section_five {
 		height:auto;
 		
 		
-		opacity: 0;
+		// opacity: 0;
 	}
 }
 
 
-
-
-.section_five.animate {
-	.sec_five_image_container {
-		&:before {
-			animation-name: grey_box_fade, grey_box_move;
-			animation-duration: 500ms, 1800ms;
-			animation-fill-mode: both;
-			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-			animation-delay: 600ms;
-		}
-		&:after {
-			
-		}
-		img {
-			animation-name: testi_img_fade, testi_img_move;
-			animation-duration: 500ms, 1800ms;
-			animation-fill-mode: both;
-			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-			
-		}
-	}
-}
-
-
-
-
-@keyframes grey_box_fade {
-  from {
-    opacity: 0;
- 	}
-
-  to {
-    opacity: 1;
-   }
-}
-
-
-
-
-@keyframes grey_box_move {
-  from {
-    transform: translateY(-100px);
- 	}
-
-  to {
-    transform: translateY(0px);
-   }
-}
-
-
-
-@keyframes testi_img_fade {
-  from {
-    opacity: 0;
- 	}
-
-  to {
-    opacity: 1;
-   }
-}
-
-
-
-@keyframes testi_img_move {
-  from {
-    transform: translateY(-100px);
- 	}
-
-  to {
-    transform: translateY(0px);
-   }
-}
 
 
 
@@ -130,10 +57,75 @@ section.section_five {
 .section_five.animate {
 	.testi_wrapper {
 		span.testi_title {
-			opacity: 1;
+			animation-name: sec_five_title_fade;
+			animation-duration: 700ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			
+			&:after {
+				animation-name: sec_five_line_move;
+				animation-duration: 1800ms;
+				animation-fill-mode: both;
+				animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+			}
+			&:before {
+				animation-name: sec_five_dot_fade;
+				animation-duration: 700ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+				animation-delay: 1600ms;
+			}
 		}
 	}
 }
+
+
+
+@keyframes sec_five_title_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+   
+    
+  }
+}
+
+
+@keyframes sec_five_line_move {
+  from {
+   transform: translateX(-800px);
+ 		
+ 		
+  }
+
+  to {
+    transform: translateX(0px);
+   
+    
+  }
+}
+
+
+
+@keyframes sec_five_dot_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+   
+    
+  }
+}
+
 
 
 
@@ -161,8 +153,7 @@ section.section_five {
 		
 		
 		opacity: 0;
-		transition: all 700ms ease-in-out;
-		transition-delay: 1000ms;
+		
 		&:before {
 		content:"........................................................................................................................................................................................................................................................";
 			display: block;
@@ -239,10 +230,66 @@ section.section_five {
 .section_five.animate {
 
 	.bottom_line_wrapper {
-		opacity: 1;
+		
+		span.testi_line {
+			animation-name: sec_five_bottom_line, sec_five_bottom_fade;
+			animation-duration: 1800ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+			// animation-delay: 1000ms;
+		}
+		span.testi_line_dotted {
+			animation-name:sec_five_dot_fade;
+			animation-duration: 700ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 2000ms;
+		}
 	}
 
 }
+
+
+
+
+@keyframes sec_five_bottom_line {
+  from {
+  transform: translateX(-300px);
+ 		
+ 		
+  }
+
+  to {
+    transform: translateX(0px);
+   
+    
+  }
+}
+
+
+
+@keyframes sec_five_bottom_fade {
+  from {
+  	opacity: 0;
+ 	}
+
+  to {
+    opacity: 1;
+   }
+}
+
+
+
+@keyframes sec_five_dot_fade {
+  from {
+  	opacity: 0;
+ 	}
+
+  to {
+    opacity: 1;
+   }
+}
+
 
 
 
@@ -253,7 +300,7 @@ section.section_five {
 	clear:both;
 	
 	
-	opacity: 0;
+
 	transition: all 700ms ease-in-out;
 	transition-delay: 0ms;
 	span.testi_line {
@@ -267,9 +314,14 @@ section.section_five {
 		top:-24px;
 		left:56px;
 		z-index: 10;
+		
+		
+		//opacity: 0;
 	}
 
 	span.testi_line_dotted {
+		
+		opacity: 0;
 		&:before 	{content:"........................................................................................................................................................................................................................................................";
 			display: block;
 			font-family: $libreblack;
@@ -280,6 +332,9 @@ section.section_five {
 			font-size: 8px;
 			color: #2a2728;
 			letter-spacing: 2.2px;
+			
+			
+			
 		}
 	}
 
@@ -452,6 +507,83 @@ section.section_five {
 	
 	
 	
+
+
+.section_five.animate {
+
+	.bottom_line_wrapper {
+		
+		span.testi_line {
+			animation-name: none;
+			
+		}
+		span.testi_line_dotted {
+			animation-name:none;
+			
+		}
+	}
+
+}
+
+
+
+
+
+
+.bottom_line_wrapper {
+	
+	span.testi_line {
+		
+	}
+
+	span.testi_line_dotted {
+		
+		opacity: 1;
+		&:before 	{			
+			
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.section_five.animate {
+	.testi_wrapper {
+		span.testi_title {
+			animation-name: none;
+			
+			&:after {
+				animation-name: none;
+			}
+			&:before {
+				animation-name: none;
+			}
+		}
+	}
+}
+
+	
+	
+	
+	
+	.testi_wrapper {
+		span.testi_title {
+			opacity: 1;
+			&:before {
+				
+			}
+		}
+	}  
+
 	
 	
 .sec_five_image_container {

@@ -105,7 +105,7 @@ jQuery(document).ready(function($){
 			
 			
 			
-			var waypointfive = new Waypoint({
+			var waypointfivetwo = new Waypoint({
 				element: document.getElementById('sec_four'),
 				handler: function(direction) {
    
@@ -130,13 +130,13 @@ jQuery(document).ready(function($){
  				
  				},
   			
-				offset:50
+				offset:100
 			}) // waypoint
 			
 			
 			
 			
-			var waypointfive = new Waypoint({
+			var waypointsix = new Waypoint({
 				element: document.getElementById('sec_six_trigger'),
 				handler: function(direction) {
    

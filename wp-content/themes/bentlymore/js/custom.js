@@ -111,6 +111,12 @@ jQuery(document).ready(function($){
 
 	  
 	  	});
+	  	
+	  	
+	  	
+	  	$('ul#menu-top-nav > li.current-menu-parent > a').next('ul.sub-menu').clone().appendTo('.sub_menu_container').show();
+	  	
+	  	
     			    	   		
     		
     } else {
@@ -152,25 +158,7 @@ checkWidthmenu();
 	
 	
 	
-	
 
-	
-	
-
-       
-
-
-	
-	
-	
-	
-	
-/*
-
-
-*/
-
-	
 	
 	
 	
@@ -241,7 +229,6 @@ checkWidthmenu();
     {
       breakpoint: 767,
       settings: {
-        
         slidesToShow: 1,
 				slidesToScroll: 1,
       }
@@ -252,32 +239,96 @@ checkWidthmenu();
 	
 	
 	
-	$('.selling_point_slideshow').slick({
-  	infinite: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		dots:false,
-		slide:'.selling_point_single_slide',
-		asNavFor: '.selling_points_bullet_wrapper',
-		arrows:false,
-		// swipe:false,
-		fade:true
-	});
+	
+
+
 	
 	
 	
+		function checkWidthsettlement() {
+			
+			var windowWidth = $(window).width();
+	    
+	    if (windowWidth > 900) {
+		    
+		    
+	        
+	       $('.selling_point_slideshow').slick({
+				 	infinite: true,
+				 	slidesToShow: 1,
+				 	slidesToScroll: 1,
+				 	dots:false,
+				 	slide:'.selling_point_single_slide',
+				 	arrows:false,
+				 	fade:true
+				}); 
+	        
+	        
+	      
+	    	$('.bullet_slide').on('mouseenter', function(e) {
+		
+					e.preventDefault();
+		
+					var slideIndex = $(this).index();
+		
+					$('.selling_point_slideshow').slick('slickGoTo', parseInt(slideIndex));
+		
+		
+					$('.bullet_slide').removeClass('hover');
+		
+					$(this).addClass('hover');
+		
+		
+					$('.bullet_slide_number').removeClass('hover');
+		
+					$(this).find('.bullet_slide_number').addClass('hover');
+	  
+				});
+
+	    	   		
+	    		
+	    } 
+	    
+	    
+	    else {
+		    
+		    
+		    	
+				$('.selling_point_slideshow').slick({
+					infinite: true,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots:false,
+					slide:'.selling_point_single_slide',
+					asNavFor: '.selling_points_bullet_wrapper',
+					arrows:false,
+					fade:true
+				});
 	
-	$('.selling_points_bullet_wrapper').slick({
-  	infinite: false,
-		slidesToShow: 4,
-		slidesToScroll: 4,
-		dots:false,
-		slide:'.bullet_slide',
-		focusOnSelect: true,
-		asNavFor: '.selling_point_slideshow',
-		arrows:false
-	});
+		    
+		    $('.selling_points_bullet_wrapper').slick({
+					infinite: false,
+					slidesToShow: 4,
+					slidesToScroll: 4,
+					dots:false,
+					slide:'.bullet_slide',
+					focusOnSelect: true,
+					asNavFor: '.selling_point_slideshow',
+					arrows:false
+				});
+		    
+		    
+		    
+	    }
+	    
+	    
+	    
+	};
+		
 	
+	checkWidthsettlement();
+	
+
 	
 	
 	
