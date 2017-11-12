@@ -7,12 +7,12 @@
 			<div class="sec_six_content">
 			
 			
-				<span class="press_title">Newsworthy <span class="second_word">Attorneys</span></span><!-- news_title -->
+				<span class="press_title"><?php the_field( 'section_six_title' ); ?> <!-- Newsworthy <span class="second_word">Attorneys --></span></span><!-- news_title -->
 			
 			
 			
 			
-			<div class="sec_six_play_wrapper wistia_embed wistia_async_jg0sfzh9mf popover=true popoverContent=html">
+			<div class="sec_six_play_wrapper wistia_embed wistia_async_<?php the_field( 'press_video' ); ?> popover=true popoverContent=html">
 				
 				
 				<div class="sec_six_brown_line"></div><!-- sec_six_brown_line -->
@@ -32,9 +32,9 @@
 			
 			<div class="sec_six_subcontent">
 				
-				<span class="sub_header">E-Cigarette Explosion Case</span><!-- subheader -->
+				<span class="sub_header"><?php the_field( 'section_six_case_type' ); ?></span><!-- subheader -->
 				
-				<span class="large_header">Greg Bently Appearance on The Dr. Oz show</span><!-- large_header -->
+				<span class="large_header"><?php the_field( 'section_six_case_title' ); ?></span><!-- large_header -->
 				
 				
 				
@@ -44,77 +44,26 @@
 					
 					<div class="logo_slideshow">
 						
-						<div class="logo_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/news-01.png"/>
-							
-						</div><!-- logo_slide -->
 						
-						<div class="logo_slide">
+						<?php if(get_field('press_logo_sliders')): ?>
+						 
+							<?php while(has_sub_field('press_logo_sliders')): ?>
+						 
+								<?php $image = get_sub_field( 'image' ); ?>
+								
+								<div class="logo_slide">
 							
-							<img src="<?php bloginfo('template_directory');?>/images/news-02.png"/>
+									<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 							
-						</div><!-- logo_slide -->
+								</div><!-- logo_slide -->
+								
+								
+						    
+							<?php endwhile; ?>
+						 
+						<?php endif; ?>
 						
-						<div class="logo_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/news-03.png"/>
-							
-						</div><!-- logo_slide -->
 						
-						<div class="logo_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/news-04.png"/>
-							
-						</div><!-- logo_slide -->
-						
-						<div class="logo_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/news-05.png"/>
-							
-						</div><!-- logo_slide -->
-						
-						<div class="logo_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/news-06.png"/>
-							
-						</div><!-- logo_slide -->
-						
-						<div class="logo_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/news-07.png"/>
-							
-						</div><!-- logo_slide -->
-						
-						<div class="logo_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/news-08.png"/>
-							
-						</div><!-- logo_slide -->
-						
-						<div class="logo_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/news-09.png"/>
-							
-						</div><!-- logo_slide -->
-						
-						<div class="logo_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/news-10.png"/>
-							
-						</div><!-- logo_slide -->
-						
-						<div class="logo_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/news-11.png"/>
-							
-						</div><!-- logo_slide -->
-						
-						<div class="logo_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/news-12.png"/>
-							
-						</div><!-- logo_slide -->
 						
 					</div><!-- logo_slideshow -->
 					

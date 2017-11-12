@@ -641,7 +641,8 @@ span.free_consultation {
   font-size: 20px;
   font-family: "actadisplayw04-bolditalicRg";
   margin-top: 32px;
-  letter-spacing: 0.4px; }
+  letter-spacing: 0.4px;
+  text-transform: lowercase; }
 
 a.tel {
   font-family: "actadisplayw04-boldregular";
@@ -3545,8 +3546,6 @@ section.section_six .slick-dots {
       font-size: 8px; }
 
 .news_image_wrapper {
-  background: url(/wp-content/themes/bentlymore/images/news-img.jpg) top center no-repeat;
-  background-size: cover;
   width: 39%;
   height: 1028px;
   float: right;

@@ -34,8 +34,20 @@
 	background-size:cover;
 }
 
+
+.news_image_wrapper {
+	background: url(<?php the_field( 'section_six_image' ); ?>) top center no-repeat;
+	background-size:cover;
+}
+
+
+
 </style>
+
 <?php wp_head(); ?>
+
+<?php the_field( 'head_tracking_code','option'); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -82,9 +94,9 @@
 				
 				<div class="header_right_inner">
 				
-					<span class="free_consultation">free consultations</span><!-- free_consultation -->
+					<span class="free_consultation"><?php the_field( 'free_consultation_verbiage','option'); ?></span><!-- free_consultation -->
 				
-					<a class="tel" href="tel:(949) 870-3800">(949) 870-3800</a>
+					<a class="tel" href="tel:(949) 870-3800"><?php the_field( 'phone','option'); ?></a>
 				
 					<div class="menu_wrapper">
 					
@@ -106,7 +118,7 @@
 			
 			<div class="mobile_free_consultation">
 				
-				<span>Free Consultation</span>
+				<span><?php the_field( 'free_consultation_verbiage','option'); ?></span>
 				
 			</div><!-- mobile_free_consultation -->
 			
@@ -115,9 +127,9 @@
 				
 				<div class="header_right_inner">
 				
-					<span class="free_consultation">free consultations</span><!-- free_consultation -->
+					<span class="free_consultation"><?php the_field( 'free_consultation_verbiage','option'); ?></span><!-- free_consultation -->
 				
-					<a class="tel" href="tel:(949) 870-3800">(949) 870-3800</a>
+					<a class="tel" href="tel:(949) 870-3800"><?php the_field( 'phone','option'); ?></a>
 				
 					<div class="menu_wrapper">
 					
@@ -139,7 +151,7 @@
 			
 			<div class="mobile_free_consultation sticky_clone">
 				
-				<span>Free Consultation</span>
+				<span><?php the_field( 'free_consultation_verbiage','option'); ?></span>
 				
 			</div><!-- mobile_free_consultation -->
 			
@@ -184,9 +196,9 @@
 	
 		<div class="fc_verbiage_wrapper">
 		
-			<span class="fc_title">Free Consultation</span>
+			<span class="fc_title"><?php the_field( 'free_consultation_verbiage','option'); ?></span>
 			
-			<span class="fc_start">Start Here</span><!-- fc_title -->
+			<span class="fc_start"><?php the_field( 'start_here','option'); ?></span><!-- fc_title -->
 		
 		</div><!-- fc_verbiage_wrapper -->
 			
@@ -198,7 +210,7 @@
 	
 		<div class="fc_verbiage_wrapper">
 		
-			<span class="fc_title">start a free consultation here</span>
+			<span class="fc_title"><?php the_field( 'tablet_free_consultation','option'); ?></span>
 			
 		</div><!-- fc_verbiage_wrapper -->
 			
@@ -227,13 +239,13 @@
 		
 		
 		
-		<span class="large_header">Every story is unique, start telling yours here </span>
+		<span class="large_header"><?php the_field( 'footer_large_header', 'option' ); ?></span>
 		
 		<div class="form_wrapper">
 			
 			<?php gravity_form(2, false, false, false, '', true, 12); ?>
 			
-			<span class="fields_required"><span class="form_bullet">&bull;</span> All Fields Required</span><!-- fields_required -->
+			<span class="fields_required"><span class="form_bullet">&bull;</span> <?php the_field( 'required','option' ); ?></span><!-- fields_required -->
 
 		</div><!-- form_wrapper -->
 		
