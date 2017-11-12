@@ -1,10 +1,10 @@
 <section id="banner_trigger" class="banner">
 	
-	<span class="banner_content"><?php the_field( 'banner_title' ); ?></span>
+	<span class="banner_content"><?php the_field( 'banner_title',6); ?></span>
 	
-	<span class="begin desktop"><?php the_field( 'free_consultation_verbiage' ); ?></span><!-- begin -->
+	<span class="begin desktop"><?php the_field( 'free_consultation_verbiage',6 ); ?></span><!-- begin -->
 	
-	<span class="begin mobile"><?php the_field( 'free_consultation_mobile_verbiage' ); ?></span><!-- begin -->
+	<span class="begin mobile"><?php the_field( 'free_consultation_mobile_verbiage',6); ?></span><!-- begin -->
 	
 	<div class="scroll_wrapper">
 		

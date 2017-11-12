@@ -31,19 +31,24 @@ get_header(); ?>
 				<div class="testimonials_wrapper">
 					
 					
-					<div class="single_testimonial">
+					<?php if(get_field('page_testimonals')): ?>
+					 
+						<?php while(has_sub_field('page_testimonals')): ?>
+					 
+					 
+							<div class="single_testimonial">
 						
-						<div class="single_testi_border content">
+							<div class="single_testi_border content">
 							
-							<h2>To me the most professional and knowledgeable attorney in the Workman's Compensation industry is Keith More.</h2>
+								<h2><?php the_sub_field( 'title' ); ?></h2>
 							
 							
-							<p>Keith's is staff is very attentive, very professional.  When I had problems, they were taken care of promptly.  One of Keith's associates, Denise  Davies' professionalism is top notch.  No matter what issues I had with appointments or medications, she was there for me. Keith fought for me.  He cares about his clients.If I had to recommend an attorney and staff to anyone, I would most definitely recommend Keith More!</p>
+								<?php the_sub_field( 'testimonial_content' ); ?>
 							
 							
 							<span class="testi_line"></span><!-- testi_line -->
 							
-							<span class="internal_testi_name">Dianna P.</span><!-- internal_testi_name -->
+							<span class="internal_testi_name"><?php the_sub_field( 'name' ); ?></span><!-- internal_testi_name -->
 							
 							
 						</div><!-- single_testi_border -->
@@ -57,87 +62,12 @@ get_header(); ?>
 						
 						
 					</div><!-- single_testimonial -->
+							
+					    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
 					
-					<div class="single_testimonial">
-						
-						<div class="single_testi_border content">
-							
-							<h2>To me the most professional and knowledgeable attorney in the Workman's Compensation industry is Keith More.</h2>
-							
-							
-							<p>Keith's is staff is very attentive, very professional.  When I had problems, they were taken care of promptly.  One of Keith's associates, Denise  Davies' professionalism is top notch.  No matter what issues I had with appointments or medications, she was there for me. Keith fought for me.  He cares about his clients.If I had to recommend an attorney and staff to anyone, I would most definitely recommend Keith More!</p>
-							
-							
-							<span class="testi_line"></span><!-- testi_line -->
-							
-							<span class="internal_testi_name">Dianna P.</span><!-- internal_testi_name -->
-							
-							
-						</div><!-- single_testi_border -->
-						
-						<div class="single_testi_bg">
-							
-							<div class="single_testi_bg_inner"></div><!-- single_testi_bg_inner -->
-							
-						</div><!-- single_testi_bg -->
-						
-						
-						
-					</div><!-- single_testimonial -->
-					
-					<div class="single_testimonial">
-						
-						<div class="single_testi_border content">
-							
-							<h2>To me the most professional and knowledgeable attorney in the Workman's Compensation industry is Keith More.</h2>
-							
-							
-							<p>Keith's is staff is very attentive, very professional.  When I had problems, they were taken care of promptly.  One of Keith's associates, Denise  Davies' professionalism is top notch.  No matter what issues I had with appointments or medications, she was there for me. Keith fought for me.  He cares about his clients.If I had to recommend an attorney and staff to anyone, I would most definitely recommend Keith More!</p>
-							
-							
-							<span class="testi_line"></span><!-- testi_line -->
-							
-							<span class="internal_testi_name">Dianna P.</span><!-- internal_testi_name -->
-							
-							
-						</div><!-- single_testi_border -->
-						
-						<div class="single_testi_bg">
-							
-							<div class="single_testi_bg_inner"></div><!-- single_testi_bg_inner -->
-							
-						</div><!-- single_testi_bg -->
-						
-						
-						
-					</div><!-- single_testimonial -->
-					
-					<div class="single_testimonial">
-						
-						<div class="single_testi_border content">
-							
-							<h2>To me the most professional and knowledgeable attorney in the Workman's Compensation industry is Keith More.</h2>
-							
-							
-							<p>Keith's is staff is very attentive, very professional.  When I had problems, they were taken care of promptly.  One of Keith's associates, Denise  Davies' professionalism is top notch.  No matter what issues I had with appointments or medications, she was there for me. Keith fought for me.  He cares about his clients.If I had to recommend an attorney and staff to anyone, I would most definitely recommend Keith More!</p>
-							
-							
-							<span class="testi_line"></span><!-- testi_line -->
-							
-							<span class="internal_testi_name">Dianna P.</span><!-- internal_testi_name -->
-							
-							
-						</div><!-- single_testi_border -->
-						
-						<div class="single_testi_bg">
-							
-							<div class="single_testi_bg_inner"></div><!-- single_testi_bg_inner -->
-							
-						</div><!-- single_testi_bg -->
-						
-						
-						
-					</div><!-- single_testimonial -->
 					
 					
 				</div><!-- testimonials_wrapper -->

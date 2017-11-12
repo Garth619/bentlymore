@@ -30,7 +30,7 @@
 <style type="text/css">
 
 .banner {
-	background: url(<?php the_field( 'banner_image' ); ?>) top center no-repeat;
+	background: url(<?php the_field( 'banner_image',6); ?>) top center no-repeat;
 	background-size:cover;
 }
 
