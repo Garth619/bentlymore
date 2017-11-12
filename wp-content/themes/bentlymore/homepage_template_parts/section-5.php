@@ -9,15 +9,16 @@
 		
 		<div class="sec_five_image_container">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/img-02.jpg"/>
-			
-			
+			<?php $testimonials_image = get_field( 'testimonials_image' ); ?>
+	
+			<img src="<?php echo $testimonials_image['url']; ?>" alt="<?php echo $testimonials_image['alt']; ?>" />
+
 			
 		</div><!-- image_container -->
 		
 		<div class="testi_wrapper">
 			
-			<span class="testi_title">Testimonials</span><!-- testi_wrapper -->
+			<span class="testi_title"><?php the_field( 'testimonials_title' ); ?></span><!-- testi_wrapper -->
 			
 	
 			
@@ -25,9 +26,10 @@
 			
 			<span class="quote">“</span><!-- quote -->
 			
-			<span class="testi_content"><span class="inner_quote">“</span>He is truly a<br class="mobile_break"/> one-of-a-kind lawyer: aggressive and confident yet compassionate.”</span><!-- test_content -->
+			<span class="testi_content"><span class="inner_quote">“</span>
+<?php the_field( 'testimonial_content' ); ?>”</span><!-- test_content -->
 			
-			<span class="testi_name">Melinda O.</span><!-- testi_name -->
+			<span class="testi_name"><?php the_field( 'testimonial_name' ); ?></span><!-- testi_name -->
 			
 		</div><!-- testi_content_wrapper -->
 		

@@ -4,8 +4,8 @@
 		
 		<div class="title_wrapper">
 			
-			<h1>Orange County</h1>
-			<h2>Personal Injury Attorneys</h2>
+			<h1><?php the_field( 'section_three_header' ); ?></h1>
+			<h2><?php the_field( 'section_three_subheader' ); ?></h2>
 			
 		</div><!-- title_wrapper -->
 		
@@ -13,9 +13,11 @@
 			
 			<div class="section_three_image_wrapper">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/img-01.png"/>
-				
-				<div id="video_trigger" class="video_play_wrapper large_monitor wistia_embed wistia_async_gdx870f81i popover=true popoverContent=html">
+				<?php $section_three_image = get_field( 'section_three_image' ); ?>
+
+				<img src="<?php echo $section_three_image['url']; ?>" alt="<?php echo $section_three_image['alt']; ?>" />
+
+				<div id="video_trigger" class="video_play_wrapper large_monitor wistia_embed wistia_async_<?php the_field( 'section_three_video' ); ?> popover=true popoverContent=html">
 					
 					<svg id="play_button" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 228"><defs><style>
 						
@@ -32,7 +34,7 @@
 					<div class="video_line"></div><!-- video_line -->
 					
 					
-					<span class="video_title">Watch Video To Hear<br/>Our Firm's Story</span><!-- Video_title -->
+					<span class="video_title"><?php the_field( 'sec_three_video_verbiage' ); ?></span><!-- Video_title -->
 					
 				</div><!-- video_play_wrapper -->
 				
@@ -44,7 +46,7 @@
 				
 				<div class="video_play_wrapper small_monitor">
 					
-					<div class="small_monitor_play_wrapper wistia_embed wistia_async_gdx870f81i popover=true popoverContent=html">
+					<div class="small_monitor_play_wrapper wistia_embed wistia_async_<?php the_field( 'section_three_video' ); ?> popover=true popoverContent=html">
 					
 					<svg id="play_button" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 228"><defs><style>
 						
@@ -63,7 +65,7 @@
 					
 					
 					
-					<span class="video_title">Watch Video To Hear<br/>Our Firm's Story</span><!-- Video_title -->
+					<span class="video_title"><?php the_field( 'sec_three_video_verbiage' ); ?></span><!-- Video_title -->
 					
 					
 					</div><!-- small_monitor_play_wrapper -->

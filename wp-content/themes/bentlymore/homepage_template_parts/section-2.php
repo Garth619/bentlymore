@@ -9,93 +9,35 @@
 				
 				<div class="settlement_slideshow">
 					
-					<div class="settlement_slides">
-						
-						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
-						
-						<span class="sett_amount">$31.5m</span><!-- sett_amount -->
-						
-						<span class="brown_line"></span><!-- brown_line -->
-						
-						<span class="sett_type">Dangerous Roads</span><!-- sett_type -->
-						
-					</div><!-- settlement_slides -->
 					
 					
+					<?php if(get_field('settlement_slides')): ?>
+					 
+						<?php while(has_sub_field('settlement_slides')): ?>
+					 
+							<div class="settlement_slides">
+						
+								<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
+						
+								<span class="sett_amount"><?php the_sub_field( 'settlement_amount' ); ?></span><!-- sett_amount -->
+						
+								<span class="brown_line"></span><!-- brown_line -->
+						
+								<span class="sett_type"><?php the_sub_field( 'settlement_type' ); ?></span><!-- sett_type -->
+						
+							</div><!-- settlement_slides -->
+					    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
 					
 					
-					<div class="settlement_slides">
-						
-						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
-						
-						<span class="sett_amount">$7.0m</span><!-- sett_amount -->
-						
-						<span class="brown_line"></span><!-- brown_line -->
-						
-						<span class="sett_type">Brain Injury</span><!-- sett_type -->
-						
-					</div><!-- settlement_slides -->
-					
-					
-					
-					
-					
-					
-					<div class="settlement_slides">
-						
-						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
-						
-						<span class="sett_amount">$1.64m</span><!-- sett_amount -->
-						
-						<span class="brown_line"></span><!-- brown_line -->
-						
-						<span class="sett_type">Zip-Line Accident</span><!-- sett_type -->
-						
-					</div><!-- settlement_slides -->
-					
-					
-					<div class="settlement_slides">
-						
-						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
-						
-						<span class="sett_amount">$1.9m</span><!-- sett_amount -->
-						
-						<span class="brown_line"></span><!-- brown_line -->
-						
-						<span class="sett_type">E-Cig Explosion</span><!-- sett_type -->
-						
-					</div><!-- settlement_slides -->
 
-					
-					
-					<div class="settlement_slides">
-						
-						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
-						
-						<span class="sett_amount">$1.9m</span><!-- sett_amount -->
-						
-						<span class="brown_line"></span><!-- brown_line -->
-						
-						<span class="sett_type">E-Cig Explosion</span><!-- sett_type -->
-						
-					</div><!-- settlement_slides -->
-
-					<div class="settlement_slides">
-						
-						<img class="slide_icon" src="<?php bloginfo('template_directory');?>/images/result-ico-01.svg"/>
-						
-						<span class="sett_amount">$1.8m</span><!-- sett_amount -->
-						
-						<span class="brown_line"></span><!-- brown_line -->
-						
-						<span class="sett_type">E-Cig Explosion</span><!-- sett_type -->
-						
-					</div><!-- settlement_slides -->
 					
 				</div><!-- settlement_slideshow -->
 				
-				<a class="view_more desktop" href="/case-results/">View More Results</a><!-- view_more -->
-				<a class="view_more mobile" href="/case-results/">View More</a><!-- view_more -->
+				<a class="view_more desktop" href="<?php the_permalink(13);?>"><?php the_field( 'view_more_verbiage' ); ?></a><!-- view_more -->
+				<a class="view_more mobile" href="<?php the_permalink(13);?>"><?php the_field( 'view_more_mobile_verbiage' ); ?></a><!-- view_more -->
 				
 				<div class="desktop_grey_bg">
 					
@@ -118,75 +60,70 @@
 			
 			<div class="inner_news_wrapper">
 				
-				<span class="firm_news_title">Firm News</span><!-- firm_news_title -->
+				<span class="firm_news_title"><?php the_field( 'firm_news_title' ); ?></span><!-- firm_news_title -->
 				
 				<div class="news_feed">
 					
-					<a href="/news/" class="single_news_wrapper">
-						
-						<div class="news_logo">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/dj.png"/>
-							
-						</div><!-- news_logo -->
-						
-						<div class="news_content_wrapper">
-							
-							<div class="centered_wrapper">
-							
-								<span class="news_date">June 26, 2017</span><!-- news_date -->
-							
-								<span class="news_title">Daily Journal: Greg Bentley Named Top 30 Plaintiff Attorney</span><!-- news_title -->
-							
-							</div><!-- flex_centered_wrapper -->
-							
-						</div><!-- news_content_wrapper -->
-						
-					</a><!-- single_news_wrapper -->
 					
-					<a href="/news/" class="single_news_wrapper">
-						
-						<div class="news_logo">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/award2.png"/>
-							
-						</div><!-- news_logo -->
-						
-						<div class="news_content_wrapper">
-							
-							<div class="centered_wrapper">
-							
-								<span class="news_date">June 10, 2017</span><!-- news_date -->
-							
-								<span class="news_title">Bentley & More LLP Files Bad Faith Lawsuit to Collect $67M Judgment</span><!-- news_title -->
-							
-							</div><!-- flex_centered_wrapper -->
-							
-						</div><!-- news_content_wrapper -->
-						
-					</a><!-- single_news_wrapper -->
 					
-					<a href="/news/" class="single_news_wrapper">
+					<?php if(get_field('firm_news')): ?>
+					 
+						<?php while(has_sub_field('firm_news')): ?>
 						
-						<div class="news_logo">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/ssc.png"/>
-							
-						</div><!-- news_logo -->
 						
-						<div class="news_content_wrapper">
-							
-							<div class="centered_wrapper">
-							
-								<span class="news_date">May 3, 2017</span><!-- news_date -->
-							
-								<span class="news_title">The Best Orange County Workers' Compensation Attorneys</span><!-- news_title -->
-							
-							</div><!-- flex_centered_wrapper -->
-							
-						</div><!-- news_content_wrapper -->
+										<?php
 						
-					</a><!-- single_news_wrapper -->
+												$post_object = get_sub_field('news_post');
+						
+												if( $post_object ): 
+						
+												// override $post
+												$post = $post_object;
+												setup_postdata( $post ); 
+						
+											?>
+													
+							
+											
+											<a href="<?php the_permalink();?>" class="single_news_wrapper">
+						
+												<div class="news_logo">
+													
+													<?php $press_logo = get_sub_field( 'press_logo' ); ?>
+													
+													<img src="<?php echo $press_logo['url']; ?>" alt="<?php echo $press_logo['alt']; ?>" />
+							
+												</div><!-- news_logo -->
+						
+												<div class="news_content_wrapper">
+							
+													<div class="centered_wrapper">
+							
+														<span class="news_date"><?php $pfx_date = get_the_date(); echo $pfx_date; ?></span><!-- news_date -->
+							
+														<span class="news_title"><?php echo wp_trim_words( get_the_title(), 12, '...' );
+?></span><!-- news_title -->
+							
+													</div><!-- flex_centered_wrapper -->
+							
+												</div><!-- news_content_wrapper -->
+						
+										</a><!-- single_news_wrapper -->
+										
+						    
+													
+										<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+						<?php endif; ?>
+						
+					 
+						
+					    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
+					
+					
+					
 					
 				</div><!-- news_feed -->
 				

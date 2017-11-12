@@ -1,10 +1,10 @@
 <section id="banner_trigger" class="banner">
 	
-	<span class="banner_content">Telling<br/> Your Story</span>
+	<span class="banner_content"><?php the_field( 'banner_title' ); ?></span>
 	
-	<span class="begin desktop">begin with a free consultation</span><!-- begin -->
+	<span class="begin desktop"><?php the_field( 'free_consultation_verbiage' ); ?></span><!-- begin -->
 	
-	<span class="begin mobile">free consultation</span><!-- begin -->
+	<span class="begin mobile"><?php the_field( 'free_consultation_mobile_verbiage' ); ?></span><!-- begin -->
 	
 	<div class="scroll_wrapper">
 		

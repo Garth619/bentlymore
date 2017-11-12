@@ -27,6 +27,14 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+<style type="text/css">
+
+.banner {
+	background: url(<?php the_field( 'banner_image' ); ?>) top center no-repeat;
+	background-size:cover;
+}
+
+</style>
 <?php wp_head(); ?>
 </head>
 

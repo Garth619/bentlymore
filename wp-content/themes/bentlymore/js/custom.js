@@ -258,13 +258,16 @@ checkWidthmenu();
 				 	slidesToShow: 1,
 				 	slidesToScroll: 1,
 				 	dots:false,
+				 	swipe:false,
 				 	slide:'.selling_point_single_slide',
 				 	arrows:false,
 				 	fade:true
 				}); 
 	        
 	        
-	      
+	      $('.bullet_slide:first-of-type').addClass('hover');
+	    	
+	    	
 	    	$('.bullet_slide').on('mouseenter', function(e) {
 		
 					e.preventDefault();
