@@ -38,7 +38,9 @@ get_header(); ?>
 						
 						<div class="inner_attorney_wrapper">
 						
-							<img src="<?php the_field( 'profile_image' ); ?>"/>
+							<?php $profile_image = get_field( 'profile_image' ); ?>
+	
+							<img src="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
 							
 							<span class="view_profile">View Profile</span><!-- view_profile -->
 						

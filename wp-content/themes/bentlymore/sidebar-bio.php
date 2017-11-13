@@ -1,6 +1,8 @@
 <div class="sidebar_wrapper sidebar_bio_wrapper">
 	
-	<img src="<?php the_field( 'profile_image' ); ?>" />
+	<?php $profile_image = get_field( 'profile_image' ); ?>
+	
+	<img src="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
 		
 <div class="sidebar sidebar_bio">
 	

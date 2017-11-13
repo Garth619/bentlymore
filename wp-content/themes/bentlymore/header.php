@@ -40,6 +40,8 @@
 	background-size:cover;
 }
 
+<?php the_field( 'reviews_css','option'); ?>
+
 
 
 </style>
@@ -47,6 +49,7 @@
 <?php wp_head(); ?>
 
 <?php the_field( 'head_tracking_code','option'); ?>
+
 
 </head>
 
