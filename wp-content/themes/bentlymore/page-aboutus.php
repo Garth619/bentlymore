@@ -28,7 +28,7 @@ get_header(); ?>
 				</div><!-- internal_header_wrapper -->
 				
 				
-				<div class="about_wrapper">
+				<div class="about_wrapper content">
 					
 					
 					<?php get_template_part( 'loop', 'page' );?>

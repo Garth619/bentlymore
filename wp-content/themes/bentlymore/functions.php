@@ -261,3 +261,37 @@ function wpbeginner_numeric_posts_nav() {
  
 }
 
+// Shortcode Blockquote with Image
+
+
+
+function blockquote_image( $atts, $content = null ) { 
+	
+	ob_start();
+	
+?>
+
+	<div class="blockquote_wrapper">
+				
+		<div class="image_wrapper">
+					
+			<img src="<?php bloginfo('template_directory');?>/images/award-content.png"/>
+					
+		</div><!-- image_wrapper -->
+				
+		<span class="text_wrapper"><?php echo $content ?></span><!-- text_wrapper -->
+				
+	</div><!-- blockquote_wrapper -->
+
+<?php return ob_get_clean(); }
+
+
+
+add_shortcode( 'blockquoteimage', 'blockquote_image' );
+
+
+
+
+
+
+
