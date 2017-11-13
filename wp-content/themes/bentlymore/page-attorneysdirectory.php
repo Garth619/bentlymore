@@ -37,10 +37,18 @@ get_header(); ?>
 						<a class="" href="<?php the_permalink();?>">
 						
 						<div class="inner_attorney_wrapper">
-						
+							
 							<?php $profile_image = get_field( 'profile_image' ); ?>
-	
-							<img src="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
+							
+							<?php if($profile_image):?>
+						
+								<img src="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
+							
+								<?php else:?>
+							
+								<img src="<?php bloginfo('template_directory');?>/images/comingsoon.jpg" />
+							
+							<?php endif;?>
 							
 							<span class="view_profile">View Profile</span><!-- view_profile -->
 						
