@@ -265,6 +265,7 @@ function wpbeginner_numeric_posts_nav() {
 
 
 
+/*
 function blockquote_image( $atts, $content = null ) { 
 	
 	ob_start();
@@ -288,6 +289,7 @@ function blockquote_image( $atts, $content = null ) {
 
 
 add_shortcode( 'blockquoteimage', 'blockquote_image' );
+*/
 
 
 
