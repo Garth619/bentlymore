@@ -4,29 +4,29 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "AC4085FA-304B-4B42-9378-FA479B546742"
+		"uuidString": "2CE67906-3E9B-4915-A61C-26FF2F6E8F67"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/404.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/404.php",
 		"oF": 0
 		},
 	"\/archive.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
 	"\/category.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/category.php",
 		"oF": 0
 		},
@@ -355,157 +355,164 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
 	"\/fonts\/acta\/acta_display_w01_xbold-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w01_xbold-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w01_xbold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w01_xbold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w01_xbold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w01_xbold-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_bold-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_bold-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_bold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_bold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_bold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_bold-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_bold_italic-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_bold_italic-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_bold_italic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_bold_italic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_bold_italic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_bold_italic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_extrabold_it-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_extrabold_it-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_extrabold_it-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_extrabold_it-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_extrabold_it-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_extrabold_it-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_medium-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_medium-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_medium-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_medium-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_medium-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_medium-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_medium_italic-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_medium_italic-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_medium_italic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_medium_italic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/acta\/acta_display_w04_medium_italic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/acta_display_w04_medium_italic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/acta\/ActaDisplayW01-MediumItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/ActaDisplayW01-MediumItalic.eot",
 		"oF": 0
 		},
 	"\/fonts\/acta\/ActaDisplayW01-MediumItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/ActaDisplayW01-MediumItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/acta\/ActaDisplayW01-MediumItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/ActaDisplayW01-MediumItalic.woff",
 		"oF": 0
 		},
 	"\/fonts\/acta\/generator_config.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/acta\/generator_config.txt",
 		"oF": 0
 		},
@@ -542,133 +549,133 @@
 	"\/fonts\/libre\/generator_config.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/generator_config.txt",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-black-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-black-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-black-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-black-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-black-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-black-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-bold-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-bold-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-bold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-bold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-bold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-bold-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-extrabold-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-extrabold-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-extrabold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-extrabold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-extrabold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-extrabold-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-medium-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-medium-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-medium-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-medium-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-medium-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-medium-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-regular-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-regular-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-regular-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-regular-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-semibold-demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-semibold-demo.html",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-semibold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-semibold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/libre\/librefranklin-semibold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre\/librefranklin-semibold-webfont.woff2",
 		"oF": 0
 		},
@@ -705,133 +712,133 @@
 	"\/fonts\/libre_two\/demo.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/demo.html",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Black.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Black.eot",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Black.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Black.ttf",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Black.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Black.woff",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Bold.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Bold.eot",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Bold.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Bold.ttf",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Bold.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Bold.woff",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-ExtraBold.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-ExtraBold.eot",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-ExtraBold.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-ExtraBold.ttf",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-ExtraBold.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-ExtraBold.woff",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Medium.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Medium.eot",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Medium.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Medium.ttf",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Medium.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Medium.woff",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Regular.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Regular.eot",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Regular.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Regular.ttf",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-Regular.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-Regular.woff",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-SemiBold.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-SemiBold.eot",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-SemiBold.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-SemiBold.ttf",
 		"oF": 0
 		},
 	"\/fonts\/libre_two\/LibreFranklin-SemiBold.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/libre_two\/LibreFranklin-SemiBold.woff",
 		"oF": 0
 		},
@@ -848,65 +855,76 @@
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
 	"\/functions.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
 	"\/header.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/header.php",
 		"oF": 0
 		},
 	"\/homepage_template_parts\/section-1.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-1.php",
 		"oF": 0
 		},
 	"\/homepage_template_parts\/section-2.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-2.php",
 		"oF": 0
 		},
 	"\/homepage_template_parts\/section-3.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-3.php",
 		"oF": 0
 		},
 	"\/homepage_template_parts\/section-4.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-4.php",
 		"oF": 0
 		},
 	"\/homepage_template_parts\/section-5.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-5.php",
 		"oF": 0
 		},
 	"\/homepage_template_parts\/section-6.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-6.php",
 		"oF": 0
+		},
+	"\/images\/AV-Rated.png": {
+		"ft": 32768,
+		"iS": 97562,
+		"oA": 0,
+		"oAP": "\/images\/AV-Rated.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/award-01.png": {
 		"ft": 32768,
@@ -943,13 +961,23 @@
 		},
 	"\/images\/award-content.png": {
 		"ft": 32768,
-		"iS": 24644,
+		"iS": 20336,
 		"oA": 0,
 		"oAP": "\/images\/award-content.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/award2.jpg": {
+		"ft": 16384,
+		"iS": 574675,
+		"oA": 0,
+		"oAP": "\/images\/award2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/award2.png": {
@@ -963,15 +991,45 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/award3.jpg": {
+		"ft": 16384,
+		"iS": 244351,
+		"oA": 0,
+		"oAP": "\/images\/award3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/best-logo.jpg": {
+		"ft": 16384,
+		"iS": 32257,
+		"oA": 0,
+		"oAP": "\/images\/best-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/chat.png": {
 		"ft": 32768,
-		"iS": 17794,
+		"iS": 8790,
 		"oA": 0,
 		"oAP": "\/images\/chat.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/comingsoon.jpg": {
+		"ft": 16384,
+		"iS": 12303,
+		"oA": 0,
+		"oAP": "\/images\/comingsoon.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/dj.png": {
@@ -987,18 +1045,18 @@
 		},
 	"\/images\/dj_logo_high_rez.png": {
 		"ft": 32768,
-		"iS": 14620,
+		"iS": 9147,
 		"oA": 0,
 		"oAP": "\/images\/dj_logo_high_rez.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/dot.png": {
 		"ft": 32768,
-		"iS": 993,
+		"iS": 116,
 		"oA": 0,
 		"oAP": "\/images\/dot.png",
 		"oF": 0,
@@ -1006,13 +1064,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/images\/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/images\/favicon.ico",
-		"oF": 0
 		},
 	"\/images\/hero-2000.jpg": {
 		"ft": 16384,
@@ -1115,6 +1166,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/logo-octla.png": {
+		"ft": 32768,
+		"iS": 30926,
+		"oA": 0,
+		"oAP": "\/images\/logo-octla.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/logo.svg": {
 		"ft": 2097152,
@@ -1260,12 +1322,12 @@
 		},
 	"\/images\/news-img.jpg": {
 		"ft": 16384,
-		"iS": 472099,
+		"iS": 214603,
 		"oA": 0,
 		"oAP": "\/images\/news-img.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/play.svg": {
@@ -1342,7 +1404,7 @@
 	"\/images\/profile-keith": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/images\/profile-keith",
 		"oF": 0
 		},
@@ -1388,7 +1450,7 @@
 		},
 	"\/images\/sp-bkg.jpg": {
 		"ft": 16384,
-		"iS": 989504,
+		"iS": 243377,
 		"oA": 0,
 		"oAP": "\/images\/sp-bkg.jpg",
 		"oF": 0,
@@ -1417,6 +1479,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/super-lawyers-gry.png": {
+		"ft": 32768,
+		"iS": 9537,
+		"oA": 0,
+		"oAP": "\/images\/super-lawyers-gry.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/tablet-logo.png": {
 		"ft": 32768,
 		"iS": 18777,
@@ -1431,7 +1504,7 @@
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/index.php",
 		"oF": 0
 		},
@@ -1452,13 +1525,13 @@
 		"oA": 0,
 		"oAP": "\/js\/custom-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/slick\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/slick\/.gitignore",
 		"oF": 0
 		},
@@ -1481,14 +1554,14 @@
 	"\/js\/slick\/CONTRIBUTING.markdown": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/slick\/CONTRIBUTING.markdown",
 		"oF": 0
 		},
 	"\/js\/slick\/index.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/slick\/index.html",
 		"oF": 0
 		},
@@ -1513,14 +1586,14 @@
 	"\/js\/slick\/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/slick\/LICENSE",
 		"oF": 0
 		},
 	"\/js\/slick\/Makefile": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/slick\/Makefile",
 		"oF": 0
 		},
@@ -1535,7 +1608,7 @@
 	"\/js\/slick\/README.markdown": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/slick\/README.markdown",
 		"oF": 0
 		},
@@ -1558,14 +1631,14 @@
 	"\/js\/slick\/slick\/config.rb": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/slick\/slick\/config.rb",
 		"oF": 0
 		},
 	"\/js\/slick\/slick\/fonts\/slick.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/slick\/slick\/fonts\/slick.eot",
 		"oF": 0
 		},
@@ -1582,14 +1655,14 @@
 	"\/js\/slick\/slick\/fonts\/slick.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/slick\/slick\/fonts\/slick.ttf",
 		"oF": 0
 		},
 	"\/js\/slick\/slick\/fonts\/slick.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/slick\/slick\/fonts\/slick.woff",
 		"oF": 0
 		},
@@ -1710,7 +1783,7 @@
 		"oA": 0,
 		"oAP": "\/js\/waypoints-homepage-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/waypoints-internals-min.js": {
@@ -1730,27 +1803,27 @@
 		"oA": 0,
 		"oAP": "\/js\/waypoints-internals-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/waypoints\/.eslintrc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/waypoints\/.eslintrc",
 		"oF": 0
 		},
 	"\/js\/waypoints\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/waypoints\/.gitignore",
 		"oF": 0
 		},
 	"\/js\/waypoints\/.travis.yml": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/waypoints\/.travis.yml",
 		"oF": 0
 		},
@@ -1941,7 +2014,7 @@
 	"\/js\/waypoints\/licenses.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/waypoints\/licenses.txt",
 		"oF": 0
 		},
@@ -2114,21 +2187,21 @@
 	"\/js\/waypoints\/test\/fixtures\/infinite.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/waypoints\/test\/fixtures\/infinite.html",
 		"oF": 0
 		},
 	"\/js\/waypoints\/test\/fixtures\/standard.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/waypoints\/test\/fixtures\/standard.html",
 		"oF": 0
 		},
 	"\/js\/waypoints\/test\/fixtures\/sticky.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/waypoints\/test\/fixtures\/sticky.html",
 		"oF": 0
 		},
@@ -2273,104 +2346,104 @@
 	"\/loop-page.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/loop-page.php",
 		"oF": 0
 		},
 	"\/loop-single.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/loop-single.php",
 		"oF": 0
 		},
 	"\/loop.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
 	"\/page-aboutus.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page-aboutus.php",
 		"oF": 0
 		},
 	"\/page-attorneysdirectory.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page-attorneysdirectory.php",
 		"oF": 0
 		},
 	"\/page-bio.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page-bio.php",
 		"oF": 0
 		},
 	"\/page-blog.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page-blog.php",
 		"oF": 0
 		},
 	"\/page-caseresults.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page-caseresults.php",
 		"oF": 0
 		},
 	"\/page-contact.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page-contact.php",
 		"oF": 0
 		},
 	"\/page-home.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page-home.php",
 		"oF": 0
 		},
 	"\/page-practiceareas.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page-practiceareas.php",
 		"oF": 0
 		},
 	"\/page-testimonials.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page-testimonials.php",
 		"oF": 0
 		},
 	"\/page-videocenter.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page-videocenter.php",
 		"oF": 0
 		},
 	"\/page.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page.php",
 		"oF": 0
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 57403,
+		"iS": 635854,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
@@ -2382,36 +2455,43 @@
 	"\/search.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/search.php",
 		"oF": 0
 		},
 	"\/sidebar-bio.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sidebar-bio.php",
 		"oF": 0
 		},
 	"\/sidebar-blog.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sidebar-blog.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sidebar.php",
 		"oF": 0
 		},
 	"\/single.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/single.php",
+		"oF": 0
+		},
+	"\/style-bak.css.old": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/style-bak.css.old",
 		"oF": 0
 		},
 	"\/style.css": {
@@ -2427,14 +2507,14 @@
 	"\/style.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/style.css.map",
 		"oF": 0
 		},
 	"\/top-banner.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/top-banner.php",
 		"oF": 0
 		}
@@ -2444,7 +2524,7 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 528655543,
+	"creationDate": 534790545,
 	"displayValue": "bentlymore",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-punDog"
@@ -3837,7 +3917,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/bently-more.com",
+	"externalServerAddress": "http:\/\/bently-more.com\/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -4318,7 +4398,7 @@
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.*",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",

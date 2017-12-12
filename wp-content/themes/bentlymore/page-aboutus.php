@@ -34,7 +34,43 @@ get_header(); ?>
 					<?php get_template_part( 'loop', 'page' );?>
 					
 					
+					<div class="about_logo_wrapper">
+
+						<span class="about_awards_title">Awards & Organizations</span><!-- about_awards_title -->
+						
+						
+						<div class="about_logo_grid">
+							
+							
+							<?php if(get_field('awards_logos')): ?>
+						 
+							<?php while(has_sub_field('awards_logos')): ?>
+						 
+									<?php $logo = get_sub_field( 'logo' ); ?>
+								
+									<div class="about_single_logo">
+								
+										<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+								
+									</div><!-- about_single_logo -->
+						    
+							<?php endwhile; ?>
+						 
+						<?php endif; ?>
+						
+
+							
+							
+						</div><!-- about_logo_grid -->
+						
+						
+						
+					</div><!-- about_logo_grid -->
+					
+					
+					
 				</div><!-- about_wrapper -->
+				
 					
 					
 				</div><!-- testimonials_wrapper -->
