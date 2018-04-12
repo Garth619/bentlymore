@@ -4,8 +4,7 @@
 		
 		<div class="title_wrapper">
 			
-			<h1><?php the_field( 'section_three_header' ); ?></h1>
-			<h2><?php the_field( 'section_three_subheader' ); ?></h2>
+			<h1><?php the_field( 'section_three_header' ); ?></span></h1>
 			
 		</div><!-- title_wrapper -->
 		

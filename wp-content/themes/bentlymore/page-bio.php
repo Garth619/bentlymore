@@ -52,11 +52,35 @@ get_header(); ?>
 			
 				</div><!-- inner_content -->	
 					
-					
-					
+
 				</div><!-- att_bio_wrapper -->
 				
-		
+				<?php if (is_page(array('greg-bentley','keith-more'))) { ?>
+					<div class="about_logo_wrapper">
+						<span class="about_awards_title">Awards &amp; Organizations</span><!-- about_awards_title -->						
+						
+						<div class="about_logo_grid">
+							
+							
+							<?php if(get_field('awards_logos', 9)): ?>
+						 
+							<?php while(has_sub_field('awards_logos', 9)): ?>
+						 
+									<?php $logo = get_sub_field( 'logo', 9 ); ?>
+								
+									<div class="about_single_logo">
+								
+										<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+								
+									</div><!-- about_single_logo -->
+						    
+							<?php endwhile; ?>
+						 
+						<?php endif; ?>
+																			
+						</div><!-- about_logo_grid -->
+					</div><!-- about_logo_grid -->
+				<?php } ?>
 			
 			
 		</div><!-- content -->

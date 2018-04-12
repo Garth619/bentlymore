@@ -4,10 +4,10 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "2CE67906-3E9B-4915-A61C-26FF2F6E8F67"
+		"uuidString": "8DF88F2C-1601-4882-9F75-13F589715B27"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26680",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -917,12 +917,12 @@
 		},
 	"\/images\/AV-Rated.png": {
 		"ft": 32768,
-		"iS": 97562,
+		"iS": 48076,
 		"oA": 0,
 		"oAP": "\/images\/AV-Rated.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -972,12 +972,13 @@
 		},
 	"\/images\/award2.jpg": {
 		"ft": 16384,
-		"iS": 574675,
+		"iS": 214621,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/award2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/award2.png": {
@@ -994,6 +995,7 @@
 	"\/images\/award3.jpg": {
 		"ft": 16384,
 		"iS": 244351,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/award3.jpg",
 		"oF": 0,
@@ -1004,6 +1006,7 @@
 	"\/images\/best-logo.jpg": {
 		"ft": 16384,
 		"iS": 32257,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/best-logo.jpg",
 		"oF": 0,
@@ -1025,6 +1028,7 @@
 	"\/images\/comingsoon.jpg": {
 		"ft": 16384,
 		"iS": 12303,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/comingsoon.jpg",
 		"oF": 0,
@@ -1068,6 +1072,7 @@
 	"\/images\/hero-2000.jpg": {
 		"ft": 16384,
 		"iS": 426883,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-2000.jpg",
 		"oF": 0,
@@ -1110,6 +1115,7 @@
 	"\/images\/img-02.jpg": {
 		"ft": 16384,
 		"iS": 250857,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/img-02.jpg",
 		"oF": 0,
@@ -1323,6 +1329,7 @@
 	"\/images\/news-img.jpg": {
 		"ft": 16384,
 		"iS": 214603,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/news-img.jpg",
 		"oF": 0,
@@ -1354,6 +1361,7 @@
 	"\/images\/profile-clare.jpg": {
 		"ft": 16384,
 		"iS": 223423,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/profile-clare.jpg",
 		"oF": 0,
@@ -1364,6 +1372,7 @@
 	"\/images\/profile-denise.jpg": {
 		"ft": 16384,
 		"iS": 250678,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/profile-denise.jpg",
 		"oF": 0,
@@ -1374,6 +1383,7 @@
 	"\/images\/profile-greg.jpg": {
 		"ft": 16384,
 		"iS": 218890,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/profile-greg.jpg",
 		"oF": 0,
@@ -1384,6 +1394,7 @@
 	"\/images\/profile-jaimi.jpg": {
 		"ft": 16384,
 		"iS": 254470,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/profile-jaimi.jpg",
 		"oF": 0,
@@ -1394,6 +1405,7 @@
 	"\/images\/profile-jose.jpg": {
 		"ft": 16384,
 		"iS": 207827,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/profile-jose.jpg",
 		"oF": 0,
@@ -1411,6 +1423,7 @@
 	"\/images\/profile-matthew.jpg": {
 		"ft": 16384,
 		"iS": 210916,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/profile-matthew.jpg",
 		"oF": 0,
@@ -1421,6 +1434,7 @@
 	"\/images\/profile-natasha.jpg": {
 		"ft": 16384,
 		"iS": 251670,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/profile-natasha.jpg",
 		"oF": 0,
@@ -1431,6 +1445,7 @@
 	"\/images\/profile-xx.jpg": {
 		"ft": 16384,
 		"iS": 220209,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/profile-xx.jpg",
 		"oF": 0,
@@ -1451,6 +1466,7 @@
 	"\/images\/sp-bkg.jpg": {
 		"ft": 16384,
 		"iS": 243377,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/sp-bkg.jpg",
 		"oF": 0,
@@ -2487,12 +2503,15 @@
 		"oAP": "\/single.php",
 		"oF": 0
 		},
-	"\/style-bak.css.old": {
-		"cB": 0,
-		"ft": 8192,
+	"\/style-old.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style-bak.css.old",
-		"oF": 0
+		"oAP": "\/style-old-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/style.css": {
 		"aP": 1,
@@ -2524,10 +2543,11 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 534790545,
+	"creationDate": 545261455,
 	"displayValue": "bentlymore",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-punDog"
+	"iconImageName": "meme-dunnoGirl",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2535,6 +2555,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -2941,7 +2962,7 @@
 			},
 		"array-callback-return": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowImplicit': false}"
 			},
 		"array-element-newline": {
 			"active": 0,
@@ -3099,9 +3120,13 @@
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
 			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"indent": {
 			"active": 0,
-			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
 			},
 		"init-declarations": {
 			"active": 0,
@@ -3721,7 +3746,7 @@
 			},
 		"object-property-newline": {
 			"active": 0,
-			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
 			},
 		"object-shorthand": {
 			"active": 0,
@@ -3917,7 +3942,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/bently-more.com\/",
+	"externalServerAddress": "http:\/\/bentleymore-demo.com",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -4325,6 +4350,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -4503,7 +4529,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
