@@ -50,15 +50,6 @@
 
 <?php the_field( 'head_tracking_code','option'); ?>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117410418-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-117410418-1');
-</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -254,7 +245,7 @@
 		
 		<div class="form_wrapper">
 			
-			<?php gravity_form(2, false, false, false, '', true, 12); ?>
+			<?php gravity_form(2, false, false, false, '', true, 1245); ?>
 			
 			<span class="fields_required"><span class="form_bullet">&bull;</span> <?php the_field( 'required','option' ); ?></span><!-- fields_required -->
 
