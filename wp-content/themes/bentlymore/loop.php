@@ -43,7 +43,7 @@
 			<div class="post_info">
 				
 				<span class="date"><?php $pfx_date = get_the_date(); echo $pfx_date; ?></span>
-				<span class="user">Bently & More LLP</span>
+				<span class="user">Bentley & More LLP</span>
 				
 				<?php echo get_the_category_list();?>
 				
