@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "8DF88F2C-1601-4882-9F75-13F589715B27"
+		"uuidString": "EE271246-F191-4070-893D-0B2CC193357B"
 		}
 	],
 "creatorBuild": "26680",
@@ -2503,15 +2503,12 @@
 		"oAP": "\/single.php",
 		"oF": 0
 		},
-	"\/style-old.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"\/style-bak.css.old": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/style-old-min.css",
-		"oF": 0,
-		"oS": 3
+		"oAP": "\/style-bak.css.old",
+		"oF": 0
 		},
 	"\/style.css": {
 		"aP": 1,
@@ -2530,6 +2527,20 @@
 		"oAP": "\/style.css.map",
 		"oF": 0
 		},
+	"\/template-riverside.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-riverside.php",
+		"oF": 0
+		},
+	"\/template-san-bernardino.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-san-bernardino.php",
+		"oF": 0
+		},
 	"\/top-banner.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2543,15 +2554,15 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 545261455,
+	"creationDate": 547058112,
 	"displayValue": "bentlymore",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-dunnoGirl",
+	"iconImageName": "meme-lotr",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -3942,7 +3953,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/bentleymore-demo.com",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

@@ -57,6 +57,7 @@
 						<li><a class="social_link" href="<?php the_field( 'google_link','option'); ?>" target="_blank"><?php the_field( 'google','option'); ?></a></li>
 						<li><a class="social_link" href="<?php the_field( 'twitter_link','option'); ?>" target="_blank"><?php the_field( 'twitter','option'); ?></a></li>
 						<li><a class="social_link" href="<?php the_field( 'yelp_link','option'); ?>" target="_blank"><?php the_field( 'yelp','option'); ?></a></li>
+						<li><a class="social_link" href="<?php the_field( 'linkedin_link','option'); ?>" target="_blank"><?php the_field( 'linkedin','option'); ?></a></li>
 					</ul>
 					
 				</div><!-- footer_box_inner -->

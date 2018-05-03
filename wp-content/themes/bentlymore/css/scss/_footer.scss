@@ -707,9 +707,13 @@ a.ilawyer {
 			transform: none;
 			padding:50px 20px;
 			ul {
+				max-width:330px;
+				margin-left:auto;
+				margin-right:auto;
 				li {
 					display: inline-block;
 					line-height: 1;
+					margin-bottom:10px;
 					&:last-of-type {
 						a.social_link {
 							border:none;
@@ -837,7 +841,7 @@ a.ilawyer {
 					}
 					&:last-of-type {
 						a.social_link {
-							margin-top:20px;
+							margin-top:0px;
 						}
 					}
 					a.social_link {

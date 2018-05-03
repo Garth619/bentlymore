@@ -9,7 +9,8 @@
 		
 		<div class="inner_content content">
 			
-			<h1>Not Found</h1>
+			<h1>Oops - Page Not Found</h1>
+			<p>Sorry you may have came to this page by error or the URL no longer exist. Head back to our <a href="/">Homepage</a>.</p>
 			
 		</div><!-- inner_content -->
 		
